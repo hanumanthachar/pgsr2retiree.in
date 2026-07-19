@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>POWERGRID SR2 Retired Employees Information | pgsr2ret.in</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="brand-title">POWERGRID SR2 RETIRED EMPLOYEES INFORMATION</div>
+      <div class="brand-sub">Medical Reimbursement &amp; Aabhaar Scheme Compendium</div>
+    </div>
+    <div class="brand-tag">pgsr2ret.in &middot; Quick-Reference Portal for Retired Employees</div>
+  </div>
+  <div class="goldline"></div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button class="tab-btn active" data-tab="circulars">Circulars Index</button>
+  <button class="tab-btn" data-tab="hospitals">Hospitals &amp; Labs</button>
+  <button class="tab-btn" data-tab="faqs">FAQs</button>
+  <button class="tab-btn" data-tab="aabhaar">Aabhaar Scheme</button>
+  <button class="tab-btn" data-tab="crossref">Cross-Reference Notes</button>
+  <button class="tab-btn" data-tab="downloads">Downloads</button>
+  <button class="tab-btn" data-tab="about">About / Disclaimer</button>
+</nav>
+
+<main class="content">
+
+  <!-- CIRCULARS TAB -->
+  <section id="tab-circulars" class="tab-panel active">
+    <div class="panel-intro">
+      <p>Search or filter the circulars below, then click <strong>View PDF</strong> to open just that
+      circular. Circulars are grouped by category and listed in descending date order within each
+      category, so the topmost entry in a category is always the latest applicable provision.</p>
+    </div>
+    <div class="controls">
+      <input type="search" id="circSearch" placeholder="Search by subject, reference number, or keyword…" autocomplete="off">
+      <div class="chips" id="circFilters"></div>
+    </div>
+    <div id="circResults" class="results"></div>
+    <p class="empty-msg" id="circEmpty" style="display:none;">No circulars match your search.</p>
+  </section>
+
+  <!-- HOSPITALS TAB -->
+  <section id="tab-hospitals" class="tab-panel">
+    <div class="panel-intro">
+      <p>Empanelled hospitals and Dr. Lal PathLabs centres in Southern Region&nbsp;II. Search by
+      hospital/lab name or city. <span class="star-red">*</span> the Portal Sl.No. may change once
+      any new empanelment hospital is added.</p>
+    </div>
+    <div class="controls">
+      <input type="search" id="hospSearch" placeholder="Search hospitals or labs by name or city…" autocomplete="off">
+      <div class="chips">
+        <button class="chip active" data-hgroup="hospitals">Hospitals (80)</button>
+        <button class="chip" data-hgroup="labs">Dr. Lal PathLabs (23)</button>
+      </div>
+    </div>
+    <div id="hospResults" class="results"></div>
+    <p class="empty-msg" id="hospEmpty" style="display:none;">No matches found.</p>
+  </section>
+
+  <!-- FAQs TAB -->
+  <section id="tab-faqs" class="tab-panel">
+    <div class="panel-intro">
+      <p>Answers to common questions retired employees ask about medical reimbursement, empanelled
+      hospitals, and the Aabhaar Scheme. Click a question to expand its answer.</p>
+    </div>
+    <div class="controls">
+      <input type="search" id="faqSearch" placeholder="Search FAQs by keyword…" autocomplete="off">
+      <div class="chips" id="faqFilters"></div>
+    </div>
+    <div id="faqResults" class="results"></div>
+    <p class="empty-msg" id="faqEmpty" style="display:none;">No FAQs match your search.</p>
+    <p class="empty-msg" id="faqComingSoon" style="display:none;">FAQs are being compiled and will
+      appear here soon &mdash; check back later, or use the Circulars Index or Hospitals &amp; Labs
+      tabs in the meantime.</p>
+  </section>
+
+  <!-- AABHAAR TAB -->
+  <section id="tab-aabhaar" class="tab-panel">
+    <div class="card-page">
+      <h2>AABHAAR Scheme</h2>
+      <p class="meta-line">A Scheme for Felicitation of Superannuated Employees &middot; Corporate HR
+      Circular No. 650/2025 &middot; Effective 01-04-2025</p>
+      <p>The AABHAAR Scheme is framed by POWERGRID to felicitate and reward superannuated employees in
+      recognition of achieving age milestones &mdash; acknowledging their loyalty, invaluable
+      contributions, and lasting legacy. It covers monetary rewards for age milestones (65 to 100
+      years), felicitation on the Annual Raising Day with family, personalised doorstep delivery for
+      senior/aged beneficiaries, and a one-time past-milestone clause for employees who crossed a
+      milestone before the scheme launched.</p>
+      <p>The attached document summarises all three AABHAAR circulars issued so far (launch
+      &amp; framework, implementation guidelines, and the 2026 protocol amendment) in one place,
+      followed by the full text of each circular.</p>
+      <a class="btn-view" href="pdfs/aabhaar_scheme.pdf" target="_blank" rel="noopener">View / Download AABHAAR Scheme PDF (7 pages)</a>
+    </div>
+  </section>
+
+  <!-- CROSSREF TAB -->
+  <section id="tab-crossref" class="tab-panel">
+    <div class="card-page">
+      <h2>Cross-Reference Notes</h2>
+      <p class="meta-line">Important points linking certain medical reimbursement circulars issued at different times</p>
+      <p>Several circulars in this compendium touch on overlapping subjects, or a later circular's
+      content is already substantially covered by an earlier base document. This note calls out those
+      links explicitly &mdash; e.g. where a Health Check-up circular restates content already covered
+      under the main Medical Attendance Rules, or where a Dependent Coverage circular should be read
+      together with the PRMB Trust Rules &mdash; so a reader isn't confused by seeing the same subject
+      addressed more than once in the compendium.</p>
+      <a class="btn-view" href="pdfs/crossref_notes.pdf" target="_blank" rel="noopener">View / Download Cross-Reference Notes PDF</a>
+    </div>
+  </section>
+
+  <!-- DOWNLOADS TAB -->
+  <section id="tab-downloads" class="tab-panel">
+    <div class="card-page">
+      <h2>Downloads</h2>
+      <p>Most people only need one or two individual circulars &mdash; use the <strong>Circulars
+      Index</strong> tab for that. These downloads are for anyone who wants the complete picture in a
+      single file.</p>
+      <ul class="dl-list">
+        <li>
+          <div class="dl-title">Full Compendium (all circulars, hospitals list, dividers, Aabhaar Scheme)</div>
+          <div class="dl-desc">672 pages &middot; compressed for faster download</div>
+          <a class="btn-view" href="pdfs/full_compendium.pdf" target="_blank" rel="noopener">Download Full Compendium PDF</a>
+        </li>
+        <li>
+          <div class="dl-title">Index Sheet only</div>
+          <div class="dl-desc">A printable summary of every circular, its reference, date, and page number in the full Compendium</div>
+          <a class="btn-view" href="pdfs/index_sheet.pdf" target="_blank" rel="noopener">Download Index Sheet PDF</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ABOUT TAB -->
+  <section id="tab-about" class="tab-panel">
+    <div class="card-page">
+      <h2>About This Portal</h2>
+      <p>This portal consolidates the circulars, office memoranda, and scheme documents governing
+      medical attendance, treatment, and reimbursement facilities available to retired employees
+      under the Post-Retirement Medical Benefit (PRMB) Scheme, and the AABHAAR Scheme, all in one
+      searchable place.</p>
+      <h3>Disclaimer &amp; Terms of Use</h3>
+      <p><strong>1. Personal &amp; Voluntary Initiative.</strong> This compilation of medical
+      reimbursement circulars, guidelines, and forms ("Compilation") is a voluntary, non-commercial
+      effort undertaken in a personal capacity by a retired employee of Power Grid Corporation of
+      India Limited ("Employer"). It has been prepared purely for the convenience and quick reference
+      of fellow retirees.</p>
+      <p><strong>2. Not an Official or Authoritative Document.</strong> This Compilation is not an
+      official publication of the Employer and carries no statutory or legal authority. While care has
+      been taken to compile the information accurately from publicly available official sources, the
+      compiler makes no representation or warranty as to its completeness, accuracy, or currency.</p>
+      <p><strong>3. Always Verify with Official Sources.</strong> Rules, eligibility criteria, limits,
+      and procedures governing medical benefits are subject to change, amendment, or clarification by
+      the management at any time, without notice. Users are strongly advised to verify all information
+      against the official circulars available on the Employer's website
+      (<strong>https://tejas.powergrid.in/ex-employee/</strong>), or to consult the concerned HR
+      Department, before submitting claims or making any financial decisions.</p>
+      <p><strong>4. No Liability.</strong> The compiler accepts no responsibility or liability for any
+      errors, omissions, outdated information, or discrepancies in this Compilation, nor for any claim
+      rejection, reimbursement delay, or financial loss arising from reliance on this material. Use of
+      this Compilation is entirely at the reader's own discretion and risk.</p>
+      <p><strong>5. Ownership of Source Material.</strong> All original circulars, forms, and related
+      materials remain the sole intellectual property of the Employer. This Compilation is intended
+      solely for private circulation among retirees and must not be used for any commercial purpose or
+      distributed outside the retiree community.</p>
+      <p class="compiler-block">
+        Compiler: A Hanumantha Char<br>
+        Retired DGM(F)&amp;A, SRTS&nbsp;II Bangalore<br>
+        Circulars issued up to 30-06-2026
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">pgsr2ret.in &middot; POWERGRID SR2 Retired Employees Information &middot; For use by Retired Employees under PRMB Scheme &middot; Not an official POWERGRID publication</footer>
+
+<script src="assets_data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
