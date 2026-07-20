@@ -1239,6 +1239,14 @@ const COMPENDIUM_DATA = {
       "description": "Computation of PF-Arrears-Tax Releif",
       "file": "89(1)RELIEF-FY-2025-26-FINAL.xlsx",
       "category": "Income Tax"
+    },
+    {
+      "id": "other-02",
+      "title": "Tax Slabs-FY-2025-26",
+      "description": "Applicable income tax slab rates for the Financial Year 2025-26.",
+      "file": "Income_Tax_Slabs_FY_202526.pdf",
+      "category": "Income Tax"
     }
   ]
+};
 };
