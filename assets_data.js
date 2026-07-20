@@ -1234,3 +1234,12 @@ const COMPENDIUM_DATA = {
   "faqs": [],
   "otherInfo": []
 };
+"otherInfo": [
+  {
+    "id": "other-01",
+    "title": "Incometax-89(1)-Relief",
+    "description": "Computation of PF-Arrears-Tax Releif.",
+    "file": "89(1)RELIEF-FY-2025-26-FINAL.xlsx",
+    "category": "Income Tax"
+  }
+]
