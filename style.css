@@ -232,6 +232,19 @@ body {
 }
 .star-red { color: #c81420; font-weight: 900; }
 
+.group-heading {
+  background: var(--navy);
+  color: #fff;
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin: 18px 0 8px 0;
+}
+.group-heading:first-child { margin-top: 0; }
+
 .faq-group-heading {
   background: var(--navy);
   color: #fff;

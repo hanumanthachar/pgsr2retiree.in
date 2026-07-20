@@ -1231,5 +1231,6 @@ const COMPENDIUM_DATA = {
     }
   ],
   "aabhaarStart": 666,
-  "faqs": []
+  "faqs": [],
+  "otherInfo": []
 };

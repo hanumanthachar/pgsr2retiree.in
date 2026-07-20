@@ -395,6 +395,50 @@
     }
   }
 
+  /* ---------- Other Useful Information tab ---------- */
+
+  function renderOtherInfo() {
+    var resultsEl = document.getElementById("otherResults");
+    var emptyEl = document.getElementById("otherEmpty");
+    if (!resultsEl) return;
+
+    var items = DATA.otherInfo || [];
+    if (items.length === 0) {
+      resultsEl.innerHTML = "";
+      if (emptyEl) emptyEl.style.display = "block";
+      return;
+    }
+    if (emptyEl) emptyEl.style.display = "none";
+
+    var order = [];
+    var groups = {};
+    items.forEach(function (it) {
+      var cat = it.category || "General";
+      if (!groups[cat]) {
+        groups[cat] = [];
+        order.push(cat);
+      }
+      groups[cat].push(it);
+    });
+
+    var html = "";
+    order.forEach(function (cat) {
+      html += '<div class="group-heading">' + escapeHtml(cat) + "</div>";
+      html += '<ul class="dl-list">';
+      groups[cat].forEach(function (it) {
+        var dateHtml = it.date ? " &middot; " + escapeHtml(it.date) : "";
+        html +=
+          "<li>" +
+          '<div class="dl-title">' + escapeHtml(it.title) + "</div>" +
+          '<div class="dl-desc">' + escapeHtml(it.description) + dateHtml + "</div>" +
+          '<a class="btn-view" href="' + escapeHtml(it.file) + '" target="_blank" rel="noopener">View / Download</a>' +
+          "</li>";
+      });
+      html += "</ul>";
+    });
+    resultsEl.innerHTML = html;
+  }
+
   /* ---------- boot ---------- */
 
   document.addEventListener("DOMContentLoaded", function () {
@@ -402,5 +446,6 @@
     initCirculars();
     initHospitals();
     initFaqs();
+    renderOtherInfo();
   });
 })();
