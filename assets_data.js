@@ -1249,4 +1249,3 @@ const COMPENDIUM_DATA = {
     }
   ]
 };
-};
