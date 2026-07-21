@@ -61,7 +61,27 @@
 
   /* ---------- circulars tab ---------- */
 
-  var circState = { query: "", section: "ALL" };
+  var circState = { query: "", section: "ALL", region: "SR2" };
+
+  function buildCircRegionFilter() {
+    var select = document.getElementById("circRegionFilter");
+    if (!select) return;
+    var regions = [];
+    DATA.circulars.forEach(function (c) {
+      var r = c.region || "SR2";
+      if (regions.indexOf(r) === -1) regions.push(r);
+    });
+    regions.sort();
+    var html = '<option value="ALL">All Regions</option>';
+    regions.forEach(function (r) {
+      var count = DATA.circulars.filter(function (c) { return (c.region || "SR2") === r; }).length;
+      html += '<option value="' + escapeHtml(r) + '">' + escapeHtml(r) + " (" + count + ")</option>";
+    });
+    select.innerHTML = html;
+    var defaultRegion = regions.indexOf("SR2") !== -1 ? "SR2" : "ALL";
+    circState.region = defaultRegion;
+    select.value = defaultRegion;
+  }
 
   function buildCircFilters() {
     var container = document.getElementById("circFilters");
@@ -100,6 +120,7 @@
     var q = circState.query.trim().toLowerCase();
     var filtered = DATA.circulars.filter(function (c) {
       if (circState.section !== "ALL" && c.section !== circState.section) return false;
+      if (circState.region !== "ALL" && (c.region || "SR2") !== circState.region) return false;
       return matchesQuery([c.subject, c.ref, c.date, c.type, c.sectionLabel, String(c.sl)], q);
     });
 
@@ -134,6 +155,9 @@
 
   function renderCircRow(c) {
     var noteHtml = c.note ? '<div class="circ-note">' + escapeHtml(c.note) + "</div>" : "";
+    var pageHtml = c.pageInFullCompendium
+      ? " &middot; page " + escapeHtml(c.pageInFullCompendium) + " of Full Compendium"
+      : "";
     return (
       '<div class="circ-row">' +
       '<div class="circ-sl">Sl.&nbsp;' + escapeHtml(c.sl) + "</div>" +
@@ -146,12 +170,13 @@
       '<div class="circ-date">' + escapeHtml(c.date) + "</div>" +
       '<div style="font-size:12.5px;color:var(--muted);text-align:right;white-space:nowrap;">' + escapeHtml(c.pages) + "&nbsp;pp</div>" +
       '<div class="circ-action"><a class="btn-view" href="' + escapeHtml(c.pdf) + '" target="_blank" rel="noopener">' +
-      "View / Download PDF &middot; page " + escapeHtml(c.pageInFullCompendium) + " of Full Compendium</a></div>" +
+      "View / Download PDF" + pageHtml + "</a></div>" +
       "</div>"
     );
   }
 
   function initCirculars() {
+    buildCircRegionFilter();
     buildCircFilters();
     renderCirculars();
     var search = document.getElementById("circSearch");
@@ -161,17 +186,49 @@
         renderCirculars();
       });
     }
+    var regionSelect = document.getElementById("circRegionFilter");
+    if (regionSelect) {
+      regionSelect.addEventListener("change", function () {
+        circState.region = regionSelect.value;
+        renderCirculars();
+      });
+    }
   }
 
   /* ---------- hospitals / labs tab ---------- */
 
-  var hospState = { query: "", group: "hospitals", city: "ALL" };
+  var hospState = { query: "", group: "hospitals", city: "ALL", region: "SR2" };
+
+  function buildHospRegionFilter() {
+    var select = document.getElementById("hospRegionFilter");
+    if (!select) return;
+    var isHosp = hospState.group === "hospitals";
+    var list = isHosp ? DATA.hospitals : DATA.labs;
+    var regions = [];
+    list.forEach(function (r) {
+      var reg = r.region || "SR2";
+      if (regions.indexOf(reg) === -1) regions.push(reg);
+    });
+    regions.sort();
+    var html = '<option value="ALL">All Regions</option>';
+    regions.forEach(function (r) {
+      var count = list.filter(function (row) { return (row.region || "SR2") === r; }).length;
+      html += '<option value="' + escapeHtml(r) + '">' + escapeHtml(r) + " (" + count + ")</option>";
+    });
+    select.innerHTML = html;
+    var defaultRegion = regions.indexOf("SR2") !== -1 ? "SR2" : "ALL";
+    hospState.region = defaultRegion;
+    select.value = defaultRegion;
+  }
 
   function buildHospCityFilter() {
     var select = document.getElementById("hospCityFilter");
     if (!select) return;
     var isHosp = hospState.group === "hospitals";
     var list = isHosp ? DATA.hospitals : DATA.labs;
+    if (hospState.region !== "ALL") {
+      list = list.filter(function (r) { return (r.region || "SR2") === hospState.region; });
+    }
     var cities = [];
     list.forEach(function (r) {
       if (cities.indexOf(r.city) === -1) cities.push(r.city);
@@ -202,6 +259,7 @@
     // The free-text search box only ever matches name/address, never city,
     // for the same reason.
     var filtered = list.filter(function (r) {
+      if (hospState.region !== "ALL" && (r.region || "SR2") !== hospState.region) return false;
       if (hospState.city !== "ALL" && r.city !== hospState.city) return false;
       var parts = isHosp ? [r.name, r.addr] : [r.addr];
       return matchesQuery(parts, q);
@@ -250,13 +308,33 @@
     resultsEl.innerHTML = html;
   }
 
+  function updateHospChipCounts() {
+    // The chip labels are static text in index.html; keep their counts honest
+    // now that hospitals/labs span more than one region (they used to equal
+    // the SR2-only totals, back when SR2 was the only region in the data).
+    var hospChip = document.querySelector('.chip[data-hgroup="hospitals"]');
+    var labChip = document.querySelector('.chip[data-hgroup="labs"]');
+    if (hospChip) hospChip.textContent = "Hospitals (" + DATA.hospitals.length + ")";
+    if (labChip) labChip.textContent = "Dr. Lal PathLabs (" + DATA.labs.length + ")";
+  }
+
   function initHospitals() {
+    updateHospChipCounts();
+    buildHospRegionFilter();
     buildHospCityFilter();
     renderHospitals();
     var search = document.getElementById("hospSearch");
     if (search) {
       search.addEventListener("input", function () {
         hospState.query = search.value;
+        renderHospitals();
+      });
+    }
+    var regionSelect = document.getElementById("hospRegionFilter");
+    if (regionSelect) {
+      regionSelect.addEventListener("change", function () {
+        hospState.region = regionSelect.value;
+        buildHospCityFilter();
         renderHospitals();
       });
     }
@@ -272,6 +350,7 @@
         hospState.group = chip.getAttribute("data-hgroup");
         document.querySelectorAll('.chip[data-hgroup]').forEach(function (c) { c.classList.remove("active"); });
         chip.classList.add("active");
+        buildHospRegionFilter();
         buildHospCityFilter();
         renderHospitals();
       });

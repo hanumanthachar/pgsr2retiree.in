@@ -37,11 +37,13 @@
     <div class="panel-intro">
       <p>Search or filter the circulars below, then click <strong>View PDF</strong> to open just that
       circular. Circulars are grouped by category and listed in descending date order within each
-      category, so the topmost entry in a category is always the latest applicable provision.</p>
+      category, so the topmost entry in a category is always the latest applicable provision. Use the
+      Region dropdown to switch between POWERGRID regions.</p>
     </div>
     <div class="controls">
       <input type="search" id="circSearch" placeholder="Search by subject, reference number, or keyword…" autocomplete="off">
       <div class="chips" id="circFilters"></div>
+      <select id="circRegionFilter" class="city-select"></select>
     </div>
     <div id="circResults" class="results"></div>
     <p class="empty-msg" id="circEmpty" style="display:none;">No circulars match your search.</p>
@@ -50,10 +52,10 @@
   <!-- HOSPITALS TAB -->
   <section id="tab-hospitals" class="tab-panel">
     <div class="panel-intro">
-      <p>Empanelled hospitals and Dr. Lal PathLabs centres in Southern Region&nbsp;II. Search by
-      name, or pick a city from the dropdown to see only that city's list.
-      <span class="star-red">*</span> the Portal Sl.No. may change once any new empanelment hospital
-      is added.</p>
+      <p>Empanelled hospitals and Dr. Lal PathLabs centres. Search by name, pick a city from the
+      dropdown to see only that city's list, and use the Region dropdown to switch between POWERGRID
+      regions. <span class="star-red">*</span> the Portal Sl.No. may change once any new empanelment
+      hospital is added.</p>
     </div>
     <div class="controls">
       <input type="search" id="hospSearch" placeholder="Search hospitals or labs by name…" autocomplete="off">
@@ -61,6 +63,7 @@
         <button class="chip active" data-hgroup="hospitals">Hospitals (80)</button>
         <button class="chip" data-hgroup="labs">Dr. Lal PathLabs (23)</button>
       </div>
+      <select id="hospRegionFilter" class="city-select"></select>
       <select id="hospCityFilter" class="city-select"></select>
     </div>
     <div id="hospResults" class="results"></div>
