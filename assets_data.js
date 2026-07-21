@@ -14,7 +14,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "MEDICAL ATTENDANCE & TREATMENT RULES",
       "color": "#1a4a7a",
       "pdf": "circular_01.pdf",
-      "pageInFullCompendium": 15
+      "pageInFullCompendium": 15,
+      "region": "SR2"
     },
     {
       "sl": 2,
@@ -29,7 +30,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "MEDICAL ATTENDANCE & TREATMENT RULES",
       "color": "#1a4a7a",
       "pdf": "circular_02.pdf",
-      "pageInFullCompendium": 66
+      "pageInFullCompendium": 66,
+      "region": "SR2"
     },
     {
       "sl": 3,
@@ -44,7 +46,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "MEDICAL ATTENDANCE & TREATMENT RULES",
       "color": "#1a4a7a",
       "pdf": "circular_03.pdf",
-      "pageInFullCompendium": 89
+      "pageInFullCompendium": 89,
+      "region": "SR2"
     },
     {
       "sl": 4,
@@ -59,7 +62,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "MEDICAL ATTENDANCE & TREATMENT RULES",
       "color": "#1a4a7a",
       "pdf": "circular_04.pdf",
-      "pageInFullCompendium": 92
+      "pageInFullCompendium": 92,
+      "region": "SR2"
     },
     {
       "sl": 5,
@@ -74,7 +78,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
       "pdf": "circular_05.pdf",
-      "pageInFullCompendium": 97
+      "pageInFullCompendium": 97,
+      "region": "SR2"
     },
     {
       "sl": 6,
@@ -89,7 +94,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
       "pdf": "circular_06.pdf",
-      "pageInFullCompendium": 111
+      "pageInFullCompendium": 111,
+      "region": "SR2"
     },
     {
       "sl": 7,
@@ -104,7 +110,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
       "pdf": "circular_07.pdf",
-      "pageInFullCompendium": 127
+      "pageInFullCompendium": 127,
+      "region": "SR2"
     },
     {
       "sl": 8,
@@ -119,7 +126,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
       "pdf": "circular_08.pdf",
-      "pageInFullCompendium": 135
+      "pageInFullCompendium": 135,
+      "region": "SR2"
     },
     {
       "sl": 9,
@@ -134,7 +142,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
       "pdf": "circular_09.pdf",
-      "pageInFullCompendium": 271
+      "pageInFullCompendium": 271,
+      "region": "SR2"
     },
     {
       "sl": 10,
@@ -149,7 +158,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
       "pdf": "circular_10.pdf",
-      "pageInFullCompendium": 272
+      "pageInFullCompendium": 272,
+      "region": "SR2"
     },
     {
       "sl": 11,
@@ -164,7 +174,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
       "pdf": "circular_11.pdf",
-      "pageInFullCompendium": 414
+      "pageInFullCompendium": 414,
+      "region": "SR2"
     },
     {
       "sl": 12,
@@ -179,7 +190,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
       "pdf": "circular_12.pdf",
-      "pageInFullCompendium": 420
+      "pageInFullCompendium": 420,
+      "region": "SR2"
     },
     {
       "sl": 13,
@@ -194,7 +206,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
       "pdf": "circular_13.pdf",
-      "pageInFullCompendium": 522
+      "pageInFullCompendium": 522,
+      "region": "SR2"
     },
     {
       "sl": 14,
@@ -209,7 +222,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
       "pdf": "circular_14.pdf",
-      "pageInFullCompendium": 523
+      "pageInFullCompendium": 523,
+      "region": "SR2"
     },
     {
       "sl": 15,
@@ -224,7 +238,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
       "pdf": "circular_15.pdf",
-      "pageInFullCompendium": 534
+      "pageInFullCompendium": 534,
+      "region": "SR2"
     },
     {
       "sl": 16,
@@ -239,7 +254,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
       "pdf": "circular_16.pdf",
-      "pageInFullCompendium": 535
+      "pageInFullCompendium": 535,
+      "region": "SR2"
     },
     {
       "sl": 17,
@@ -254,7 +270,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "PREVENTIVE HEALTH CHECK-UP",
       "color": "#128089",
       "pdf": "circular_17.pdf",
-      "pageInFullCompendium": 628
+      "pageInFullCompendium": 628,
+      "region": "SR2"
     },
     {
       "sl": 18,
@@ -269,7 +286,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "PREVENTIVE HEALTH CHECK-UP",
       "color": "#128089",
       "pdf": "circular_18.pdf",
-      "pageInFullCompendium": 632
+      "pageInFullCompendium": 632,
+      "region": "SR2"
     },
     {
       "sl": 19,
@@ -284,7 +302,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "PREVENTIVE HEALTH CHECK-UP",
       "color": "#128089",
       "pdf": "circular_19.pdf",
-      "pageInFullCompendium": 634
+      "pageInFullCompendium": 634,
+      "region": "SR2"
     },
     {
       "sl": 20,
@@ -299,7 +318,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "PREVENTIVE HEALTH CHECK-UP",
       "color": "#128089",
       "pdf": "circular_20.pdf",
-      "pageInFullCompendium": 635
+      "pageInFullCompendium": 635,
+      "region": "SR2"
     },
     {
       "sl": 21,
@@ -314,7 +334,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "DAY-CARE PROCEDURES",
       "color": "#c07f0e",
       "pdf": "circular_21.pdf",
-      "pageInFullCompendium": 641
+      "pageInFullCompendium": 641,
+      "region": "SR2"
     },
     {
       "sl": 22,
@@ -329,7 +350,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "DAY-CARE PROCEDURES",
       "color": "#c07f0e",
       "pdf": "circular_22.pdf",
-      "pageInFullCompendium": 642
+      "pageInFullCompendium": 642,
+      "region": "SR2"
     },
     {
       "sl": 23,
@@ -344,7 +366,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "DEPENDENT COVERAGE",
       "color": "#a13a2f",
       "pdf": "circular_23.pdf",
-      "pageInFullCompendium": 644
+      "pageInFullCompendium": 644,
+      "region": "SR2"
     },
     {
       "sl": 24,
@@ -359,7 +382,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "DEPENDENT COVERAGE",
       "color": "#a13a2f",
       "pdf": "circular_24.pdf",
-      "pageInFullCompendium": 649
+      "pageInFullCompendium": 649,
+      "region": "SR2"
     },
     {
       "sl": 25,
@@ -374,7 +398,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "DEPENDENT COVERAGE",
       "color": "#a13a2f",
       "pdf": "circular_25.pdf",
-      "pageInFullCompendium": 650
+      "pageInFullCompendium": 650,
+      "region": "SR2"
     },
     {
       "sl": 26,
@@ -389,7 +414,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "PORTAL / SYSTEM CIRCULARS",
       "color": "#5c3d99",
       "pdf": "circular_26.pdf",
-      "pageInFullCompendium": 652
+      "pageInFullCompendium": 652,
+      "region": "SR2"
     },
     {
       "sl": 27,
@@ -404,7 +430,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "PORTAL / SYSTEM CIRCULARS",
       "color": "#5c3d99",
       "pdf": "circular_27.pdf",
-      "pageInFullCompendium": 662
+      "pageInFullCompendium": 662,
+      "region": "SR2"
     },
     {
       "sl": 28,
@@ -419,7 +446,8 @@ const COMPENDIUM_DATA = {
       "sectionLabel": "PORTAL / SYSTEM CIRCULARS",
       "color": "#5c3d99",
       "pdf": "circular_28.pdf",
-      "pageInFullCompendium": 664
+      "pageInFullCompendium": 664,
+      "region": "SR2"
     }
   ],
   "sections": {
@@ -455,7 +483,8 @@ const COMPENDIUM_DATA = {
       "name": "Manipal Hospital",
       "city": "Bangalore",
       "addr": "Airport Road, Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 2,
@@ -463,7 +492,8 @@ const COMPENDIUM_DATA = {
       "name": "Baptist Hospital",
       "city": "Bangalore",
       "addr": "Bangalore Baptist Hospital, Bellary Road, Hebbal, Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 3,
@@ -471,7 +501,8 @@ const COMPENDIUM_DATA = {
       "name": "Narayana Hrudayalaya Hospitals & Heath City",
       "city": "Bangalore",
       "addr": "# 258/a, Bommasandra Indusrtrial Area, Anekal Taluk, Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 4,
@@ -479,7 +510,8 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Hospital",
       "city": "Bangalore",
       "addr": "154/11, Opp.I.I.M, Bannerghatta Road, Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 5,
@@ -487,7 +519,8 @@ const COMPENDIUM_DATA = {
       "name": "HCG Hospital",
       "city": "Bangalore",
       "addr": "Healthcare Global Enterprises Ltd., Hcg Tower #8, P Kalinga Rao Road, Sampangi Ram Nagar, Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 6,
@@ -495,7 +528,8 @@ const COMPENDIUM_DATA = {
       "name": "Aster Medicity",
       "city": "Bangalore",
       "addr": "M/S. Aster Cmi Hospital, #43/2, New Airport Road, Nh-7, Sahakara Nagar, Hebbal, Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 7,
@@ -503,7 +537,8 @@ const COMPENDIUM_DATA = {
       "name": "Narayana Nethralaya",
       "city": "Bangalore",
       "addr": "121/C, Chord Road, Rajajinagar 1st R Block, Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 8,
@@ -511,7 +546,8 @@ const COMPENDIUM_DATA = {
       "name": "Sparsh Hospital",
       "city": "Bangalore",
       "addr": "Ideal Homes Hbcs Layout, 8, 4th Cross Rd, Javarandoddi, Rr Nagar, Bengaluru, Karnataka-560098",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 9,
@@ -519,7 +555,8 @@ const COMPENDIUM_DATA = {
       "name": "Sparsh Hospital",
       "city": "Bangalore",
       "addr": "#4/1, Tumkur Main Rd, Yeshwanthpur Industrial Area, Phase 1, Yeswanthpur, Bengaluru",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 10,
@@ -527,7 +564,8 @@ const COMPENDIUM_DATA = {
       "name": "Narayana Nethralaya",
       "city": "Bangalore",
       "addr": "Nh Health City, # 258/a, Bommasandra, Hosur Road, Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 11,
@@ -535,7 +573,8 @@ const COMPENDIUM_DATA = {
       "name": "Manipal Hospital,Hebbal",
       "city": "Bangalore",
       "addr": "Kirloskar Business Park, Bellary Road, Hebbal, Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 12,
@@ -543,7 +582,8 @@ const COMPENDIUM_DATA = {
       "name": "Manipal Hospital,Yeshwantpur",
       "city": "Bangalore",
       "addr": "26/4, Brigade Gateway, Beside Metro, Malleswaram West, Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 13,
@@ -551,7 +591,8 @@ const COMPENDIUM_DATA = {
       "name": "Manipal Hospital, Varthur",
       "city": "Bangalore",
       "addr": "Survey No. 10p &, 12p, Whitefield Rd, Varthur Kodi, Palm Meadows, Ramagondanahalli, Bengaluru",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 14,
@@ -559,7 +600,8 @@ const COMPENDIUM_DATA = {
       "name": "Manipal Hospital,Sarjapur",
       "city": "Bangalore",
       "addr": "Survey No 45/2 Ward No \u2013 150, Ambalipura, Sarjapura Main Road (Opposite Iblur), Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 15,
@@ -567,7 +609,8 @@ const COMPENDIUM_DATA = {
       "name": "Manipal Hospital,Doddaballapur",
       "city": "Bangalore",
       "addr": "Bashettihalli, Doddaballapur Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 16,
@@ -575,7 +618,8 @@ const COMPENDIUM_DATA = {
       "name": "Fortis Hospital",
       "city": "Bangalore",
       "addr": "154/4, Bannerghatta Road, Opp Iim, Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 17,
@@ -583,7 +627,8 @@ const COMPENDIUM_DATA = {
       "name": "Fortis Hospital",
       "city": "Bangalore",
       "addr": "No. 14, Cunnigham Road, Bangalore",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 18,
@@ -591,7 +636,8 @@ const COMPENDIUM_DATA = {
       "name": "Institute of Ayurveda and Integrative Medicine(I-Aim) Healthcare Center",
       "city": "Bangalore",
       "addr": "#74/2, Jarakbandekaval Post Attur via Yelahanka Bangalore-560064",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 19,
@@ -599,7 +645,8 @@ const COMPENDIUM_DATA = {
       "name": "Ramaiah Memorial Hospital",
       "city": "Bangalore",
       "addr": "New Bel Road, M S Ramaiah Nagar, Msrit Post Mathikere Bangalore - 560054",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 20,
@@ -607,7 +654,8 @@ const COMPENDIUM_DATA = {
       "name": "Cytecare Hospital Pvt. Ltd.",
       "city": "Bangalore",
       "addr": "Venkatala, Near Bagalur Cross, Yelahanka, Bangalore - 560064",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 21,
@@ -615,7 +663,8 @@ const COMPENDIUM_DATA = {
       "name": "Aster Rv Hospital",
       "city": "Bangalore",
       "addr": "Ca 37, 24th Main Rd, Iti Layout, 1st Phase, J.P. Nagar, Bengaluru, Karnataka- 560078",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 22,
@@ -623,7 +672,8 @@ const COMPENDIUM_DATA = {
       "name": "Manipal Hospital, Millers Road, Bangalore",
       "city": "Bangalore",
       "addr": "Manipal Hospital Millers Road. 71/1, Millers Road, Opposite to St. Annes College, Vasanth Nagar, Bengaluru, Karnataka 560052",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 23,
@@ -631,7 +681,8 @@ const COMPENDIUM_DATA = {
       "name": "Manipal Hospital",
       "city": "Bangalore",
       "addr": "Venkatala Village, Yelahanka, Bangalore,560064",
-      "group": "Bangalore (23 Hospitals)"
+      "group": "Bangalore (23 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 24,
@@ -639,7 +690,8 @@ const COMPENDIUM_DATA = {
       "name": "Sri Ramachandra Medical Centre",
       "city": "Chennai",
       "addr": "Porur, Chennai",
-      "group": "Chennai (13 Hospitals)"
+      "group": "Chennai (13 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 25,
@@ -647,7 +699,8 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Hospital",
       "city": "Chennai",
       "addr": "Greams Road, Chennai",
-      "group": "Chennai (13 Hospitals)"
+      "group": "Chennai (13 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 26,
@@ -655,7 +708,8 @@ const COMPENDIUM_DATA = {
       "name": "Bilroth Hsopital",
       "city": "Chennai",
       "addr": "Lakshmi Talkies Rd, Shenoy Nagar, Chennai",
-      "group": "Chennai (13 Hospitals)"
+      "group": "Chennai (13 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 27,
@@ -663,7 +717,8 @@ const COMPENDIUM_DATA = {
       "name": "Miot Hospital",
       "city": "Chennai",
       "addr": "Mount Poonamalle High Rd, Manapakkam, Chennai",
-      "group": "Chennai (13 Hospitals)"
+      "group": "Chennai (13 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 28,
@@ -671,7 +726,8 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Vanagaram Unit",
       "city": "Chennai",
       "addr": "Ayanambakkam, Thiruverkadu, Chennai",
-      "group": "Chennai (13 Hospitals)"
+      "group": "Chennai (13 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 29,
@@ -679,7 +735,8 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Cancer Unit",
       "city": "Chennai",
       "addr": "320, Anna Salai, Nandanam, Chennai",
-      "group": "Chennai (13 Hospitals)"
+      "group": "Chennai (13 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 30,
@@ -687,7 +744,8 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Omr Unit",
       "city": "Chennai",
       "addr": "Perungudi, Chennai",
-      "group": "Chennai (13 Hospitals)"
+      "group": "Chennai (13 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 31,
@@ -695,7 +753,8 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Childrens' Unit",
       "city": "Chennai",
       "addr": "15, Safi Mahammed Street, Greams Road, Chennai",
-      "group": "Chennai (13 Hospitals)"
+      "group": "Chennai (13 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 32,
@@ -703,7 +762,8 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Women & Cradle Unit",
       "city": "Chennai",
       "addr": "Shafee Mohammed Road, Thousand Lights, Chennai",
-      "group": "Chennai (13 Hospitals)"
+      "group": "Chennai (13 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 33,
@@ -711,7 +771,8 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Proton Cancer Centre",
       "city": "Chennai",
       "addr": "Tharamani, Chennai",
-      "group": "Chennai (13 Hospitals)"
+      "group": "Chennai (13 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 34,
@@ -719,7 +780,8 @@ const COMPENDIUM_DATA = {
       "name": "Dr.Mohan's Diabets Specialities Centre",
       "city": "Chennai",
       "addr": "35 Conran Smith Road, Gopalapuram, Chennai",
-      "group": "Chennai (13 Hospitals)"
+      "group": "Chennai (13 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 35,
@@ -727,7 +789,8 @@ const COMPENDIUM_DATA = {
       "name": "Dr Agarwals Eye Hospital Ltd",
       "city": "Chennai",
       "addr": "No.222, Ttk Road, Alwarpet, Chennai",
-      "group": "Chennai (13 Hospitals)"
+      "group": "Chennai (13 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 36,
@@ -735,7 +798,8 @@ const COMPENDIUM_DATA = {
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Chennai",
       "addr": "No 6, Tdk Tower, Duraiswamy Reddy St, Near Tambaram, Tambaram West, Chennai",
-      "group": "Chennai (13 Hospitals)"
+      "group": "Chennai (13 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 37,
@@ -743,7 +807,8 @@ const COMPENDIUM_DATA = {
       "name": "Kg Hospital",
       "city": "Coimbatore",
       "addr": "5, Government Arts College Rd, Opposite Court, Gopalapuram, Coimbatore",
-      "group": "Coimbatore (4 Hospitals)"
+      "group": "Coimbatore (4 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 38,
@@ -751,7 +816,8 @@ const COMPENDIUM_DATA = {
       "name": "Aravind Eye Hospital",
       "city": "Coimbatore",
       "addr": "Avinashi Road, Coimbatore",
-      "group": "Coimbatore (4 Hospitals)"
+      "group": "Coimbatore (4 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 39,
@@ -759,7 +825,8 @@ const COMPENDIUM_DATA = {
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Coimbatore",
       "addr": "#1091, Sakthi Arcade, Mettupalayam Road, R.S Puram, Coimbatore",
-      "group": "Coimbatore (4 Hospitals)"
+      "group": "Coimbatore (4 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 40,
@@ -767,7 +834,8 @@ const COMPENDIUM_DATA = {
       "name": "Royalcare Super Speciality Hospital Limited",
       "city": "Coimbatore",
       "addr": "Sf No. 554/555, Neelambur Village Coimbatore, 641062",
-      "group": "Coimbatore (4 Hospitals)"
+      "group": "Coimbatore (4 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 41,
@@ -775,7 +843,8 @@ const COMPENDIUM_DATA = {
       "name": "Sdm College of Medical Science and Hospital",
       "city": "Dharwad",
       "addr": "Manjushree Nagar, Sattur, Dharwad",
-      "group": "Dharwad (1 Hospital)"
+      "group": "Dharwad (1 Hospital)",
+      "region": "SR2"
     },
     {
       "sl": 42,
@@ -783,7 +852,8 @@ const COMPENDIUM_DATA = {
       "name": "Kauvery Hospital Medical Services Pvt Ltd.",
       "city": "Hosur",
       "addr": "35,Shanthi Nagar, Opposite to Csi Church, Hosur-635 109",
-      "group": "Hosur (1 Hospital)"
+      "group": "Hosur (1 Hospital)",
+      "region": "SR2"
     },
     {
       "sl": 43,
@@ -791,7 +861,8 @@ const COMPENDIUM_DATA = {
       "name": "Km Cherian Institute of Medical Sciences Hospital",
       "city": "Kallisserry",
       "addr": "Kallisserry, Chengannur, Alappuzha Dist., Kerala",
-      "group": "Kallisserry (1 Hospital)"
+      "group": "Kallisserry (1 Hospital)",
+      "region": "SR2"
     },
     {
       "sl": 44,
@@ -799,7 +870,8 @@ const COMPENDIUM_DATA = {
       "name": "Aster Mims Hospital",
       "city": "Kannur",
       "addr": "Chala East Kannur, Kannur",
-      "group": "Kannur (2 Hospitals)"
+      "group": "Kannur (2 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 45,
@@ -807,7 +879,8 @@ const COMPENDIUM_DATA = {
       "name": "Baby Memorial Hospital ( a Unit of Genesis Institute of Medical Science Pvt Ltd.)",
       "city": "Kannur",
       "addr": "Near Chala Bypass, Kannur, Kerela, 670007",
-      "group": "Kannur (2 Hospitals)"
+      "group": "Kannur (2 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 46,
@@ -815,7 +888,8 @@ const COMPENDIUM_DATA = {
       "name": "Lakeshore Hospital and Research Centre",
       "city": "Kochi",
       "addr": "Nh Bypass, Nettoor, Maradu, Kochi",
-      "group": "Kochi (6 Hospitals)"
+      "group": "Kochi (6 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 47,
@@ -823,7 +897,8 @@ const COMPENDIUM_DATA = {
       "name": "Rajagiri Health Care and Education Trust",
       "city": "Kochi",
       "addr": "Near Gtn Junction, Chunagamvely, Aluwa, Kochi",
-      "group": "Kochi (6 Hospitals)"
+      "group": "Kochi (6 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 48,
@@ -831,7 +906,8 @@ const COMPENDIUM_DATA = {
       "name": "Amrita Institute of Medical Science and Research Centre",
       "city": "Kochi",
       "addr": "Aims, Ponnekkara-P.O, Edappally, Kochi",
-      "group": "Kochi (6 Hospitals)"
+      "group": "Kochi (6 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 49,
@@ -839,7 +915,8 @@ const COMPENDIUM_DATA = {
       "name": "The Medical Trust Hospital",
       "city": "Kochi",
       "addr": "M. G. Road, Pallimukku, Kochi",
-      "group": "Kochi (6 Hospitals)"
+      "group": "Kochi (6 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 50,
@@ -847,7 +924,8 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Adlux Hospital",
       "city": "Kochi",
       "addr": "Angamaly, Kochi",
-      "group": "Kochi (6 Hospitals)"
+      "group": "Kochi (6 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 51,
@@ -855,7 +933,8 @@ const COMPENDIUM_DATA = {
       "name": "Aster Medcity Hospital",
       "city": "Kochi",
       "addr": "Cheranelloor, Kochi, Ernakulam Dist -682027, Kerala",
-      "group": "Kochi (6 Hospitals)"
+      "group": "Kochi (6 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 52,
@@ -863,7 +942,8 @@ const COMPENDIUM_DATA = {
       "name": "K S Health Care Hospital",
       "city": "Koppal",
       "addr": "#9-13-1270, Hosapete Road, Koppal - Karnataka 583231",
-      "group": "Koppal (1 Hospital)"
+      "group": "Koppal (1 Hospital)",
+      "region": "SR2"
     },
     {
       "sl": 53,
@@ -871,7 +951,8 @@ const COMPENDIUM_DATA = {
       "name": "Baby Memorial Hospital",
       "city": "Kozhikode",
       "addr": "Ariyadathupalam,Indira Gandhi Road, Kozhikode",
-      "group": "Kozhikode (3 Hospitals)"
+      "group": "Kozhikode (3 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 54,
@@ -879,7 +960,8 @@ const COMPENDIUM_DATA = {
       "name": "Aster Mims Hospital",
       "city": "Kozhikode",
       "addr": "Mini Bypass Rd, Govindapuram, Kozhikode",
-      "group": "Kozhikode (3 Hospitals)"
+      "group": "Kozhikode (3 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 55,
@@ -887,7 +969,8 @@ const COMPENDIUM_DATA = {
       "name": "Meitra Hospital",
       "city": "Kozhikode",
       "addr": "38/2208, B Karaparamba, Mini Bypass Rd, Kunduparampa,Edakkad, Kozhikode, Kerala - 673005",
-      "group": "Kozhikode (3 Hospitals)"
+      "group": "Kozhikode (3 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 56,
@@ -895,7 +978,8 @@ const COMPENDIUM_DATA = {
       "name": "Meenakshi Mission Hospital & Research Centre",
       "city": "Madurai",
       "addr": "Lake Area, Melur Road, Madurai",
-      "group": "Madurai (3 Hospitals)"
+      "group": "Madurai (3 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 57,
@@ -903,7 +987,8 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Hospital",
       "city": "Madurai",
       "addr": "Lake View Road, Kk Nagar, Madurai",
-      "group": "Madurai (3 Hospitals)"
+      "group": "Madurai (3 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 58,
@@ -911,7 +996,8 @@ const COMPENDIUM_DATA = {
       "name": "Aravind Eye Hospital",
       "city": "Madurai",
       "addr": "1, Anna Nagar, Madurai",
-      "group": "Madurai (3 Hospitals)"
+      "group": "Madurai (3 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 59,
@@ -919,7 +1005,8 @@ const COMPENDIUM_DATA = {
       "name": "M/S Aster Mother Hospital, Areekode, Run by M/S Malabar Institute of Medical Science",
       "city": "Malappuram",
       "addr": "Vazhakad Road, Ugrapuram (Po), Malappuram , Kerala- 673639",
-      "group": "Malappuram (1 Hospital)"
+      "group": "Malappuram (1 Hospital)",
+      "region": "SR2"
     },
     {
       "sl": 60,
@@ -927,7 +1014,8 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Bgs Hospitals",
       "city": "Mysore",
       "addr": "Adichunchanagiri Road, Kuvempunagar Mysore",
-      "group": "Mysore (1 Hospital)"
+      "group": "Mysore (1 Hospital)",
+      "region": "SR2"
     },
     {
       "sl": 61,
@@ -935,7 +1023,8 @@ const COMPENDIUM_DATA = {
       "name": "Lakshmi Hospital, Chittur",
       "city": "Palakkad",
       "addr": "Lakshmi Hospital No. 17/751, Chittur Road, Palakkad",
-      "group": "Palakkad (2 Hospitals)"
+      "group": "Palakkad (2 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 62,
@@ -943,7 +1032,8 @@ const COMPENDIUM_DATA = {
       "name": "M/S Thangam Hospitals of Palakkad Medical and Research Centre Ltd",
       "city": "Palakkad",
       "addr": "Chadanamkurussi, West Yakkara, Palakkad, Kerala, 678004",
-      "group": "Palakkad (2 Hospitals)"
+      "group": "Palakkad (2 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 63,
@@ -951,7 +1041,8 @@ const COMPENDIUM_DATA = {
       "name": "Aravind Eye Hospital",
       "city": "Puducherry",
       "addr": "Thavalakuppam, Puducherry",
-      "group": "Puducherry (2 Hospitals)"
+      "group": "Puducherry (2 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 64,
@@ -959,7 +1050,8 @@ const COMPENDIUM_DATA = {
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Puducherry",
       "addr": "Nsj Avenue, 601 Kamarajar Salai, Rajiv Gandhi Square, Puducherry",
-      "group": "Puducherry (2 Hospitals)"
+      "group": "Puducherry (2 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 65,
@@ -967,7 +1059,8 @@ const COMPENDIUM_DATA = {
       "name": "Manipal Hospital",
       "city": "Salem",
       "addr": "Dalmia Board, Salem - Bangalore Highway, Salem",
-      "group": "Salem (2 Hospitals)"
+      "group": "Salem (2 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 66,
@@ -975,7 +1068,8 @@ const COMPENDIUM_DATA = {
       "name": "Dharan Hospital",
       "city": "Salem",
       "addr": "Seelanaickenpatti by-Pass, Salem",
-      "group": "Salem (2 Hospitals)"
+      "group": "Salem (2 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 67,
@@ -983,7 +1077,8 @@ const COMPENDIUM_DATA = {
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Thanjavur",
       "addr": "No. 2851/30a,V O C Nagar, Trichy Main Road, Thanjavur",
-      "group": "Thanjavur (1 Hospital)"
+      "group": "Thanjavur (1 Hospital)",
+      "region": "SR2"
     },
     {
       "sl": 68,
@@ -991,7 +1086,8 @@ const COMPENDIUM_DATA = {
       "name": "Sree Uthradom Thirunal Hospital Pattom",
       "city": "Thiruvananthapuram",
       "addr": "Pattom Palace View Road,Thiruvananthapuram",
-      "group": "Thiruvananthapuram (3 Hospitals)"
+      "group": "Thiruvananthapuram (3 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 69,
@@ -999,7 +1095,8 @@ const COMPENDIUM_DATA = {
       "name": "Kerala Institute of Medical Science",
       "city": "Thiruvananthapuram",
       "addr": "Kerala Institute of Medical Science, P.B.No.1, Anayara P.O, Trivandrum",
-      "group": "Thiruvananthapuram (3 Hospitals)"
+      "group": "Thiruvananthapuram (3 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 70,
@@ -1007,7 +1104,8 @@ const COMPENDIUM_DATA = {
       "name": "Ananthapuri Hospitals and Research Institute",
       "city": "Thiruvananthapuram",
       "addr": "Chacka Nh Bypass, Thiruvananthapuram-695024, Kerala",
-      "group": "Thiruvananthapuram (3 Hospitals)"
+      "group": "Thiruvananthapuram (3 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 71,
@@ -1015,7 +1113,8 @@ const COMPENDIUM_DATA = {
       "name": "Daya General Hospital",
       "city": "Thrissur",
       "addr": "Shornur Road, Thrissur",
-      "group": "Thrissur (2 Hospitals)"
+      "group": "Thrissur (2 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 72,
@@ -1023,7 +1122,8 @@ const COMPENDIUM_DATA = {
       "name": "Atreya Hospital (a Unit of Dmri)",
       "city": "Thrissur",
       "addr": "Thrissur, Kerela",
-      "group": "Thrissur (2 Hospitals)"
+      "group": "Thrissur (2 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 73,
@@ -1031,7 +1131,8 @@ const COMPENDIUM_DATA = {
       "name": "Galaxy Hospital",
       "city": "Tirunelveli",
       "addr": "110 E/20/1, North Bypass Road, Vannarpet, Tirunelveli",
-      "group": "Tirunelveli (4 Hospitals)"
+      "group": "Tirunelveli (4 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 74,
@@ -1039,7 +1140,8 @@ const COMPENDIUM_DATA = {
       "name": "Aravind Eye Hospital, Tirunelveli",
       "city": "Tirunelveli",
       "addr": "S.N. High Road, Tirunelveli - 627001",
-      "group": "Tirunelveli (4 Hospitals)"
+      "group": "Tirunelveli (4 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 75,
@@ -1047,7 +1149,8 @@ const COMPENDIUM_DATA = {
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Tirunelveli",
       "addr": "No: 10/1/1-5, Land Mark Towers, South Bye Pass,Opp to Bsnl, Vannarpet, Tirunelveli",
-      "group": "Tirunelveli (4 Hospitals)"
+      "group": "Tirunelveli (4 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 76,
@@ -1055,7 +1158,8 @@ const COMPENDIUM_DATA = {
       "name": "Sri Kauvery Medical Care (India) Ltd",
       "city": "Tirunelveli",
       "addr": "Door No. 110 E/20/1, North Bypass Road, Vannarpet, Tirunelveli",
-      "group": "Tirunelveli (4 Hospitals)"
+      "group": "Tirunelveli (4 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 77,
@@ -1063,7 +1167,8 @@ const COMPENDIUM_DATA = {
       "name": "Kauvery Hospital",
       "city": "Trichy",
       "addr": "6, Royal Road, Cantonment, Trichy",
-      "group": "Trichy (3 Hospitals)"
+      "group": "Trichy (3 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 78,
@@ -1071,7 +1176,8 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Hospital",
       "city": "Trichy",
       "addr": "Chennai Bypass Road, Ariyamangalam Area, Old Palpannai, Trichy-620010",
-      "group": "Trichy (3 Hospitals)"
+      "group": "Trichy (3 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 79,
@@ -1079,7 +1185,8 @@ const COMPENDIUM_DATA = {
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Trichy",
       "addr": "Saroj, B 31, Shastri Road, Thillai Nagar, Trichy",
-      "group": "Trichy (3 Hospitals)"
+      "group": "Trichy (3 Hospitals)",
+      "region": "SR2"
     },
     {
       "sl": 80,
@@ -1087,7 +1194,8 @@ const COMPENDIUM_DATA = {
       "name": "CMC-Vellore",
       "city": "Vellore",
       "addr": "Ida Scudder Road, Vellore",
-      "group": "Vellore (1 Hospital)"
+      "group": "Vellore (1 Hospital)",
+      "region": "SR2"
     }
   ],
   "labs": [
@@ -1095,139 +1203,162 @@ const COMPENDIUM_DATA = {
       "sl": 1,
       "city": "Bangalore",
       "addr": "No 825, Putta Das Complex, 13th Cross Road, West of Kanakapura Road, 7th Block,Jayanagar, Bengaluru-560082,Karnataka",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 2,
       "city": "Bangalore",
       "addr": "90/B, Ground Floor, Corporation No-13/1, Ward No.4, 18th Cross, I Block, 19th Main Road,Near Gokul Veg Restaurant, Rajaji Nagar, Bengaluru-560010, Karnataka",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 3,
       "city": "Bangalore",
       "addr": "10, Ground Floor, Opp. to Sub Registar Office Lane, 1st Amain Road, Yelahanka New Town, Bangalore -560064, Karnataka",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 4,
       "city": "Bangalore",
       "addr": "197/a, Ground Floor, Double Road, Opp. Hdfc Bank Lane, Cmh Road, Indiranagar, Bangalore \u2013560080, Karnataka",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 5,
       "city": "Bangalore",
       "addr": "1113/14, Ground Floor, Near Hanumanthanagar Police Station, Ashok Nagar, 8th Crossroad, Kathriguppe Main Road, B.S.K. 1st Stage, Bangalore -560050, Karnataka",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 6,
       "city": "Bangalore",
       "addr": "Ground Floor, Site No.273/B, Hmt Employees Cooperative Housing Society, Opp.Chowdeshwari Bus Stand, Mathikere Division No.1,Hmt Layouts, Mathikere, Bangalore-560031,Karnataka.",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 7,
       "city": "Bangalore",
       "addr": "Ground Floor, Site No.3, 1st Phase, 2nd Stage,Oppo. Ias Colony Ground, Btm Layout,Bengaluru \u2013 560 068,Karnataka.",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 8,
       "city": "Bangalore",
       "addr": "54/6, 54/8, Ground Floor, K R Road, Diagonally Opposite Basavangudi Police Station Andkrishna Rao Park, Basavangudi,Bengaluru 560004, Karnataka",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 9,
       "city": "Bangalore",
       "addr": "1539, Upper Ground Floor, Sharoff Square, 1st Stage, Near Shop N Save Store, Kumarswamylayout, Bengaluru-560078, Karnataka",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 10,
       "city": "Bangalore",
       "addr": "1115, First Floor, Phalguna, Near Shanti Jewellers, 26th B Main, 41st Cross, Jayanagar, 9thblock, Bengaluru -506069, Karnataka",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 11,
       "city": "Bangalore",
       "addr": "Ground Floor, S R Enclave, 6th Cross, Near Icici Bank Atm, Cv Raman Nagar, Kaggadasapuramain Road,Bengaluru-560093, Karnataka",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 12,
       "city": "Bangalore",
       "addr": "Shop# 44, Ground Floor, 4th Cross, Opposite to Maruthi Authorised Services Station,Ashwath Nagar, Sanjay Nagar Main Road,Bengaluru-560094, Karnataka",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 13,
       "city": "Bangalore",
       "addr": "1st Floor, No. 18/1b, Sai Harsha Tower, Opp. Forum Value Mall, Whitefield Main Road,Bengaluru- 560 066, Karnataka",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 14,
       "city": "Bangalore",
       "addr": "No. 69, St Johns Church Road, Near Coles Park, Bengaluru,Karnataka 560 005",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 15,
       "city": "Bangalore",
       "addr": "Ground Floor, the Address, 17/1, Outer Ring Road, Opposite Prestige Cessna Park,Kadubeesanahalli, Varthur Hobli,Bengaluru - 560103, Karnataka",
-      "group": "Bangalore (15 Centres)"
+      "group": "Bangalore (15 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 16,
       "city": "Calicut",
       "addr": "Ground Floor, Hill View Building, Krishnapoyil Padinhare Parambu, Kovoor Desom, Nellikode Village,Kozhikode Taluk, Near Medical College, Kozhikode-Calicut, Kerala-673008",
-      "group": "Calicut (1 Centre)"
+      "group": "Calicut (1 Centre)",
+      "region": "SR2"
     },
     {
       "sl": 17,
       "city": "Coimbatore",
       "addr": "Ground Floor, Shop No: 1113, 1114, Natraj Medical Centre,Opp to Cntral Theatre, Mettupalayam Road, Coimbatore- 641002, Tamil Nadu",
-      "group": "Coimbatore (1 Centre)"
+      "group": "Coimbatore (1 Centre)",
+      "region": "SR2"
     },
     {
       "sl": 18,
       "city": "Kochi",
       "addr": "Doctors Diagnostic Centre International, Thampi Building, Opp.College Ground, M.G.Road,Ernakulam, Cochin-682011,Kerala",
-      "group": "Kochi (3 Centres)"
+      "group": "Kochi (3 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 19,
       "city": "Kochi",
       "addr": "Dr. Lal Pathlabs Ltd. | Anika Complex,Chakola Junction, Near Thevara Market, Permanoorpost, Ernakulam-Kerala-682015",
-      "group": "Kochi (3 Centres)"
+      "group": "Kochi (3 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 20,
       "city": "Kochi",
       "addr": "Dr. Lal Pathlabs Ltd. | Pam Circuit, Toll Junction, Edappally, Behind Best Bakers,Ernakulam,Cochin- 682024, Kerala",
-      "group": "Kochi (3 Centres)"
+      "group": "Kochi (3 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 21,
       "city": "Mysore",
       "addr": "C/1, Sigma Complex, Near Kpr Suzuki Showroom, New Kanthraj Urs Road, Kuvempunagar, Mysore \u2013 570023",
-      "group": "Mysore (1 Centre)"
+      "group": "Mysore (1 Centre)",
+      "region": "SR2"
     },
     {
       "sl": 22,
       "city": "Thiruvananthapuram",
       "addr": "Tc No. 1/801(3,4,&5), Opp.Tagore Garden, Medical College Road, Re-Se No. 20, Cheruvakkalvillage,Thiruvananthapuram, Kerala-695 011.",
-      "group": "Thiruvananthapuram (2 Centres)"
+      "group": "Thiruvananthapuram (2 Centres)",
+      "region": "SR2"
     },
     {
       "sl": 23,
       "city": "Thiruvananthapuram",
       "addr": "Gf & Ff & Sf , Tc N0 1 /801 (3,4&5) ,Opp Tagore Garden ,Medical College Road , Re -Sy No 20 ,Cheruvakkal Village , Thiruvananthapuram ,Kerala 695011",
-      "group": "Thiruvananthapuram (2 Centres)"
+      "group": "Thiruvananthapuram (2 Centres)",
+      "region": "SR2"
     }
   ],
   "aabhaarStart": 666,
@@ -1248,19 +1379,11 @@ const COMPENDIUM_DATA = {
       "category": "Income Tax"
     },
     {
-        "id": "other-03",
+      "id": "other-03",
       "title": "EPS-2026-Gazette",
       "description": "EPS-2026-Gazette Notification dt 29-06-2026.",
       "file": "EPS-2026-GAZETTE-29-06-26.pdf",
       "category": "Employees Pension Scheme"
-    },
-    {
-        "id": "other-04",
-      "title": "EPS95-HigherPension",
-      "description": "EPS-HigherPension-Calculation-Discrepancies.",
-      "file": "EPS95_Higher_Pension_With_Annexures.pdf",
-      "category": "Employees Pension Scheme"
     }
   ]
 };
-  
