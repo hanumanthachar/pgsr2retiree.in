@@ -1253,6 +1253,14 @@ const COMPENDIUM_DATA = {
       "description": "EPS-2026-Gazette Notification dt 29-06-2026.",
       "file": "EPS-2026-GAZETTE-29-06-26.pdf",
       "category": "Employees Pension Scheme"
+    },
+    {
+        "id": "other-04",
+      "title": "EPS95-HigherPension",
+      "description": "EPS-HigherPension-Calculation-Discrepancies.",
+      "file": "EPS95_Higher_Pension_With_Annexures.pdf",
+      "category": "Employees Pension Scheme"
     }
   ]
 };
+  
