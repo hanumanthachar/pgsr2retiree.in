@@ -685,7 +685,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 24,
+      "sl": 1,
       "portal": 304,
       "name": "Sri Ramachandra Medical Centre",
       "city": "Chennai",
@@ -694,7 +694,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 25,
+      "sl": 2,
       "portal": 305,
       "name": "Apollo Hospital",
       "city": "Chennai",
@@ -703,7 +703,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 26,
+      "sl": 3,
       "portal": 308,
       "name": "Bilroth Hsopital",
       "city": "Chennai",
@@ -712,7 +712,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 27,
+      "sl": 4,
       "portal": 309,
       "name": "Miot Hospital",
       "city": "Chennai",
@@ -721,7 +721,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 28,
+      "sl": 5,
       "portal": 344,
       "name": "Apollo Vanagaram Unit",
       "city": "Chennai",
@@ -730,7 +730,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 29,
+      "sl": 6,
       "portal": 345,
       "name": "Apollo Cancer Unit",
       "city": "Chennai",
@@ -739,7 +739,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 30,
+      "sl": 7,
       "portal": 346,
       "name": "Apollo Omr Unit",
       "city": "Chennai",
@@ -748,7 +748,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 31,
+      "sl": 8,
       "portal": 347,
       "name": "Apollo Childrens' Unit",
       "city": "Chennai",
@@ -757,7 +757,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 32,
+      "sl": 9,
       "portal": 348,
       "name": "Apollo Women & Cradle Unit",
       "city": "Chennai",
@@ -766,7 +766,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 33,
+      "sl": 10,
       "portal": 349,
       "name": "Apollo Proton Cancer Centre",
       "city": "Chennai",
@@ -775,7 +775,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 34,
+      "sl": 11,
       "portal": 350,
       "name": "Dr.Mohan's Diabets Specialities Centre",
       "city": "Chennai",
@@ -784,7 +784,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 35,
+      "sl": 12,
       "portal": 357,
       "name": "Dr Agarwals Eye Hospital Ltd",
       "city": "Chennai",
@@ -793,7 +793,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 36,
+      "sl": 13,
       "portal": 363,
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Chennai",
@@ -802,7 +802,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 37,
+      "sl": 1,
       "portal": 306,
       "name": "Kg Hospital",
       "city": "Coimbatore",
@@ -811,7 +811,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 38,
+      "sl": 2,
       "portal": 307,
       "name": "Aravind Eye Hospital",
       "city": "Coimbatore",
@@ -820,7 +820,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 39,
+      "sl": 3,
       "portal": 361,
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Coimbatore",
@@ -829,7 +829,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 40,
+      "sl": 4,
       "portal": 378,
       "name": "Royalcare Super Speciality Hospital Limited",
       "city": "Coimbatore",
@@ -838,7 +838,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 41,
+      "sl": 1,
       "portal": 317,
       "name": "Sdm College of Medical Science and Hospital",
       "city": "Dharwad",
@@ -847,7 +847,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 42,
+      "sl": 1,
       "portal": 352,
       "name": "Kauvery Hospital Medical Services Pvt Ltd.",
       "city": "Hosur",
@@ -856,7 +856,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 43,
+      "sl": 1,
       "portal": 365,
       "name": "Km Cherian Institute of Medical Sciences Hospital",
       "city": "Kallisserry",
@@ -865,7 +865,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 44,
+      "sl": 1,
       "portal": 336,
       "name": "Aster Mims Hospital",
       "city": "Kannur",
@@ -874,7 +874,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 45,
+      "sl": 2,
       "portal": 376,
       "name": "Baby Memorial Hospital ( a Unit of Genesis Institute of Medical Science Pvt Ltd.)",
       "city": "Kannur",
@@ -883,7 +883,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 46,
+      "sl": 1,
       "portal": 324,
       "name": "Lakeshore Hospital and Research Centre",
       "city": "Kochi",
@@ -892,7 +892,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 47,
+      "sl": 2,
       "portal": 325,
       "name": "Rajagiri Health Care and Education Trust",
       "city": "Kochi",
@@ -901,7 +901,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 48,
+      "sl": 3,
       "portal": 326,
       "name": "Amrita Institute of Medical Science and Research Centre",
       "city": "Kochi",
@@ -910,7 +910,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 49,
+      "sl": 4,
       "portal": 327,
       "name": "The Medical Trust Hospital",
       "city": "Kochi",
@@ -919,7 +919,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 50,
+      "sl": 5,
       "portal": 334,
       "name": "Apollo Adlux Hospital",
       "city": "Kochi",
@@ -928,7 +928,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 51,
+      "sl": 6,
       "portal": 353,
       "name": "Aster Medcity Hospital",
       "city": "Kochi",
@@ -937,7 +937,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 52,
+      "sl": 1,
       "portal": 368,
       "name": "K S Health Care Hospital",
       "city": "Koppal",
@@ -946,7 +946,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 53,
+      "sl": 1,
       "portal": 321,
       "name": "Baby Memorial Hospital",
       "city": "Kozhikode",
@@ -955,7 +955,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 54,
+      "sl": 2,
       "portal": 337,
       "name": "Aster Mims Hospital",
       "city": "Kozhikode",
@@ -964,7 +964,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 55,
+      "sl": 3,
       "portal": 372,
       "name": "Meitra Hospital",
       "city": "Kozhikode",
@@ -973,7 +973,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 56,
+      "sl": 1,
       "portal": 300,
       "name": "Meenakshi Mission Hospital & Research Centre",
       "city": "Madurai",
@@ -982,7 +982,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 57,
+      "sl": 2,
       "portal": 301,
       "name": "Apollo Hospital",
       "city": "Madurai",
@@ -991,7 +991,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 58,
+      "sl": 3,
       "portal": 302,
       "name": "Aravind Eye Hospital",
       "city": "Madurai",
@@ -1000,7 +1000,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 59,
+      "sl": 1,
       "portal": 374,
       "name": "M/S Aster Mother Hospital, Areekode, Run by M/S Malabar Institute of Medical Science",
       "city": "Malappuram",
@@ -1009,7 +1009,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 60,
+      "sl": 1,
       "portal": 316,
       "name": "Apollo Bgs Hospitals",
       "city": "Mysore",
@@ -1018,7 +1018,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 61,
+      "sl": 1,
       "portal": 328,
       "name": "Lakshmi Hospital, Chittur",
       "city": "Palakkad",
@@ -1027,7 +1027,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 62,
+      "sl": 2,
       "portal": 373,
       "name": "M/S Thangam Hospitals of Palakkad Medical and Research Centre Ltd",
       "city": "Palakkad",
@@ -1036,7 +1036,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 63,
+      "sl": 1,
       "portal": 329,
       "name": "Aravind Eye Hospital",
       "city": "Puducherry",
@@ -1045,7 +1045,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 64,
+      "sl": 2,
       "portal": 362,
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Puducherry",
@@ -1054,7 +1054,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 65,
+      "sl": 1,
       "portal": 299,
       "name": "Manipal Hospital",
       "city": "Salem",
@@ -1063,7 +1063,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 66,
+      "sl": 2,
       "portal": 356,
       "name": "Dharan Hospital",
       "city": "Salem",
@@ -1072,7 +1072,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 67,
+      "sl": 1,
       "portal": 358,
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Thanjavur",
@@ -1081,7 +1081,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 68,
+      "sl": 1,
       "portal": 322,
       "name": "Sree Uthradom Thirunal Hospital Pattom",
       "city": "Thiruvananthapuram",
@@ -1090,7 +1090,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 69,
+      "sl": 2,
       "portal": 323,
       "name": "Kerala Institute of Medical Science",
       "city": "Thiruvananthapuram",
@@ -1099,7 +1099,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 70,
+      "sl": 3,
       "portal": 333,
       "name": "Ananthapuri Hospitals and Research Institute",
       "city": "Thiruvananthapuram",
@@ -1108,7 +1108,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 71,
+      "sl": 1,
       "portal": 335,
       "name": "Daya General Hospital",
       "city": "Thrissur",
@@ -1117,7 +1117,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 72,
+      "sl": 2,
       "portal": 366,
       "name": "Atreya Hospital (a Unit of Dmri)",
       "city": "Thrissur",
@@ -1126,7 +1126,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 73,
+      "sl": 1,
       "portal": 331,
       "name": "Galaxy Hospital",
       "city": "Tirunelveli",
@@ -1135,7 +1135,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 74,
+      "sl": 2,
       "portal": 351,
       "name": "Aravind Eye Hospital, Tirunelveli",
       "city": "Tirunelveli",
@@ -1144,7 +1144,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 75,
+      "sl": 3,
       "portal": 360,
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Tirunelveli",
@@ -1153,7 +1153,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 76,
+      "sl": 4,
       "portal": 364,
       "name": "Sri Kauvery Medical Care (India) Ltd",
       "city": "Tirunelveli",
@@ -1162,7 +1162,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 77,
+      "sl": 1,
       "portal": 330,
       "name": "Kauvery Hospital",
       "city": "Trichy",
@@ -1171,7 +1171,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 78,
+      "sl": 2,
       "portal": 332,
       "name": "Apollo Hospital",
       "city": "Trichy",
@@ -1180,7 +1180,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 79,
+      "sl": 3,
       "portal": 359,
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Trichy",
@@ -1189,7 +1189,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 80,
+      "sl": 1,
       "portal": 303,
       "name": "CMC-Vellore",
       "city": "Vellore",
@@ -1198,7 +1198,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 81,
+      "sl": 1,
       "portal": 23,
       "name": "Fortis-Escorts",
       "city": "Faridabad",
@@ -1207,7 +1207,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 82,
+      "sl": 1,
       "portal": 12,
       "name": "Max Hospital",
       "city": "Ghaziabad",
@@ -1216,7 +1216,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 83,
+      "sl": 2,
       "portal": 33,
       "name": "Shroff Eye Centre",
       "city": "Ghaziabad",
@@ -1225,7 +1225,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 84,
+      "sl": 1,
       "portal": 46,
       "name": "Government Hospital",
       "city": "Government Hospital",
@@ -1234,7 +1234,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 85,
+      "sl": 1,
       "portal": 24,
       "name": "Artemis Hospital",
       "city": "Gurgaon",
@@ -1243,7 +1243,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 86,
+      "sl": 2,
       "portal": 25,
       "name": "Fortis Hospotel Limited",
       "city": "Gurgaon",
@@ -1252,7 +1252,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 87,
+      "sl": 3,
       "portal": 26,
       "name": "Max Hospital",
       "city": "Gurgaon",
@@ -1261,7 +1261,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 88,
+      "sl": 4,
       "portal": 27,
       "name": "Medanta Hospital",
       "city": "Gurgaon",
@@ -1270,7 +1270,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 89,
+      "sl": 5,
       "portal": 28,
       "name": "Paras Hospital",
       "city": "Gurgaon",
@@ -1279,7 +1279,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 90,
+      "sl": 6,
       "portal": 29,
       "name": "Shroff Eye Centre",
       "city": "Gurgaon",
@@ -1288,7 +1288,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 91,
+      "sl": 7,
       "portal": 34,
       "name": "Viaan Eye & Retina Centre",
       "city": "Gurgaon",
@@ -1297,7 +1297,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 92,
+      "sl": 8,
       "portal": 35,
       "name": "Cloudnine Hospital",
       "city": "Gurgaon",
@@ -1306,7 +1306,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 93,
+      "sl": 9,
       "portal": 36,
       "name": "Narayana Superspeciality Hospital",
       "city": "Gurgaon",
@@ -1315,7 +1315,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 94,
+      "sl": 10,
       "portal": 38,
       "name": "Ck Birla Hospital",
       "city": "Gurgaon",
@@ -1324,7 +1324,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 95,
+      "sl": 11,
       "portal": 41,
       "name": "Aarvy Hospital",
       "city": "Gurgaon",
@@ -1333,7 +1333,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 96,
+      "sl": 12,
       "portal": 43,
       "name": "Fortis Hospital",
       "city": "Gurgaon",
@@ -1342,7 +1342,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 97,
+      "sl": 1,
       "portal": 1,
       "name": "Aakash Hospital",
       "city": "New Delhi",
@@ -1351,7 +1351,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 98,
+      "sl": 2,
       "portal": 2,
       "name": "Apollo Hospital",
       "city": "New Delhi",
@@ -1360,7 +1360,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 99,
+      "sl": 3,
       "portal": 3,
       "name": "Ayushman Hospital",
       "city": "New Delhi",
@@ -1369,7 +1369,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 100,
+      "sl": 4,
       "portal": 4,
       "name": "B L Kapur Hospital",
       "city": "New Delhi",
@@ -1378,7 +1378,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 101,
+      "sl": 5,
       "portal": 5,
       "name": "Batra Hospital",
       "city": "New Delhi",
@@ -1387,7 +1387,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 102,
+      "sl": 6,
       "portal": 6,
       "name": "Dharamshila Cancer Hospital",
       "city": "New Delhi",
@@ -1396,7 +1396,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 103,
+      "sl": 7,
       "portal": 7,
       "name": "Fortis Escorts Heart Hospital",
       "city": "New Delhi",
@@ -1405,7 +1405,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 104,
+      "sl": 8,
       "portal": 8,
       "name": "Fortis Hospital",
       "city": "New Delhi",
@@ -1414,7 +1414,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 105,
+      "sl": 9,
       "portal": 9,
       "name": "Manipal Hospital",
       "city": "New Delhi",
@@ -1423,7 +1423,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 106,
+      "sl": 10,
       "portal": 10,
       "name": "Holy Family Hospital",
       "city": "New Delhi",
@@ -1432,7 +1432,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 107,
+      "sl": 11,
       "portal": 11,
       "name": "Max Balaji Hospital",
       "city": "New Delhi",
@@ -1441,7 +1441,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 108,
+      "sl": 12,
       "portal": 13,
       "name": "Max Super Specialty Hospital Saket- East",
       "city": "New Delhi",
@@ -1450,7 +1450,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 109,
+      "sl": 13,
       "portal": 14,
       "name": "Max Super Specialty Hospital Saket- West",
       "city": "New Delhi",
@@ -1459,7 +1459,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 110,
+      "sl": 14,
       "portal": 15,
       "name": "Max Smart Super Specialty",
       "city": "New Delhi",
@@ -1468,7 +1468,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 111,
+      "sl": 15,
       "portal": 16,
       "name": "Mool Chand Hospital",
       "city": "New Delhi",
@@ -1477,7 +1477,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 112,
+      "sl": 16,
       "portal": 17,
       "name": "Pushpawati Singhania Institute",
       "city": "New Delhi",
@@ -1486,7 +1486,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 113,
+      "sl": 17,
       "portal": 18,
       "name": "Rajan Dhall-Fortis Hospital",
       "city": "New Delhi",
@@ -1495,7 +1495,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 114,
+      "sl": 18,
       "portal": 19,
       "name": "Shroff Eye Centre",
       "city": "New Delhi",
@@ -1504,7 +1504,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 115,
+      "sl": 19,
       "portal": 20,
       "name": "Sir Ganga Ram Hospital",
       "city": "New Delhi",
@@ -1513,7 +1513,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 116,
+      "sl": 20,
       "portal": 21,
       "name": "Sita Ram Bhartia Hospital",
       "city": "New Delhi",
@@ -1522,7 +1522,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 117,
+      "sl": 21,
       "portal": 22,
       "name": "Venkateshwar Hospital",
       "city": "New Delhi",
@@ -1531,7 +1531,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 118,
+      "sl": 22,
       "portal": 37,
       "name": "M/S Centre for Sight",
       "city": "New Delhi",
@@ -1540,7 +1540,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 119,
+      "sl": 23,
       "portal": 40,
       "name": "Kailash Deepak Hospital",
       "city": "New Delhi",
@@ -1549,7 +1549,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 120,
+      "sl": 24,
       "portal": 42,
       "name": "Max, Dwarka",
       "city": "New Delhi",
@@ -1558,7 +1558,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 121,
+      "sl": 25,
       "portal": 44,
       "name": "Rajiv Gandhi Cancer Institute and Research Centre",
       "city": "New Delhi",
@@ -1567,7 +1567,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 122,
+      "sl": 26,
       "portal": 45,
       "name": "Rajiv Gandhi Cancer Institute and Research Centre",
       "city": "New Delhi",
@@ -1576,7 +1576,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 123,
+      "sl": 1,
       "portal": 30,
       "name": "Apollo Hospital",
       "city": "Noida",
@@ -1585,7 +1585,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 124,
+      "sl": 2,
       "portal": 31,
       "name": "Fortis Hospital",
       "city": "Noida",
@@ -1594,7 +1594,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 125,
+      "sl": 3,
       "portal": 32,
       "name": "Kailash Hospital",
       "city": "Noida",
@@ -1603,7 +1603,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 126,
+      "sl": 4,
       "portal": 39,
       "name": "Kailash Hospital & Neuro Institute",
       "city": "Noida",
@@ -1612,7 +1612,7 @@ const COMPENDIUM_DATA = {
       "region": "CC"
     },
     {
-      "sl": 127,
+      "sl": 1,
       "portal": 152,
       "name": "Brahm Shakti Sanjivani Super Speciality Hospital",
       "city": "Bahadurgarh",
@@ -1621,7 +1621,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 128,
+      "sl": 1,
       "portal": 139,
       "name": "Max Super Specialty Hospital",
       "city": "Dehradun",
@@ -1630,7 +1630,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 129,
+      "sl": 2,
       "portal": 142,
       "name": "Synergy Institute of Medical Science",
       "city": "Dehradun",
@@ -1639,7 +1639,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 130,
+      "sl": 1,
       "portal": 127,
       "name": "Asian Institute of Medical Sciences",
       "city": "Faridabad",
@@ -1648,7 +1648,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 131,
+      "sl": 2,
       "portal": 128,
       "name": "Metro Heart Institute",
       "city": "Faridabad",
@@ -1657,7 +1657,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 132,
+      "sl": 3,
       "portal": 129,
       "name": "Sarvodaya Hospital",
       "city": "Faridabad",
@@ -1666,7 +1666,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 133,
+      "sl": 4,
       "portal": 130,
       "name": "Qrg Medicare Limited (Qrg Health City Hospital)",
       "city": "Faridabad",
@@ -1675,7 +1675,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 134,
+      "sl": 5,
       "portal": 155,
       "name": "Accord Superspeciality Hospital",
       "city": "Faridabad",
@@ -1684,7 +1684,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 135,
+      "sl": 6,
       "portal": 156,
       "name": "Amrita Hospital",
       "city": "Faridabad",
@@ -1693,7 +1693,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 136,
+      "sl": 7,
       "portal": 161,
       "name": "Yatharth Super Specialty Hospital",
       "city": "Faridabad",
@@ -1702,7 +1702,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 137,
+      "sl": 1,
       "portal": 143,
       "name": "Yashoda Super Specialty Hospitals",
       "city": "Ghaziabad",
@@ -1711,7 +1711,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 138,
+      "sl": 1,
       "portal": 126,
       "name": "Yatharth Wellness",
       "city": "Greater Noida",
@@ -1720,7 +1720,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 139,
+      "sl": 2,
       "portal": 146,
       "name": "Yatharth Super Specialty Hospital",
       "city": "Greater Noida",
@@ -1729,7 +1729,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 140,
+      "sl": 1,
       "portal": 148,
       "name": "Cygnus Superspeciality Hospital",
       "city": "Kurukshetra",
@@ -1738,7 +1738,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 141,
+      "sl": 1,
       "portal": 141,
       "name": "Jaswant Rai Spatiality Hospital",
       "city": "Meerut",
@@ -1747,7 +1747,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 142,
+      "sl": 2,
       "portal": 147,
       "name": "Kailashi Super Speciality Hospital",
       "city": "Meerut",
@@ -1756,7 +1756,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 143,
+      "sl": 1,
       "portal": 124,
       "name": "Venu Eye Institute",
       "city": "New Delhi",
@@ -1765,7 +1765,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 144,
+      "sl": 2,
       "portal": 160,
       "name": "Indian Spinal Injuries Centre",
       "city": "New Delhi",
@@ -1774,7 +1774,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 145,
+      "sl": 1,
       "portal": 125,
       "name": "Icare Eye Hospitals & Pg Institute",
       "city": "Noida",
@@ -1783,7 +1783,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 146,
+      "sl": 2,
       "portal": 145,
       "name": "Yatharth Wellness, Super Specialty Hospital & Heart Centre",
       "city": "Noida",
@@ -1792,7 +1792,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 147,
+      "sl": 3,
       "portal": 169,
       "name": "Medanta Hospital, Noida",
       "city": "Noida",
@@ -1801,7 +1801,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 148,
+      "sl": 1,
       "portal": 140,
       "name": "Medigram, the Super Specialty Hospital",
       "city": "Saharanpur",
@@ -1810,7 +1810,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-I"
     },
     {
-      "sl": 149,
+      "sl": 1,
       "portal": 185,
       "name": "Fortis Escorts Hospital",
       "city": "Amritsar",
@@ -1819,7 +1819,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 150,
+      "sl": 2,
       "portal": 203,
       "name": "M/S Fortis Hospital (an Undertaking of International Hospital Limited)",
       "city": "Amritsar",
@@ -1828,7 +1828,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 151,
+      "sl": 1,
       "portal": 192,
       "name": "Sadbhavna Hospital",
       "city": "Fatehabad",
@@ -1837,7 +1837,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 152,
+      "sl": 1,
       "portal": 179,
       "name": "Sacred Heart Hospital",
       "city": "Jalandhar",
@@ -1846,7 +1846,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 153,
+      "sl": 2,
       "portal": 180,
       "name": "Tagore Hospital & Heart Care Centre (P) Limited",
       "city": "Jalandhar",
@@ -1855,7 +1855,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 154,
+      "sl": 3,
       "portal": 181,
       "name": "Capitol Hospital",
       "city": "Jalandhar",
@@ -1864,7 +1864,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 155,
+      "sl": 4,
       "portal": 182,
       "name": "Patel Hospital",
       "city": "Jalandhar",
@@ -1873,7 +1873,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 156,
+      "sl": 5,
       "portal": 183,
       "name": "Akal Eye Hospital",
       "city": "Jalandhar",
@@ -1882,7 +1882,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 157,
+      "sl": 6,
       "portal": 189,
       "name": "Nhs Hospital (a Unit of Nasa Brain and Spine Center)",
       "city": "Jalandhar",
@@ -1891,7 +1891,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 158,
+      "sl": 1,
       "portal": 170,
       "name": "Bee Enn General Hospital",
       "city": "Jammu",
@@ -1900,7 +1900,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 159,
+      "sl": 2,
       "portal": 171,
       "name": "Care and Cure Nursing Home",
       "city": "Jammu",
@@ -1909,7 +1909,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 160,
+      "sl": 3,
       "portal": 173,
       "name": "Sddm Hospital",
       "city": "Jammu",
@@ -1918,7 +1918,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 161,
+      "sl": 4,
       "portal": 174,
       "name": "Medicare Nursing Home",
       "city": "Jammu",
@@ -1927,7 +1927,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 162,
+      "sl": 5,
       "portal": 175,
       "name": "Acharya Shree Chander Medical College & Hospital (Ascoms)",
       "city": "Jammu",
@@ -1936,7 +1936,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 163,
+      "sl": 6,
       "portal": 176,
       "name": "Jk Medicity",
       "city": "Jammu",
@@ -1945,7 +1945,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 164,
+      "sl": 7,
       "portal": 191,
       "name": "Ankur Maitrika Hospital Pvt. Ltd.",
       "city": "Jammu",
@@ -1954,7 +1954,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 165,
+      "sl": 8,
       "portal": 202,
       "name": "Ujala Cgynus Jk Medicity Hospital",
       "city": "Jammu",
@@ -1963,7 +1963,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 166,
+      "sl": 1,
       "portal": 194,
       "name": "M/S Shah Hospital",
       "city": "Kaithal",
@@ -1972,7 +1972,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 167,
+      "sl": 2,
       "portal": 195,
       "name": "Cygnus Super Speciality Hospital",
       "city": "Kaithal",
@@ -1981,7 +1981,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 168,
+      "sl": 1,
       "portal": 172,
       "name": "Shri Mata Viashno Devi Naryana Superspeciality Hospital",
       "city": "Katra",
@@ -1990,7 +1990,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 169,
+      "sl": 1,
       "portal": 186,
       "name": "Dayanand Medical College & Hospital (Dmc)",
       "city": "Ludhiana",
@@ -1999,7 +1999,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 170,
+      "sl": 2,
       "portal": 188,
       "name": "Satguru Pratap Singh Hospital",
       "city": "Ludhiana",
@@ -2008,7 +2008,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 171,
+      "sl": 3,
       "portal": 198,
       "name": "Dmch Cancer Care Centre",
       "city": "Ludhiana",
@@ -2017,7 +2017,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 172,
+      "sl": 4,
       "portal": 199,
       "name": "Hero Dmc Heart Institute",
       "city": "Ludhiana",
@@ -2026,7 +2026,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 173,
+      "sl": 1,
       "portal": 178,
       "name": "Max Super Speciality Hopsital",
       "city": "Mohali",
@@ -2035,7 +2035,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 174,
+      "sl": 2,
       "portal": 193,
       "name": "Tata Memorial Center, Homi Bhabha Cancer Hospital and Research Centre, Mohali",
       "city": "Mohali",
@@ -2044,7 +2044,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 175,
+      "sl": 3,
       "portal": 197,
       "name": "Livasa Hospital, a Unit of Ivy Health and Life Sciences Private Limited",
       "city": "Mohali",
@@ -2053,7 +2053,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 176,
+      "sl": 1,
       "portal": 187,
       "name": "Alchemist Hospital",
       "city": "Panchkula",
@@ -2062,7 +2062,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 177,
+      "sl": 2,
       "portal": 190,
       "name": "Paras Healthcare Private Ltd",
       "city": "Panchkula",
@@ -2071,7 +2071,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 178,
+      "sl": 1,
       "portal": 201,
       "name": "M/S Chauhan Multispeciality & Trauma Centre",
       "city": "Pathankot",
@@ -2080,7 +2080,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 179,
+      "sl": 1,
       "portal": 184,
       "name": "Manipal Hospital",
       "city": "Patiala",
@@ -2089,7 +2089,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 180,
+      "sl": 1,
       "portal": 200,
       "name": "Shri Mata Vaishno Devi Narayana Hospital(an Undertaking of Shri Mata Vaishno Devi Charitable Society",
       "city": "Reasi",
@@ -2098,7 +2098,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 181,
+      "sl": 1,
       "portal": 177,
       "name": "Fortis Super Speciality Hospital",
       "city": "Sas Nagar",
@@ -2107,7 +2107,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 182,
+      "sl": 1,
       "portal": 196,
       "name": "M/S Paras Hospital, Srinagar",
       "city": "Srinagar",
@@ -2116,7 +2116,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-II"
     },
     {
-      "sl": 183,
+      "sl": 1,
       "portal": 208,
       "name": "Upadhyay Hospital",
       "city": "Agra",
@@ -2125,7 +2125,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 184,
+      "sl": 2,
       "portal": 209,
       "name": "Pushpanjali Hospital & Research",
       "city": "Agra",
@@ -2134,7 +2134,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 185,
+      "sl": 3,
       "portal": 224,
       "name": "K P Institute of Medical Science",
       "city": "Agra",
@@ -2143,7 +2143,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 186,
+      "sl": 1,
       "portal": 210,
       "name": "Gangasheel Hospital",
       "city": "Bareilly",
@@ -2152,7 +2152,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 187,
+      "sl": 1,
       "portal": 228,
       "name": "Fatima Hospital",
       "city": "Gorakhpur",
@@ -2161,7 +2161,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 188,
+      "sl": 1,
       "portal": 222,
       "name": "Brijlal Hospital & Research Center Pvt. Ltd.",
       "city": "Haldwani",
@@ -2170,7 +2170,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 189,
+      "sl": 1,
       "portal": 217,
       "name": "Kailash Hospital",
       "city": "Jewar",
@@ -2179,7 +2179,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 190,
+      "sl": 1,
       "portal": 211,
       "name": "Kanpur Medical Center",
       "city": "Kanpur",
@@ -2188,7 +2188,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 191,
+      "sl": 2,
       "portal": 212,
       "name": "Regency Hospital",
       "city": "Kanpur",
@@ -2197,7 +2197,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 192,
+      "sl": 1,
       "portal": 204,
       "name": "Shekhar Hospital (P) Ltd",
       "city": "Lucknow",
@@ -2206,7 +2206,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 193,
+      "sl": 2,
       "portal": 205,
       "name": "Prakash Netra Kendra Eye Hospital",
       "city": "Lucknow",
@@ -2215,7 +2215,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 194,
+      "sl": 3,
       "portal": 206,
       "name": "Apollo Hospitals",
       "city": "Lucknow",
@@ -2224,7 +2224,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 195,
+      "sl": 4,
       "portal": 213,
       "name": "Chandan Hospital",
       "city": "Lucknow",
@@ -2233,7 +2233,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 196,
+      "sl": 5,
       "portal": 214,
       "name": "Medanta Hospital",
       "city": "Lucknow",
@@ -2242,7 +2242,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 197,
+      "sl": 6,
       "portal": 216,
       "name": "Regency Hospital",
       "city": "Lucknow",
@@ -2251,7 +2251,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 198,
+      "sl": 7,
       "portal": 220,
       "name": "Max Hospital",
       "city": "Lucknow",
@@ -2260,7 +2260,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 199,
+      "sl": 8,
       "portal": 221,
       "name": "Dr. Kns Memorial Hospital",
       "city": "Lucknow",
@@ -2269,7 +2269,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 200,
+      "sl": 9,
       "portal": 230,
       "name": "Health City Vistaar Super Speciality Hospital & Trauma Centre",
       "city": "Lucknow",
@@ -2278,7 +2278,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 201,
+      "sl": 1,
       "portal": 215,
       "name": "Nazareth Hospital",
       "city": "Prayagraj",
@@ -2287,7 +2287,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 202,
+      "sl": 2,
       "portal": 229,
       "name": "Shanti Vilas Hospital",
       "city": "Prayagraj",
@@ -2296,7 +2296,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 203,
+      "sl": 1,
       "portal": 207,
       "name": "Heritage Hospital",
       "city": "Varanasi",
@@ -2305,7 +2305,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 204,
+      "sl": 2,
       "portal": 218,
       "name": "Infinity Care Hospital (a Unit of Saraswati Trust)",
       "city": "Varanasi",
@@ -2314,7 +2314,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 205,
+      "sl": 3,
       "portal": 219,
       "name": "Apex Hospital",
       "city": "Varanasi",
@@ -2323,7 +2323,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 206,
+      "sl": 4,
       "portal": 223,
       "name": "Sas (Society of Advanced Studies) Hospital",
       "city": "Varanasi",
@@ -2332,7 +2332,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 207,
+      "sl": 5,
       "portal": 225,
       "name": "Heritage Institute of Medical Science (a Unit of Heritage Hospitals Ltd.)",
       "city": "Varanasi",
@@ -2341,7 +2341,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 208,
+      "sl": 6,
       "portal": 226,
       "name": "Surya Super Speciality Hospital ( a Unit of G V Meditech Pvt Ltd)",
       "city": "Varanasi",
@@ -2350,7 +2350,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 209,
+      "sl": 7,
       "portal": 227,
       "name": "Surya Heart Centre ( a Unit of G V Meditech Pvt Ltd)",
       "city": "Varanasi",
@@ -2359,7 +2359,7 @@ const COMPENDIUM_DATA = {
       "region": "NR-III"
     },
     {
-      "sl": 210,
+      "sl": 1,
       "portal": 136,
       "name": "Gheesibai Memorial Mittal Hospital & Research Centre",
       "city": "Ajmer",
@@ -2368,7 +2368,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 211,
+      "sl": 2,
       "portal": 153,
       "name": "Kshetrapal Hospital",
       "city": "Ajmer",
@@ -2377,7 +2377,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 212,
+      "sl": 1,
       "portal": 154,
       "name": "Kothari Medical & Research Institute",
       "city": "Bikaner",
@@ -2386,7 +2386,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 213,
+      "sl": 1,
       "portal": 158,
       "name": "M P Birla Hospital",
       "city": "Chittorgarh",
@@ -2395,7 +2395,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 214,
+      "sl": 1,
       "portal": 131,
       "name": "Fortis Escorts Hospital",
       "city": "Jaipur",
@@ -2404,7 +2404,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 215,
+      "sl": 2,
       "portal": 132,
       "name": "Narayana Multispeciality Hospital",
       "city": "Jaipur",
@@ -2413,7 +2413,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 216,
+      "sl": 3,
       "portal": 133,
       "name": "Ck Birla Rukmani Hospital",
       "city": "Jaipur",
@@ -2422,7 +2422,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 217,
+      "sl": 4,
       "portal": 149,
       "name": "Eternal Hospital",
       "city": "Jaipur",
@@ -2431,7 +2431,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 218,
+      "sl": 5,
       "portal": 150,
       "name": "Manipal Hospital",
       "city": "Jaipur",
@@ -2440,7 +2440,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 219,
+      "sl": 6,
       "portal": 151,
       "name": "Santokba Durlabji Memorial Hospital",
       "city": "Jaipur",
@@ -2449,7 +2449,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 220,
+      "sl": 7,
       "portal": 157,
       "name": "Amar Medical and Research Centre (Amrc)",
       "city": "Jaipur",
@@ -2458,7 +2458,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 221,
+      "sl": 8,
       "portal": 162,
       "name": "Shalby Multi-Specialty Hospital",
       "city": "Jaipur",
@@ -2467,7 +2467,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 222,
+      "sl": 9,
       "portal": 163,
       "name": "Anand Hospital & Eye Centre",
       "city": "Jaipur",
@@ -2476,7 +2476,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 223,
+      "sl": 10,
       "portal": 164,
       "name": "Hcg Hospital (a Unit of Health Care Global Enterprises Limited)",
       "city": "Jaipur",
@@ -2485,7 +2485,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 224,
+      "sl": 11,
       "portal": 165,
       "name": "Mahatma Gandhi Medical College & Hospital",
       "city": "Jaipur",
@@ -2494,7 +2494,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 225,
+      "sl": 12,
       "portal": 167,
       "name": "Apex Hospitals Pvt. Ltd.",
       "city": "Jaipur",
@@ -2503,7 +2503,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 226,
+      "sl": 13,
       "portal": 168,
       "name": "Bhagwan Mahaveer Cancer Hospital & Research Center",
       "city": "Jaipur",
@@ -2512,7 +2512,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 227,
+      "sl": 1,
       "portal": 166,
       "name": "Priya Hospital & Research Center",
       "city": "Jaisalmer",
@@ -2521,7 +2521,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 228,
+      "sl": 1,
       "portal": 134,
       "name": "Goyal Hospital & Research Centre",
       "city": "Jodhpur",
@@ -2530,7 +2530,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 229,
+      "sl": 1,
       "portal": 137,
       "name": "Kota Heart Institute and General Hospital",
       "city": "Kota",
@@ -2539,7 +2539,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 230,
+      "sl": 2,
       "portal": 138,
       "name": "Sudha Hospital & Medical Research Centre",
       "city": "Kota",
@@ -2548,7 +2548,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 231,
+      "sl": 1,
       "portal": 159,
       "name": "S.B. Mittal Memorial Heart & Critical Care Hospital",
       "city": "Sikar",
@@ -2557,7 +2557,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 232,
+      "sl": 1,
       "portal": 135,
       "name": "Gbh American Hospital",
       "city": "Udaipur",
@@ -2566,7 +2566,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 233,
+      "sl": 2,
       "portal": 144,
       "name": "Geetanjali Medical College & Hospital",
       "city": "Udaipur",
@@ -2575,7 +2575,7 @@ const COMPENDIUM_DATA = {
       "region": "NWR"
     },
     {
-      "sl": 234,
+      "sl": 1,
       "portal": 59,
       "name": "Glocal Hospital Bhagalpur",
       "city": "Bhagalpur",
@@ -2584,7 +2584,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-I"
     },
     {
-      "sl": 235,
+      "sl": 1,
       "portal": 51,
       "name": "Brahmananda Narayana Multispeciality Hospital",
       "city": "Jamshedpur",
@@ -2593,7 +2593,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-I"
     },
     {
-      "sl": 236,
+      "sl": 1,
       "portal": 47,
       "name": "Paras Hmri Hospital",
       "city": "Patna",
@@ -2602,7 +2602,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-I"
     },
     {
-      "sl": 237,
+      "sl": 2,
       "portal": 48,
       "name": "Sri Sai Hospital",
       "city": "Patna",
@@ -2611,7 +2611,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-I"
     },
     {
-      "sl": 238,
+      "sl": 3,
       "portal": 52,
       "name": "Jyoti Punj Hospital",
       "city": "Patna",
@@ -2620,7 +2620,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-I"
     },
     {
-      "sl": 239,
+      "sl": 4,
       "portal": 53,
       "name": "Mediversal Multi Super Speciality Hospital",
       "city": "Patna",
@@ -2629,7 +2629,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-I"
     },
     {
-      "sl": 240,
+      "sl": 5,
       "portal": 54,
       "name": "Jay Prabha Medanta Super-Specialty Hospital",
       "city": "Patna",
@@ -2638,7 +2638,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-I"
     },
     {
-      "sl": 241,
+      "sl": 6,
       "portal": 55,
       "name": "Sarvadrishti Eye Hospital",
       "city": "Patna",
@@ -2647,7 +2647,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-I"
     },
     {
-      "sl": 242,
+      "sl": 7,
       "portal": 58,
       "name": "Ford Hospital and Research Centre Pvt. Ltd.",
       "city": "Patna",
@@ -2656,7 +2656,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-I"
     },
     {
-      "sl": 243,
+      "sl": 1,
       "portal": 49,
       "name": "Santevita Hospital",
       "city": "Ranchi",
@@ -2665,7 +2665,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-I"
     },
     {
-      "sl": 244,
+      "sl": 2,
       "portal": 50,
       "name": "Bhagwan Mahavir Manipal Hospital(a Unit of Manipal Hospitals Eastern India Pvt Ltd)",
       "city": "Ranchi",
@@ -2674,7 +2674,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-I"
     },
     {
-      "sl": 245,
+      "sl": 3,
       "portal": 56,
       "name": "Global Health Limited Medanta the Medicity",
       "city": "Ranchi",
@@ -2683,7 +2683,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-I"
     },
     {
-      "sl": 246,
+      "sl": 4,
       "portal": 57,
       "name": "Paras Hec Hospitals, Ranchi",
       "city": "Ranchi",
@@ -2692,7 +2692,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-I"
     },
     {
-      "sl": 247,
+      "sl": 1,
       "portal": 101,
       "name": "Vikash Multi Speciality Hospital (a Unit of Vikash Residential Institutions Pvt. Ltd.)",
       "city": "Bargarh",
@@ -2701,7 +2701,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 248,
+      "sl": 1,
       "portal": 77,
       "name": "Apollo Hospital",
       "city": "Bhubaneswar",
@@ -2710,7 +2710,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 249,
+      "sl": 2,
       "portal": 78,
       "name": "Kalinga Hospital",
       "city": "Bhubaneswar",
@@ -2719,7 +2719,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 250,
+      "sl": 3,
       "portal": 79,
       "name": "Care Hospital",
       "city": "Bhubaneswar",
@@ -2728,7 +2728,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 251,
+      "sl": 4,
       "portal": 80,
       "name": "L V Prasad Eye Institute",
       "city": "Bhubaneswar",
@@ -2737,7 +2737,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 252,
+      "sl": 5,
       "portal": 82,
       "name": "Utkal Health Care Private Limited",
       "city": "Bhubaneswar",
@@ -2746,7 +2746,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 253,
+      "sl": 6,
       "portal": 94,
       "name": "Sum Ultimate Medicare",
       "city": "Bhubaneswar",
@@ -2755,7 +2755,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 254,
+      "sl": 7,
       "portal": 100,
       "name": "M/S Manipal Hospitals (East) India Private Limited",
       "city": "Bhubaneswar",
@@ -2764,7 +2764,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 255,
+      "sl": 1,
       "portal": 76,
       "name": "The Mission Hospital",
       "city": "Durgapur",
@@ -2773,7 +2773,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 256,
+      "sl": 2,
       "portal": 93,
       "name": "The Health World Hospital",
       "city": "Durgapur",
@@ -2782,7 +2782,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 257,
+      "sl": 1,
       "portal": 86,
       "name": "Susrut Eye Foundation & Research Centre (Salkia)",
       "city": "Howrah",
@@ -2791,7 +2791,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 258,
+      "sl": 2,
       "portal": 97,
       "name": "Narayana Multispeciality Hospital (Nmh- Hawrah )",
       "city": "Howrah",
@@ -2800,7 +2800,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 259,
+      "sl": 3,
       "portal": 99,
       "name": "Narayana Super Specility Hospital (Nsh- Hawrah)",
       "city": "Howrah",
@@ -2809,7 +2809,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 260,
+      "sl": 1,
       "portal": 60,
       "name": "Peerless Hospital",
       "city": "Kolkata",
@@ -2818,7 +2818,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 261,
+      "sl": 2,
       "portal": 61,
       "name": "Apollo Hospital",
       "city": "Kolkata",
@@ -2827,7 +2827,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 262,
+      "sl": 3,
       "portal": 62,
       "name": "C.M.R.I. Hospital",
       "city": "Kolkata",
@@ -2836,7 +2836,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 263,
+      "sl": 4,
       "portal": 63,
       "name": "Manipal Hospital Broadway (Salt Lake)",
       "city": "Kolkata",
@@ -2845,7 +2845,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 264,
+      "sl": 5,
       "portal": 64,
       "name": "Manipal Hospital (Mukundpur), Kolkata",
       "city": "Kolkata",
@@ -2854,7 +2854,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 265,
+      "sl": 6,
       "portal": 65,
       "name": "Manipal Hospital (Dhakuria), Kolkata",
       "city": "Kolkata",
@@ -2863,7 +2863,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 266,
+      "sl": 7,
       "portal": 66,
       "name": "Manipal Hospital",
       "city": "Kolkata",
@@ -2872,7 +2872,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 267,
+      "sl": 8,
       "portal": 67,
       "name": "B M Birla Hearth Research Center",
       "city": "Kolkata",
@@ -2881,7 +2881,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 268,
+      "sl": 9,
       "portal": 68,
       "name": "Manipal Hospital (E M Bypass), Kolkata",
       "city": "Kolkata",
@@ -2890,7 +2890,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 269,
+      "sl": 10,
       "portal": 69,
       "name": "Desun Hospital & Heart Institute",
       "city": "Kolkata",
@@ -2899,7 +2899,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 270,
+      "sl": 11,
       "portal": 70,
       "name": "Kothari Medical Centre",
       "city": "Kolkata",
@@ -2908,7 +2908,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 271,
+      "sl": 12,
       "portal": 71,
       "name": "Asg Eye Hospital",
       "city": "Kolkata",
@@ -2917,7 +2917,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 272,
+      "sl": 13,
       "portal": 72,
       "name": "Woodlands Multi Speciality Hospital Ltd.",
       "city": "Kolkata",
@@ -2926,7 +2926,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 273,
+      "sl": 14,
       "portal": 83,
       "name": "Susrut Eye Foundation & Research Centre (Salt Lake)",
       "city": "Kolkata",
@@ -2935,7 +2935,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 274,
+      "sl": 15,
       "portal": 84,
       "name": "Susrut Eye Foundation & Research Centre (Kamalgazi)",
       "city": "Kolkata",
@@ -2944,7 +2944,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 275,
+      "sl": 16,
       "portal": 85,
       "name": "Susrut Eye Foundation & Research Centre (Metiabruz)",
       "city": "Kolkata",
@@ -2953,7 +2953,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 276,
+      "sl": 17,
       "portal": 88,
       "name": "Institute of Neuroscience",
       "city": "Kolkata",
@@ -2962,7 +2962,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 277,
+      "sl": 18,
       "portal": 89,
       "name": "Fortis Hospitals Limited",
       "city": "Kolkata",
@@ -2971,7 +2971,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 278,
+      "sl": 19,
       "portal": 90,
       "name": "Tata Medical Centre",
       "city": "Kolkata",
@@ -2980,7 +2980,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 279,
+      "sl": 20,
       "portal": 91,
       "name": "Sankara Nethralaya",
       "city": "Kolkata",
@@ -2989,7 +2989,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 280,
+      "sl": 21,
       "portal": 96,
       "name": "Rabindranath Tagore International Institute of Cardiac Science (Rtiics)",
       "city": "Kolkata",
@@ -2998,7 +2998,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 281,
+      "sl": 22,
       "portal": 98,
       "name": "Narayana Multispeciality Hospital (Nmh- Barasat)",
       "city": "Kolkata",
@@ -3007,7 +3007,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 282,
+      "sl": 23,
       "portal": 102,
       "name": "M/S Sankara Nethralaya",
       "city": "Kolkata",
@@ -3016,7 +3016,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 283,
+      "sl": 24,
       "portal": 105,
       "name": "Ruby General Hospital Ltd",
       "city": "Kolkata",
@@ -3025,7 +3025,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 284,
+      "sl": 1,
       "portal": 103,
       "name": "M/S Deblakshmi Healthcare Private Limited",
       "city": "Malda",
@@ -3034,7 +3034,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 285,
+      "sl": 1,
       "portal": 87,
       "name": "Susrut Eye Foundation & Research Centre (Berhampore)",
       "city": "Murshidabad",
@@ -3043,7 +3043,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 286,
+      "sl": 1,
       "portal": 81,
       "name": "Jaiprakash Hospital and Research Center Pvt. Ltd.",
       "city": "Rourkela",
@@ -3052,7 +3052,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 287,
+      "sl": 1,
       "portal": 73,
       "name": "Desun Hospital",
       "city": "Siliguri",
@@ -3061,7 +3061,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 288,
+      "sl": 2,
       "portal": 74,
       "name": "Neotia Getwel Helthcare",
       "city": "Siliguri",
@@ -3070,7 +3070,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 289,
+      "sl": 3,
       "portal": 75,
       "name": "Medica North Bengal Clinic",
       "city": "Siliguri",
@@ -3079,7 +3079,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 290,
+      "sl": 4,
       "portal": 92,
       "name": "Anandaloke Multi Speciality Hospital",
       "city": "Siliguri",
@@ -3088,7 +3088,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 291,
+      "sl": 5,
       "portal": 95,
       "name": "Asg Hospital Private Limited",
       "city": "Siliguri",
@@ -3097,7 +3097,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 292,
+      "sl": 1,
       "portal": 104,
       "name": "M/S Central Referral Hospital(Crh)",
       "city": "Gangtok",
@@ -3106,7 +3106,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     },
     {
-      "sl": 293,
+      "sl": 1,
       "portal": 119,
       "name": "Jeevan Jyoti Health Care and Research Centre",
       "city": "Cachar",
@@ -3115,7 +3115,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 294,
+      "sl": 1,
       "portal": 116,
       "name": "Aditya Diagnostics & Hospitals",
       "city": "Dibrugarh",
@@ -3124,7 +3124,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 295,
+      "sl": 2,
       "portal": 122,
       "name": "M/S Aditya Superspeciality Hospital",
       "city": "Dibrugarh",
@@ -3133,7 +3133,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 296,
+      "sl": 1,
       "portal": 107,
       "name": "Apollo Hospital",
       "city": "Guwahati",
@@ -3142,7 +3142,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 297,
+      "sl": 2,
       "portal": 108,
       "name": "Down Town Hospital",
       "city": "Guwahati",
@@ -3151,7 +3151,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 298,
+      "sl": 3,
       "portal": 109,
       "name": "GNRC Hospital",
       "city": "Guwahati",
@@ -3160,7 +3160,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 299,
+      "sl": 4,
       "portal": 110,
       "name": "Sri Sankardeva Nethralaya Hospital",
       "city": "Guwahati",
@@ -3169,7 +3169,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 300,
+      "sl": 5,
       "portal": 114,
       "name": "Health City Hospital",
       "city": "Guwahati",
@@ -3178,7 +3178,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 301,
+      "sl": 6,
       "portal": 117,
       "name": "Apollo Excelcare Hospital",
       "city": "Guwahati",
@@ -3187,7 +3187,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 302,
+      "sl": 1,
       "portal": 112,
       "name": "Shija Hospital & Research Institute",
       "city": "Imphal",
@@ -3196,7 +3196,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 303,
+      "sl": 1,
       "portal": 123,
       "name": "G.D. Hospital & Research Centre",
       "city": "Nagaon",
@@ -3205,7 +3205,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 304,
+      "sl": 1,
       "portal": 121,
       "name": "M/S Niba Hospital",
       "city": "Naharlugun",
@@ -3214,7 +3214,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 305,
+      "sl": 1,
       "portal": 120,
       "name": "Lower Assam Hospital & Research Centre",
       "city": "North Bongaigaon",
@@ -3223,7 +3223,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 306,
+      "sl": 1,
       "portal": 106,
       "name": "Woodland Hospital",
       "city": "Shillong",
@@ -3232,7 +3232,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 307,
+      "sl": 1,
       "portal": 111,
       "name": "Valley Hospital & Research Centre",
       "city": "Silchar",
@@ -3241,7 +3241,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 308,
+      "sl": 2,
       "portal": 113,
       "name": "Green Heals Hospital Pvt Ltd.",
       "city": "Silchar",
@@ -3250,7 +3250,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 309,
+      "sl": 1,
       "portal": 118,
       "name": "Tezpur Institute of Medical Sciences Pvt Ltd",
       "city": "Tezpur",
@@ -3259,7 +3259,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 310,
+      "sl": 1,
       "portal": 115,
       "name": "Ils Hospital",
       "city": "Tripura West",
@@ -3268,7 +3268,7 @@ const COMPENDIUM_DATA = {
       "region": "NER"
     },
     {
-      "sl": 311,
+      "sl": 1,
       "portal": 407,
       "name": "Medicover Hospital",
       "city": "Aurangabad",
@@ -3277,7 +3277,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 312,
+      "sl": 2,
       "portal": 408,
       "name": "United Ciigma Institute of Medical Science Pvt. Ltd",
       "city": "Aurangabad",
@@ -3286,7 +3286,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 313,
+      "sl": 1,
       "portal": 388,
       "name": "Chandulal Chandrakar Memorial Hospital",
       "city": "Bhilai",
@@ -3295,7 +3295,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 314,
+      "sl": 2,
       "portal": 406,
       "name": "Hi-Tek Super Speciality Hospital",
       "city": "Bhilai",
@@ -3304,7 +3304,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 315,
+      "sl": 3,
       "portal": 409,
       "name": "Aarogyam Superspeciality Hospital",
       "city": "Bhilai",
@@ -3313,7 +3313,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 316,
+      "sl": 1,
       "portal": 402,
       "name": "Apollo Hospitals",
       "city": "Bilaspur",
@@ -3322,7 +3322,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 317,
+      "sl": 2,
       "portal": 411,
       "name": "Elite (Arpa) Medcity Hospital & Research Institute",
       "city": "Bilaspur",
@@ -3331,7 +3331,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 318,
+      "sl": 1,
       "portal": 384,
       "name": "Forties Hospital",
       "city": "Kalyan",
@@ -3340,7 +3340,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 319,
+      "sl": 1,
       "portal": 382,
       "name": "Aster Aadhar Hospital (Prerana Hospital Ltd)",
       "city": "Kolhapur",
@@ -3349,7 +3349,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 320,
+      "sl": 1,
       "portal": 405,
       "name": "Shetye Vision Hospital Pvt. Ltd.",
       "city": "Mapusa",
@@ -3358,7 +3358,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 321,
+      "sl": 1,
       "portal": 392,
       "name": "Dr. Balabhai Nanavati Hospital",
       "city": "Mumbai",
@@ -3367,7 +3367,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 322,
+      "sl": 2,
       "portal": 393,
       "name": "Holy Spirit Hospital",
       "city": "Mumbai",
@@ -3376,7 +3376,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 323,
+      "sl": 3,
       "portal": 394,
       "name": "P.D. Hinduja Hospital",
       "city": "Mumbai",
@@ -3385,7 +3385,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 324,
+      "sl": 4,
       "portal": 395,
       "name": "L.H. Hiranandani, Hospital",
       "city": "Mumbai",
@@ -3394,7 +3394,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 325,
+      "sl": 5,
       "portal": 396,
       "name": "Fortis Hospital Ltd",
       "city": "Mumbai",
@@ -3403,7 +3403,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 326,
+      "sl": 6,
       "portal": 397,
       "name": "Kokilaben Dhirubhai Ambani Hospital",
       "city": "Mumbai",
@@ -3412,7 +3412,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 327,
+      "sl": 7,
       "portal": 398,
       "name": "Tata Memorial, Hospital",
       "city": "Mumbai",
@@ -3421,7 +3421,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 328,
+      "sl": 8,
       "portal": 399,
       "name": "Jaslok Hospital and Research Centre",
       "city": "Mumbai",
@@ -3430,7 +3430,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 329,
+      "sl": 9,
       "portal": 414,
       "name": "Sir H. N. Reliance Foundation Hospital and Research Centre",
       "city": "Mumbai",
@@ -3439,7 +3439,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 330,
+      "sl": 1,
       "portal": 380,
       "name": "Orange City Hospital & Research Institute",
       "city": "Nagpur",
@@ -3448,7 +3448,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 331,
+      "sl": 2,
       "portal": 381,
       "name": "Evista Eye Care Centre",
       "city": "Nagpur",
@@ -3457,7 +3457,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 332,
+      "sl": 3,
       "portal": 403,
       "name": "Kims Kingsway Hospital (a Unit of Spanv Medisearch Lifesciences Pvt. Ltd.)",
       "city": "Nagpur",
@@ -3466,7 +3466,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 333,
+      "sl": 4,
       "portal": 404,
       "name": "Platina Heart Hospital",
       "city": "Nagpur",
@@ -3475,7 +3475,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 334,
+      "sl": 5,
       "portal": 412,
       "name": "Khare Dental & Implant Centre",
       "city": "Nagpur",
@@ -3484,7 +3484,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 335,
+      "sl": 6,
       "portal": 413,
       "name": "Max Super Speciality Hospital",
       "city": "Nagpur",
@@ -3493,7 +3493,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 336,
+      "sl": 7,
       "portal": 415,
       "name": "Midas Hospital, Nagpur",
       "city": "Nagpur",
@@ -3502,7 +3502,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 337,
+      "sl": 1,
       "portal": 383,
       "name": "Manipal Hospital",
       "city": "Panaji",
@@ -3511,7 +3511,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 338,
+      "sl": 1,
       "portal": 385,
       "name": "Aditya Birla Memorial Hospital",
       "city": "Pune",
@@ -3520,7 +3520,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 339,
+      "sl": 2,
       "portal": 386,
       "name": "Manipal Hospital",
       "city": "Pune",
@@ -3529,7 +3529,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 340,
+      "sl": 3,
       "portal": 387,
       "name": "Jehangir Hospital",
       "city": "Pune",
@@ -3538,7 +3538,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 341,
+      "sl": 1,
       "portal": 410,
       "name": "Lifeline Hospital",
       "city": "Raigad (Panvel)",
@@ -3547,7 +3547,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 342,
+      "sl": 1,
       "portal": 389,
       "name": "Ramkrishna Care Hospitals",
       "city": "Raipur",
@@ -3556,7 +3556,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 343,
+      "sl": 2,
       "portal": 390,
       "name": "Narayana Hrudalaya Mmi Hospital",
       "city": "Raipur",
@@ -3565,7 +3565,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 344,
+      "sl": 3,
       "portal": 391,
       "name": "Mgm Eye Institute",
       "city": "Raipur",
@@ -3574,7 +3574,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 345,
+      "sl": 1,
       "portal": 400,
       "name": "Yashodhara Super Speciality Hospital",
       "city": "Solapur",
@@ -3583,7 +3583,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 346,
+      "sl": 2,
       "portal": 401,
       "name": "Ashwini Sahakari Rugnalay",
       "city": "Solapur",
@@ -3592,7 +3592,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-I"
     },
     {
-      "sl": 347,
+      "sl": 1,
       "portal": 417,
       "name": "Apollo Hospitals",
       "city": "Ahmedabad",
@@ -3601,7 +3601,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 348,
+      "sl": 2,
       "portal": 428,
       "name": "Shalby Hospital",
       "city": "Ahmedabad",
@@ -3610,7 +3610,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 349,
+      "sl": 3,
       "portal": 429,
       "name": "Zydus Hospital",
       "city": "Ahmedabad",
@@ -3619,7 +3619,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 350,
+      "sl": 4,
       "portal": 432,
       "name": "Zydus Cancer Center",
       "city": "Ahmedabad",
@@ -3628,7 +3628,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 351,
+      "sl": 5,
       "portal": 435,
       "name": "Shalby Hospital",
       "city": "Ahmedabad",
@@ -3637,7 +3637,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 352,
+      "sl": 6,
       "portal": 442,
       "name": "Krishna Shalby Hospital, Ghuma, Ahmedabad",
       "city": "Ahmedabad",
@@ -3646,7 +3646,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 353,
+      "sl": 1,
       "portal": 423,
       "name": "Bansal Hospital",
       "city": "Bhopal",
@@ -3655,7 +3655,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 354,
+      "sl": 2,
       "portal": 433,
       "name": "Asg Hospital Pvt. Ltd.",
       "city": "Bhopal",
@@ -3664,7 +3664,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 355,
+      "sl": 3,
       "portal": 437,
       "name": "Apollo Sage Hospital U/O M/S S.R. Associates",
       "city": "Bhopal",
@@ -3673,7 +3673,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 356,
+      "sl": 1,
       "portal": 438,
       "name": "K K Patel Super Speciality Hospital",
       "city": "Bhuj",
@@ -3682,7 +3682,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 357,
+      "sl": 1,
       "portal": 426,
       "name": "Thunga Hospital",
       "city": "Boisar",
@@ -3691,7 +3691,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 358,
+      "sl": 1,
       "portal": 424,
       "name": "Medanta Super Speciality Hospital",
       "city": "Indore",
@@ -3700,7 +3700,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 359,
+      "sl": 2,
       "portal": 425,
       "name": "Bombay Hospital",
       "city": "Indore",
@@ -3709,7 +3709,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 360,
+      "sl": 3,
       "portal": 439,
       "name": "M/S Vishesh Jupiter Hospital (Jupiter Hospital Projects Private Limited)",
       "city": "Indore",
@@ -3718,7 +3718,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 361,
+      "sl": 1,
       "portal": 422,
       "name": "Jabalpur Hospital & Research Center",
       "city": "Jabalpur",
@@ -3727,7 +3727,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 362,
+      "sl": 2,
       "portal": 440,
       "name": "Baderia Metroprime Multi Speciality Hospital",
       "city": "Jabalpur",
@@ -3736,7 +3736,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 363,
+      "sl": 1,
       "portal": 427,
       "name": "Kokilaben Dhirubhai Ambani Hospital",
       "city": "Mumbai",
@@ -3745,7 +3745,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 364,
+      "sl": 2,
       "portal": 434,
       "name": "Lilavati Hospital and Research Centre",
       "city": "Mumbai",
@@ -3754,7 +3754,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 365,
+      "sl": 1,
       "portal": 416,
       "name": "Muljibhai Patel Urological Hospital",
       "city": "Nadiad",
@@ -3763,7 +3763,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 366,
+      "sl": 1,
       "portal": 441,
       "name": "Minnerva the Medicity Private Limited",
       "city": "Rewa",
@@ -3772,7 +3772,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 367,
+      "sl": 1,
       "portal": 421,
       "name": "Global Sunshine Hospital",
       "city": "Surat",
@@ -3781,7 +3781,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 368,
+      "sl": 2,
       "portal": 430,
       "name": "M/S Kiran Hospital(Multi Super-Speciality Hospital and Research Centre)",
       "city": "Surat",
@@ -3790,7 +3790,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 369,
+      "sl": 3,
       "portal": 436,
       "name": "Metas Adventist Hospital",
       "city": "Surat",
@@ -3799,7 +3799,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 370,
+      "sl": 1,
       "portal": 418,
       "name": "Global Sunshine Hospital",
       "city": "Vadodara",
@@ -3808,7 +3808,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 371,
+      "sl": 2,
       "portal": 419,
       "name": "Sterling Hospital",
       "city": "Vadodara",
@@ -3817,7 +3817,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 372,
+      "sl": 3,
       "portal": 420,
       "name": "Bhailal Amin General Hospital",
       "city": "Vadodara",
@@ -3826,7 +3826,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 373,
+      "sl": 4,
       "portal": 431,
       "name": "M/S Zydus Hospitals and Health Care Research Pvt. Ltd.",
       "city": "Vadodara",
@@ -3835,7 +3835,7 @@ const COMPENDIUM_DATA = {
       "region": "WR-II"
     },
     {
-      "sl": 374,
+      "sl": 1,
       "portal": 270,
       "name": "Kims-Saveera Hospitals",
       "city": "Anantapur",
@@ -3844,7 +3844,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 375,
+      "sl": 1,
       "portal": 294,
       "name": "M/S Medicover Hospital, Warangal (a Unit of Sahrudaya Health Care Pvt.Ltd)",
       "city": "Hanamkonda",
@@ -3853,7 +3853,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 376,
+      "sl": 1,
       "portal": 231,
       "name": "Omega Hospitals",
       "city": "Hyderabad",
@@ -3862,7 +3862,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 377,
+      "sl": 2,
       "portal": 237,
       "name": "Care Hospitals",
       "city": "Hyderabad",
@@ -3871,7 +3871,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 378,
+      "sl": 3,
       "portal": 238,
       "name": "Care Hospitals",
       "city": "Hyderabad",
@@ -3880,7 +3880,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 379,
+      "sl": 4,
       "portal": 239,
       "name": "Care Hospitals",
       "city": "Hyderabad",
@@ -3889,7 +3889,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 380,
+      "sl": 5,
       "portal": 240,
       "name": "Care Hospitals",
       "city": "Hyderabad",
@@ -3898,7 +3898,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 381,
+      "sl": 6,
       "portal": 242,
       "name": "Asian Institute of Gastronterology",
       "city": "Hyderabad",
@@ -3907,7 +3907,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 382,
+      "sl": 7,
       "portal": 243,
       "name": "Kamineni Hospitals",
       "city": "Hyderabad",
@@ -3916,7 +3916,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 383,
+      "sl": 8,
       "portal": 244,
       "name": "Yashoda Hospitals",
       "city": "Hyderabad",
@@ -3925,7 +3925,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 384,
+      "sl": 9,
       "portal": 246,
       "name": "Yashoda Hospitals",
       "city": "Hyderabad",
@@ -3934,7 +3934,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 385,
+      "sl": 10,
       "portal": 247,
       "name": "Apollo Hospitals",
       "city": "Hyderabad",
@@ -3943,7 +3943,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 386,
+      "sl": 11,
       "portal": 249,
       "name": "Continental Hospitals",
       "city": "Hyderabad",
@@ -3952,7 +3952,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 387,
+      "sl": 12,
       "portal": 255,
       "name": "Basavatarakam Indo American Cancer Hospitals & Research Institute",
       "city": "Hyderabad",
@@ -3961,7 +3961,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 388,
+      "sl": 13,
       "portal": 256,
       "name": "Dr. Agarwal's Health Care Ltd",
       "city": "Hyderabad",
@@ -3970,7 +3970,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 389,
+      "sl": 14,
       "portal": 257,
       "name": "Dr. Agarwal's Health Care Ltd",
       "city": "Hyderabad",
@@ -3979,7 +3979,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 390,
+      "sl": 15,
       "portal": 258,
       "name": "Dr. Agarwal's Health Care Ltd",
       "city": "Hyderabad",
@@ -3988,7 +3988,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 391,
+      "sl": 16,
       "portal": 259,
       "name": "Apollo Hospitals",
       "city": "Hyderabad",
@@ -3997,7 +3997,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 392,
+      "sl": 17,
       "portal": 261,
       "name": "Apollo Hospitals",
       "city": "Hyderabad",
@@ -4006,7 +4006,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 393,
+      "sl": 18,
       "portal": 265,
       "name": "Asian Institute of Gastronterology",
       "city": "Hyderabad",
@@ -4015,7 +4015,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 394,
+      "sl": 19,
       "portal": 268,
       "name": "Dr. Agarwals Eye Hospital",
       "city": "Hyderabad",
@@ -4024,7 +4024,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 395,
+      "sl": 20,
       "portal": 269,
       "name": "Yashoda Hospitals, Hi-Tech City Branch",
       "city": "Hyderabad",
@@ -4033,7 +4033,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 396,
+      "sl": 21,
       "portal": 273,
       "name": "Lv Prasad Eye Institute",
       "city": "Hyderabad",
@@ -4042,7 +4042,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 397,
+      "sl": 22,
       "portal": 276,
       "name": "Omega Hospitals",
       "city": "Hyderabad",
@@ -4051,7 +4051,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 398,
+      "sl": 23,
       "portal": 277,
       "name": "Dr Agarwal Health Care Ltd",
       "city": "Hyderabad",
@@ -4060,7 +4060,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 399,
+      "sl": 24,
       "portal": 278,
       "name": "Dr Agarwal Health Care Ltd",
       "city": "Hyderabad",
@@ -4069,7 +4069,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 400,
+      "sl": 25,
       "portal": 279,
       "name": "Rainbow Childrens Medicare Limited,Road No:22 Branch",
       "city": "Hyderabad",
@@ -4078,7 +4078,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 401,
+      "sl": 26,
       "portal": 280,
       "name": "Rainbow Childrens Medicare Limited,Road No:10 Branch",
       "city": "Hyderabad",
@@ -4087,7 +4087,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 402,
+      "sl": 27,
       "portal": 281,
       "name": "Rainbow Childrens Medicare Limited,Hydernagar Branch",
       "city": "Hyderabad",
@@ -4096,7 +4096,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 403,
+      "sl": 28,
       "portal": 282,
       "name": "Rainbow Childrens Medicare Limited,Kondapur Branch",
       "city": "Hyderabad",
@@ -4105,7 +4105,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 404,
+      "sl": 29,
       "portal": 284,
       "name": "Rainbow Childrens Medicare Limited,Lb Nagar Branch",
       "city": "Hyderabad",
@@ -4114,7 +4114,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 405,
+      "sl": 30,
       "portal": 285,
       "name": "Rainbow Childrens Medicare Limited,Himayat Nagar Branch",
       "city": "Hyderabad",
@@ -4123,7 +4123,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 406,
+      "sl": 31,
       "portal": 292,
       "name": "M/S Medicover Hospital, Madhapur (Incl. Women & Child Care Unit, Hi-Tech City) (a Unit of Sahruday",
       "city": "Hyderabad",
@@ -4132,7 +4132,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 407,
+      "sl": 32,
       "portal": 293,
       "name": "M/S Medicover Hospital, Chandanagar (a Unit of Sahrudaya Health Care Pvt.Ltd)",
       "city": "Hyderabad",
@@ -4141,7 +4141,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 408,
+      "sl": 1,
       "portal": 266,
       "name": "Apollo Hospitals",
       "city": "Kakinada",
@@ -4150,7 +4150,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 409,
+      "sl": 2,
       "portal": 296,
       "name": "M/S Medicover Hospital, Kakinada (a Unit of Sahrudaya Health Care Pvt.Ltd)",
       "city": "Kakinada",
@@ -4159,7 +4159,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 410,
+      "sl": 1,
       "portal": 253,
       "name": "Gouri Gopal Hospital",
       "city": "Kurnool",
@@ -4168,7 +4168,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 411,
+      "sl": 2,
       "portal": 262,
       "name": "Kims Hospital",
       "city": "Kurnool",
@@ -4177,7 +4177,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 412,
+      "sl": 3,
       "portal": 297,
       "name": "M/S Medicover Hospital, Kurnool (a Unit of Sahrudaya Health Care Pvt.Ltd)",
       "city": "Kurnool",
@@ -4186,7 +4186,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 413,
+      "sl": 1,
       "portal": 234,
       "name": "Kims",
       "city": "Nellore",
@@ -4195,7 +4195,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 414,
+      "sl": 2,
       "portal": 250,
       "name": "Apollo Superspeciality Hospital",
       "city": "Nellore",
@@ -4204,7 +4204,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 415,
+      "sl": 3,
       "portal": 298,
       "name": "M/S Medicover Hospital, Nellore (a Unit of Abhayanjaneya Health Care Pvt.Ltd)",
       "city": "Nellore",
@@ -4213,7 +4213,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 416,
+      "sl": 1,
       "portal": 252,
       "name": "Kims(Bolineni) Hospitals",
       "city": "Rajahmundry",
@@ -4222,7 +4222,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 417,
+      "sl": 1,
       "portal": 286,
       "name": "Rainbow Childrens Medicare Limited,Ranga Reddy Branch",
       "city": "Ranga Reddy",
@@ -4231,7 +4231,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 418,
+      "sl": 1,
       "portal": 232,
       "name": "Dr. Agarwal's Health Care Ltd",
       "city": "Secunderabad",
@@ -4240,7 +4240,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 419,
+      "sl": 2,
       "portal": 236,
       "name": "Kims Sunshine Hospitals",
       "city": "Secunderabad",
@@ -4249,7 +4249,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 420,
+      "sl": 3,
       "portal": 245,
       "name": "Yashoda Hospitals",
       "city": "Secunderabad",
@@ -4258,7 +4258,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 421,
+      "sl": 4,
       "portal": 248,
       "name": "Kims Hospitals",
       "city": "Secunderabad",
@@ -4267,7 +4267,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 422,
+      "sl": 5,
       "portal": 260,
       "name": "Apollo Hospitals",
       "city": "Secunderabad",
@@ -4276,7 +4276,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 423,
+      "sl": 6,
       "portal": 283,
       "name": "Rainbow Childrens Medicare Limited,Secunderabad Branch",
       "city": "Secunderabad",
@@ -4285,7 +4285,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 424,
+      "sl": 7,
       "portal": 291,
       "name": "M/S Medicover Hospitals, Secunderabad (a Unit of Sahrudaya Health Care Pvt.Ltd)",
       "city": "Secunderabad",
@@ -4294,7 +4294,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 425,
+      "sl": 1,
       "portal": 290,
       "name": "M/S Kims Sai Seshadri Hospital, Srikakulam\u00a0(a Unit of Arunodaya Hospitals Pvt Ltd)",
       "city": "Srikakulam",
@@ -4303,7 +4303,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 426,
+      "sl": 1,
       "portal": 251,
       "name": "Dr. Ramesh Cardiac and Multispeciality Hospital",
       "city": "Vijayawada",
@@ -4312,7 +4312,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 427,
+      "sl": 2,
       "portal": 267,
       "name": "Ayush Nri Lepl Health Care Pvt Ltd",
       "city": "Vijayawada",
@@ -4321,7 +4321,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 428,
+      "sl": 3,
       "portal": 272,
       "name": "Manipal Hospitals",
       "city": "Vijayawada",
@@ -4330,7 +4330,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 429,
+      "sl": 4,
       "portal": 274,
       "name": "Lv Prasad Eye Institute",
       "city": "Vijayawada",
@@ -4339,7 +4339,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 430,
+      "sl": 5,
       "portal": 288,
       "name": "Rainbow Childrens Medicare Limited,Vijayawada Branch",
       "city": "Vijayawada",
@@ -4348,7 +4348,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 431,
+      "sl": 1,
       "portal": 233,
       "name": "Apollo Hospitals",
       "city": "Visakhapatnam",
@@ -4357,7 +4357,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 432,
+      "sl": 2,
       "portal": 235,
       "name": "Seven Hills Health Care Pvt Ltd",
       "city": "Visakhapatnam",
@@ -4366,7 +4366,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 433,
+      "sl": 3,
       "portal": 241,
       "name": "Care Hospitals",
       "city": "Visakhapatnam",
@@ -4375,7 +4375,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 434,
+      "sl": 4,
       "portal": 254,
       "name": "Dr. Agarwal's Health Care Ltd",
       "city": "Visakhapatnam",
@@ -4384,7 +4384,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 435,
+      "sl": 5,
       "portal": 264,
       "name": "Apollo Hospitals",
       "city": "Visakhapatnam",
@@ -4393,7 +4393,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 436,
+      "sl": 6,
       "portal": 271,
       "name": "Kims Icon Hospitals",
       "city": "Visakhapatnam",
@@ -4402,7 +4402,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 437,
+      "sl": 7,
       "portal": 275,
       "name": "Lv Prasad Eye Institute",
       "city": "Visakhapatnam",
@@ -4411,7 +4411,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 438,
+      "sl": 8,
       "portal": 287,
       "name": "Rainbow Childrens Medicare Limited,Visakhapatnam Branch",
       "city": "Visakhapatnam",
@@ -4420,7 +4420,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 439,
+      "sl": 9,
       "portal": 289,
       "name": "Mgm Seven Hills Hospitals, Visakhapatnam (a Unit of Mgm Health Care Private Limited)",
       "city": "Visakhapatnam",
@@ -4429,7 +4429,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 440,
+      "sl": 10,
       "portal": 295,
       "name": "M/S Medicover Hospital, Visakhapatnam (a Unit of Sahrudaya Health Care Pvt.Ltd)",
       "city": "Visakhapatnam",
@@ -4438,7 +4438,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 441,
+      "sl": 1,
       "portal": 299,
       "name": "M/S Medicover Hospital, Vizianagaram (a Unit of Sahrudaya Health Care (Vizianagaram) Pvt.Ltd)",
       "city": "Vizianagaram",
@@ -4447,7 +4447,7 @@ const COMPENDIUM_DATA = {
       "region": "SR-I"
     },
     {
-      "sl": 442,
+      "sl": 1,
       "portal": 263,
       "name": "Rohini Superspeciality Hospital",
       "city": "Warangal",
@@ -4563,1190 +4563,1190 @@ const COMPENDIUM_DATA = {
       "region": "SR2"
     },
     {
-      "sl": 16,
+      "sl": 1,
       "city": "Calicut",
       "addr": "Ground Floor, Hill View Building, Krishnapoyil Padinhare Parambu, Kovoor Desom, Nellikode Village,Kozhikode Taluk, Near Medical College, Kozhikode-Calicut, Kerala-673008",
       "group": "Calicut (1 Centre)",
       "region": "SR2"
     },
     {
-      "sl": 17,
+      "sl": 1,
       "city": "Coimbatore",
       "addr": "Ground Floor, Shop No: 1113, 1114, Natraj Medical Centre,Opp to Cntral Theatre, Mettupalayam Road, Coimbatore- 641002, Tamil Nadu",
       "group": "Coimbatore (1 Centre)",
       "region": "SR2"
     },
     {
-      "sl": 18,
+      "sl": 1,
       "city": "Kochi",
       "addr": "Doctors Diagnostic Centre International, Thampi Building, Opp.College Ground, M.G.Road,Ernakulam, Cochin-682011,Kerala",
       "group": "Kochi (3 Centres)",
       "region": "SR2"
     },
     {
-      "sl": 19,
+      "sl": 2,
       "city": "Kochi",
       "addr": "Dr. Lal Pathlabs Ltd. | Anika Complex,Chakola Junction, Near Thevara Market, Permanoorpost, Ernakulam-Kerala-682015",
       "group": "Kochi (3 Centres)",
       "region": "SR2"
     },
     {
-      "sl": 20,
+      "sl": 3,
       "city": "Kochi",
       "addr": "Dr. Lal Pathlabs Ltd. | Pam Circuit, Toll Junction, Edappally, Behind Best Bakers,Ernakulam,Cochin- 682024, Kerala",
       "group": "Kochi (3 Centres)",
       "region": "SR2"
     },
     {
-      "sl": 21,
+      "sl": 1,
       "city": "Mysore",
       "addr": "C/1, Sigma Complex, Near Kpr Suzuki Showroom, New Kanthraj Urs Road, Kuvempunagar, Mysore \u2013 570023",
       "group": "Mysore (1 Centre)",
       "region": "SR2"
     },
     {
-      "sl": 22,
+      "sl": 1,
       "city": "Thiruvananthapuram",
       "addr": "Tc No. 1/801(3,4,&5), Opp.Tagore Garden, Medical College Road, Re-Se No. 20, Cheruvakkalvillage,Thiruvananthapuram, Kerala-695 011.",
       "group": "Thiruvananthapuram (2 Centres)",
       "region": "SR2"
     },
     {
-      "sl": 23,
+      "sl": 2,
       "city": "Thiruvananthapuram",
       "addr": "Gf & Ff & Sf , Tc N0 1 /801 (3,4&5) ,Opp Tagore Garden ,Medical College Road , Re -Sy No 20 ,Cheruvakkal Village , Thiruvananthapuram ,Kerala 695011",
       "group": "Thiruvananthapuram (2 Centres)",
       "region": "SR2"
     },
     {
-      "sl": 24,
+      "sl": 1,
       "city": "Vijayawada",
       "addr": "29-4-30, Kodanda Rami Reddy Street, Governorpet (Near Andhra Hospital), Vijayawada-2,Vijayawada-520002, Andhra Pradesh",
       "group": "Vijayawada (1 Centre)",
       "region": "SR-I"
     },
     {
-      "sl": 25,
+      "sl": 1,
       "city": "Visakhapatnam",
       "addr": "No: 10-54-7, Lions Club Building, Waltair Road, Ram Nagar, Visakhapatnam - 530002",
       "group": "Visakhapatnam (1 Centre)",
       "region": "SR-I"
     },
     {
-      "sl": 26,
+      "sl": 1,
       "city": "Dibrugarh",
       "addr": "Garahambazara.Troaddibrugarh- 786001 Assam",
       "group": "Dibrugarh (1 Centre)",
       "region": "NER"
     },
     {
-      "sl": 27,
+      "sl": 1,
       "city": "Sichar",
       "addr": "Dr. Lal Path Labs Ltd (Sree Ram Tower Telecom Services) Opposite Sanjoy Market.N.Savenue,Silchar-788005.",
       "group": "Sichar (1 Centre)",
       "region": "NER"
     },
     {
-      "sl": 28,
+      "sl": 1,
       "city": "Darbhanga",
       "addr": "Mohalla Chakshaid Jahan Benta Laheria Sarai,Darbhanga 846003 Bihar",
       "group": "Darbhanga (1 Centre)",
       "region": "ER-I"
     },
     {
-      "sl": 29,
+      "sl": 1,
       "city": "Muzaffarpur",
       "addr": "Chetan Sadhan ,Opposite Jila Parishad Market , Juran Chapra Main Road, Muzaffarpur",
       "group": "Muzaffarpur (1 Centre)",
       "region": "ER-I"
     },
     {
-      "sl": 30,
+      "sl": 1,
       "city": "Patna",
       "addr": "R.K. Estate(Basement,2nd & 3rd Floor),Opposite Igims Main Gate,Near Pillar No.62,Rajabazar,Bailey Road,Patna",
       "group": "Patna (2 Centres)",
       "region": "ER-I"
     },
     {
-      "sl": 31,
+      "sl": 2,
       "city": "Patna",
       "addr": "A/214 P.C.Coloney Kankarbagh Patna Bihar 800020",
       "group": "Patna (2 Centres)",
       "region": "ER-I"
     },
     {
-      "sl": 32,
+      "sl": 1,
       "city": "Bhilai",
       "addr": "Plot No-4, Buniyad Complex, Nehru Nagar East, Bhilai, District- Durg, Chhattisgarh-490 020",
       "group": "Bhilai (1 Centre)",
       "region": "WR-I"
     },
     {
-      "sl": 33,
+      "sl": 1,
       "city": "Bilaspur",
       "addr": "Devaki Nandan Chowk, Opp-Petrol Pump/Temple, Bilaspur",
       "group": "Bilaspur (1 Centre)",
       "region": "WR-I"
     },
     {
-      "sl": 34,
+      "sl": 1,
       "city": "Raipur",
       "addr": "Ground Floor, Bhatia Complex, Opp Rajkumar College, Geroad, Raipur-492 001, Chhattisgarh",
       "group": "Raipur (2 Centres)",
       "region": "WR-I"
     },
     {
-      "sl": 35,
+      "sl": 2,
       "city": "Raipur",
       "addr": "C/O Modern Pathology Lab, Shop No 1,2,3,4, Garcha Complex, Jail Road, Kutchery Chowk,Raipur-492001, Chhattisgarh",
       "group": "Raipur (2 Centres)",
       "region": "WR-I"
     },
     {
-      "sl": 36,
+      "sl": 1,
       "city": "Delhi",
       "addr": "8, West Avenue Road, Punjabi Bagh(W), New Delhi-110026.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 37,
+      "sl": 2,
       "city": "Delhi",
       "addr": "C-49, Main Vikas Marg, Preet Vihar, New Delhi-110092.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 38,
+      "sl": 3,
       "city": "Delhi",
       "addr": "B2/9,Anmol House,Near Syndicate Bank, Ashok Vihar Phase -2 New Delhi-110052.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 39,
+      "sl": 4,
       "city": "Delhi",
       "addr": "C- 655 Near Gurudwara, New Friends Colony, New Delhi",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 40,
+      "sl": 5,
       "city": "Delhi",
       "addr": "D-11/148, Gf, Sector-8, Rohini, Delhi,110085",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 41,
+      "sl": 6,
       "city": "Delhi",
       "addr": "Nelson Mandela Marg, Building No.1, L.S.C., Sector-B,Pocket-7, Vasant Kunj, New Delhi-110070",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 42,
+      "sl": 7,
       "city": "Delhi",
       "addr": "Block E, Sector 18, Rohini, New Delhi -110 085",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 43,
+      "sl": 8,
       "city": "Delhi",
       "addr": "4b/13, Near Metro Pillar No.494, Tilak Nagar, New Delhi -110018",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 44,
+      "sl": 9,
       "city": "Delhi",
       "addr": "A-15 Ground Floor, Near Kailash Colony Metro Station,Kailash Colony,New Delhi 110048",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 45,
+      "sl": 10,
       "city": "Delhi",
       "addr": "Shop No. G-3,4,5 , Sikka Plaza-Ii , Next to Caf\u00e9 Coffee Day ,Mayur Vihar Phase \u2013 I, New Delhi- 110092.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 46,
+      "sl": 11,
       "city": "Delhi",
       "addr": "4/1-3, Cl House Upper Ground Floor, Near Aiims Gate No. 3,Aurobindo Marg, Usuf Sarai, New Delhi-110016",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 47,
+      "sl": 12,
       "city": "Delhi",
       "addr": "Plot No. 60, Sec-12b,Beside Bal Bharati School, Dwarka,Newdelhi Pin Code \u2013 110075",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 48,
+      "sl": 13,
       "city": "Delhi",
       "addr": "Shop No. 6, Vardhman Sudershan Plaza, Sector-5, Near Icici Bank, Ashirwad Chowk, Dwarka,New Delhi -110073.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 49,
+      "sl": 14,
       "city": "Delhi",
       "addr": "J-5, Green Park Main, New Delhi - 110016.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 50,
+      "sl": 15,
       "city": "Delhi",
       "addr": "B-29, Community Centre, Opp. Punjab National Bank,Janakpuri, New Delhi - 110058.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 51,
+      "sl": 16,
       "city": "Delhi",
       "addr": "F-1/9, Near Happy English School, Main Bus Stand, Krishnanagar, New Delhi-110051.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 52,
+      "sl": 17,
       "city": "Delhi",
       "addr": "Shop No. 3, C-1/103-104, Lajpat Nagar-1, Opp. Nirula's, Defence Colony Flyover, Lajpat Nagar-1,New Delhi-110024.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 53,
+      "sl": 18,
       "city": "Delhi",
       "addr": "A-37,38,39, Ground Floor, Gf-2, Commercial Complex, Dr. Mukherjee Nagar, Adj. to Hdfc Bank,New Delhi-110009.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 54,
+      "sl": 19,
       "city": "Delhi",
       "addr": "Shop No. G3 & G4, Aggarwal Tower, Lsc-2, Ip - Extension, Patparganj, Adj. Sbi Atm, New Delhi-110092.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 55,
+      "sl": 20,
       "city": "Delhi",
       "addr": "124, Pocket C-9, Opp. Fire Station, Sector-8, Rohini, Newdelhi-110085.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 56,
+      "sl": 21,
       "city": "Delhi",
       "addr": "24/26,Ground Floor, Adj. Govt. Girls School No. 1, Shaktinagar,New Delhi-110007.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 57,
+      "sl": 22,
       "city": "Delhi",
       "addr": "Shop No. A1/Bq Market, Shalimar Bagh, Delhi-110088.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 58,
+      "sl": 23,
       "city": "Delhi",
       "addr": "15/1, Ground Floor, West Patel Nagar, New Delhi-110008.",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 59,
+      "sl": 24,
       "city": "Delhi",
       "addr": "K-106,Ground Floor (Opp. Bank of Baroda), Kalka Ji, Newdelhi-110019",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 60,
+      "sl": 25,
       "city": "Delhi",
       "addr": "Shop No. 15, Grond Floor, Jangpura Ext. Near Eros Cinema,Jangpura, New Delhi-110014",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 61,
+      "sl": 26,
       "city": "Delhi",
       "addr": "Shop No. 70, Ground Floor, Opp, Sagar Ratna, Hudson Line, Mall Road, Near Gtb Nagar Metrostation, Gate No. 3, Newdelhi-110009",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 62,
+      "sl": 27,
       "city": "Delhi",
       "addr": "J-13/44b, Rajouri Garden, Delhi,110027",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 63,
+      "sl": 28,
       "city": "Delhi",
       "addr": "Flat No. 41a, Block, C-4a, Janakpuri, New Delhi-110058",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 64,
+      "sl": 29,
       "city": "Delhi",
       "addr": "B-1/10, Paschim Vihar, New Delhi-110063",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 65,
+      "sl": 30,
       "city": "Delhi",
       "addr": "Building No.1,Regal Building Ground Floor,Parliamentstreet",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 66,
+      "sl": 31,
       "city": "Delhi",
       "addr": "Flat No- 101,102 Ground Floor, E-540 Greater Kailash-2 New Delhi 110048 Landmark- Next Building to M Blockmarket Red Light",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 67,
+      "sl": 32,
       "city": "Delhi",
       "addr": "Ground Floor. G.10 No-1 Kaushalya Park, South West Delhi, New Delhi 110016",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 68,
+      "sl": 33,
       "city": "Delhi",
       "addr": "Ground Floor-5b, Pusa Road Ias (Baba Banner Building) Near Karol Bagh Metro Station New Delhi- 110005",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 69,
+      "sl": 34,
       "city": "Delhi",
       "addr": "Shop No.a-1/7,Ground Floor, Loksatta Building, Near Pnb Atm, Main 100ft. Road, Kabir Nagar,Durgapuri, Delhi,110094",
       "group": "Delhi (34 Centres)",
       "region": "CC"
     },
     {
-      "sl": 70,
+      "sl": 1,
       "city": "Ahmedabad",
       "addr": "A103/104/203, Aasthan Complex, Opp. Polytechnic, Panjarapole, Ahmedabad- 380 015, Gujarat.",
       "group": "Ahmedabad (3 Centres)",
       "region": "WR-II"
     },
     {
-      "sl": 71,
+      "sl": 2,
       "city": "Ahmedabad",
       "addr": "Pir Mohamadshah Mansion, Gheekanta Char Rasta, Reliefroad, Ahmedabad- 380 001, Gujarat.",
       "group": "Ahmedabad (3 Centres)",
       "region": "WR-II"
     },
     {
-      "sl": 72,
+      "sl": 3,
       "city": "Ahmedabad",
       "addr": "002/101/102, Titanium City Centre Mall, 100 Feet Ring Road, Next to Sachin Towers,Prahladnagar, Satellite,Ahmedabad- 380 015, Gujarat",
       "group": "Ahmedabad (3 Centres)",
       "region": "WR-II"
     },
     {
-      "sl": 73,
+      "sl": 1,
       "city": "Vadodara",
       "addr": "Shop No: 1,2,3&4, Capri House Ii, 15 Sudha Nagar, Jetalpurroad, Vadodara-390 007, Gujarat",
       "group": "Vadodara (1 Centre)",
       "region": "WR-II"
     },
     {
-      "sl": 74,
+      "sl": 1,
       "city": "Ambala",
       "addr": "1179, Gf, B-9, Amrit Nagar, Opp.Ambala Club, Near Inco Chowk, Old Delhi Roadambalacity,Ambala-134003-Haryana",
       "group": "Ambala (1 Centre)",
       "region": "NR-I"
     },
     {
-      "sl": 75,
+      "sl": 1,
       "city": "Faridabad",
       "addr": "Scf-155, Ground Floor, Huda Market, Sector-9, Faridabad-121006, Haryana",
       "group": "Faridabad (2 Centres)",
       "region": "NR-I"
     },
     {
-      "sl": 76,
+      "sl": 2,
       "city": "Faridabad",
       "addr": "Sco-30, Sector-16, Faridabad-121002, Haryana.",
       "group": "Faridabad (2 Centres)",
       "region": "NR-I"
     },
     {
-      "sl": 77,
+      "sl": 1,
       "city": "Gurgaon",
       "addr": "Sf 103, First Floor, Galleria Market, Dlf Phase - Iv, Gurgaon -122001, Haryana.",
       "group": "Gurgaon (4 Centres)",
       "region": "CC"
     },
     {
-      "sl": 78,
+      "sl": 2,
       "city": "Gurgaon",
       "addr": "Shop No. 54,55 the Sapphire Sec-49 Opp. Orchid Petals, Sohnaroad, Gurgaon-122018-Haryana",
       "group": "Gurgaon (4 Centres)",
       "region": "CC"
     },
     {
-      "sl": 79,
+      "sl": 3,
       "city": "Gurgaon",
       "addr": "C-1/B, Clear View, Old Dlf Colony, Sector-14, Gurgaon-122001, Haryana.",
       "group": "Gurgaon (4 Centres)",
       "region": "CC"
     },
     {
-      "sl": 80,
+      "sl": 4,
       "city": "Gurgaon",
       "addr": "Shop No. 9,10, 30,31, Dlf City Court, Sikanderpur, Gurgaon -122001, Haryana",
       "group": "Gurgaon (4 Centres)",
       "region": "CC"
     },
     {
-      "sl": 81,
+      "sl": 1,
       "city": "Hisar",
       "addr": "Sector 13 - Near Easy Day Store, Tosham Road, Hisar -125050, Haryana",
       "group": "Hisar (1 Centre)",
       "region": "NR-I"
     },
     {
-      "sl": 82,
+      "sl": 1,
       "city": "Panchkula",
       "addr": "Sco 241, Sec 20, Panchkula - 134116",
       "group": "Panchkula (1 Centre)",
       "region": "NR-I"
     },
     {
-      "sl": 83,
+      "sl": 1,
       "city": "Panipat",
       "addr": "Scf -35,Ground Floor,Sector-11,Near New Angel Mall,Huda,Panipat-132103, Harayana.",
       "group": "Panipat (1 Centre)",
       "region": "NR-I"
     },
     {
-      "sl": 84,
+      "sl": 1,
       "city": "Rewari",
       "addr": "Near Ambedkar Chowk,Rewari-123401-Haryana",
       "group": "Rewari (1 Centre)",
       "region": "NR-I"
     },
     {
-      "sl": 85,
+      "sl": 1,
       "city": "Rohtak",
       "addr": "1267, Chotu Ram Chownk, Opp. Nilli Kothi,Civil Road,Rohtak-124001-Haryana",
       "group": "Rohtak (1 Centre)",
       "region": "NR-I"
     },
     {
-      "sl": 86,
+      "sl": 1,
       "city": "Sirsa",
       "addr": "Circular Road, Sirsa, Haryana - 125055",
       "group": "Sirsa (1 Centre)",
       "region": "NR-I"
     },
     {
-      "sl": 87,
+      "sl": 1,
       "city": "Sonipat",
       "addr": "Scf \u2013 3, Sector \u2013 14, Main Market, Sonipat-131001-Haryana",
       "group": "Sonipat (1 Centre)",
       "region": "NR-I"
     },
     {
-      "sl": 88,
+      "sl": 1,
       "city": "Yamuna Nagar",
       "addr": "67 a/L Model Town, Opp. Pnb, Nehru Park Road, Yamunanagar.135001 Haryana",
       "group": "Yamuna Nagar (1 Centre)",
       "region": "NR-I"
     },
     {
-      "sl": 89,
+      "sl": 1,
       "city": "Kangra",
       "addr": "Ward No- 6, Village- Sadarpur, Near Rpgmc, Tanda, District-Kangra-176001 -(H.P)",
       "group": "Kangra (1 Centre)",
       "region": "NR-II"
     },
     {
-      "sl": 90,
+      "sl": 1,
       "city": "Shimla",
       "addr": "Sarab Complex, N.H.-20, Shimla to Rampur Highway, Mainmarket, Sanjauli, Shimla -171006-H.P",
       "group": "Shimla (2 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 91,
+      "sl": 2,
       "city": "Shimla",
       "addr": "Mansarover Cottage Centre: Mansarover Cottage Firstfloor, Near Igmc, Shimla, 171006.H.P",
       "group": "Shimla (2 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 92,
+      "sl": 1,
       "city": "Anantnag",
       "addr": "Saba Complex, Khah Bazar, Anantnag-192101-J&K",
       "group": "Anantnag (1 Centre)",
       "region": "NR-II"
     },
     {
-      "sl": 93,
+      "sl": 1,
       "city": "Jammu",
       "addr": "88, B. C. Road, Rehari, Jammu- 180001, J&K.",
       "group": "Jammu (4 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 94,
+      "sl": 2,
       "city": "Jammu",
       "addr": "Disco Road, Indra Colony, Near Dream Land School,Janipur, Jammu - 180001, J & K.",
       "group": "Jammu (4 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 95,
+      "sl": 3,
       "city": "Jammu",
       "addr": "Groung Floor, 21c, B Block, Gandhi Nagar, Jammu,180004-J&K",
       "group": "Jammu (4 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 96,
+      "sl": 4,
       "city": "Jammu",
       "addr": "Ground Floor, Shop No. 2 & 3, Chowdhary Complex, Trikutanagar, Jammu-180012",
       "group": "Jammu (4 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 97,
+      "sl": 1,
       "city": "Srinagar",
       "addr": "140-a, Kak Sarai, Karan Nagar, Srinagar-190010, J&K.",
       "group": "Srinagar (1 Centre)",
       "region": "NR-II"
     },
     {
-      "sl": 98,
+      "sl": 1,
       "city": "Dhanbad",
       "addr": "Unit G-3, Ozone Center, Ashok Nagar, Dhansar Dhanbad,Jharkhand, Pin-828106",
       "group": "Dhanbad (1 Centre)",
       "region": "ER-I"
     },
     {
-      "sl": 99,
+      "sl": 1,
       "city": "Jamshedpur",
       "addr": "Shop No. 2. 3 & 4, Sai Jambo Tower, Near Hanuman Mandir,Bhalubasa, Jamshedpur, Jharkhand - 831009",
       "group": "Jamshedpur (1 Centre)",
       "region": "ER-I"
     },
     {
-      "sl": 100,
+      "sl": 1,
       "city": "Ranchi",
       "addr": "1st Floor, Sourabh Tower Plot-615, Bariatu Road Nearkaram Toli Chowk, Ranchi JK-834008",
       "group": "Ranchi (2 Centres)",
       "region": "ER-I"
     },
     {
-      "sl": 101,
+      "sl": 2,
       "city": "Ranchi",
       "addr": "Shop No-119,Opp-Pantaloons,Jascon Plaza,Circular Road,Near - Dangratoli Chowk,Lalpur Ranchi,Jharkhand-834001",
       "group": "Ranchi (2 Centres)",
       "region": "ER-I"
     },
     {
-      "sl": 102,
+      "sl": 1,
       "city": "Bhopal",
       "addr": "Plot No.05, Mandakini Housing Society, Near Apurti Shopping Mall, Kolar Main Road, Bhopal-462042, M.P.",
       "group": "Bhopal (4 Centres)",
       "region": "WR-II"
     },
     {
-      "sl": 103,
+      "sl": 2,
       "city": "Bhopal",
       "addr": "77, Motia Talab, Opp. Tajul Masajid, Bhopal - 462 001, M.P.",
       "group": "Bhopal (4 Centres)",
       "region": "WR-II"
     },
     {
-      "sl": 104,
+      "sl": 3,
       "city": "Bhopal",
       "addr": "131/10, Golden Tower, Near Sargam Talkies, M.P. Nagar,Zone - 2, Bhopal - 462016, M.P.",
       "group": "Bhopal (4 Centres)",
       "region": "WR-II"
     },
     {
-      "sl": 105,
+      "sl": 4,
       "city": "Bhopal",
       "addr": "Ground Floor , No. 230, Om Shiv Grah Nirman Sahkari Samiti, Near Railway Line Crossing,Airport Road,Lalghati,Bhopal - 462032",
       "group": "Bhopal (4 Centres)",
       "region": "WR-II"
     },
     {
-      "sl": 106,
+      "sl": 1,
       "city": "Gwalior",
       "addr": "1, Ground Floor, Central Mall, Opp. Achleshwar Mandir,Sanatan Dharm Mandir Road, Lashkar, Gwalior - 474009, M.P.",
       "group": "Gwalior (1 Centre)",
       "region": "WR-II"
     },
     {
-      "sl": 107,
+      "sl": 1,
       "city": "Indore",
       "addr": "H No -1, Santoshi Height, Chandralok Colony, Khajranamain Road, Indore-452 001, M.P.",
       "group": "Indore (1 Centre)",
       "region": "WR-II"
     },
     {
-      "sl": 108,
+      "sl": 1,
       "city": "Jabalpur",
       "addr": "46, Ahuja Towers, Napier Town, Russel Chowk, Jabalpur-482001, M.P.",
       "group": "Jabalpur (1 Centre)",
       "region": "WR-II"
     },
     {
-      "sl": 109,
+      "sl": 1,
       "city": "Sagar",
       "addr": "Ground Floor, in Front of Bundelkhand Medical College,Tilli , Near Goutam Traders , Sagar Madhya Pradesh- 470001",
       "group": "Sagar (1 Centre)",
       "region": "WR-II"
     },
     {
-      "sl": 110,
+      "sl": 1,
       "city": "Aurangabad",
       "addr": "227, Near Kasbekar Hospital, Varad Ganesh Mandir Road, Samarth Nagar, Aurangabad-431001, Maharashtra",
       "group": "Aurangabad (1 Centre)",
       "region": "WR-I"
     },
     {
-      "sl": 111,
+      "sl": 1,
       "city": "Mumbai",
       "addr": "Shop No.05,Shashtri Hall New Bldg.,Javji Dadaji Marg,Nearnana Chowk,Tardeo Road,Mumbai-400007",
       "group": "Mumbai (4 Centres)",
       "region": "WR-I"
     },
     {
-      "sl": 112,
+      "sl": 2,
       "city": "Mumbai",
       "addr": "Shop 8, Groud Floor, Kiran Towers Co-Operative Housing Society Limited, Rajanpada,Pannalal Ghoshmarg, Malad (W), Mumbai-400064, Maharashtra",
       "group": "Mumbai (4 Centres)",
       "region": "WR-I"
     },
     {
-      "sl": 113,
+      "sl": 3,
       "city": "Mumbai",
       "addr": "Shop No. 10-11, Ground Floor, Tirupati Complex Co- Operative Housing Society, Plot No-3, Sec-44, Seawood, Nerul Node, Navi Mumbai-400706, Maharashtra",
       "group": "Mumbai (4 Centres)",
       "region": "WR-I"
     },
     {
-      "sl": 114,
+      "sl": 4,
       "city": "Mumbai",
       "addr": "Ground Floor,Shop No.3c, Plot No.202, Gayatri Niwas, Opp. Sandu Marg Post Office, Sandumarg, Chembur, Mumbai-400 071",
       "group": "Mumbai (4 Centres)",
       "region": "WR-I"
     },
     {
-      "sl": 115,
+      "sl": 1,
       "city": "Nagpur",
       "addr": "Plot No. 07, Ground Floor,Wardha Road,Dhantoli, Opp- Big Bazaar,Nagpur-440012",
       "group": "Nagpur (2 Centres)",
       "region": "WR-I"
     },
     {
-      "sl": 116,
+      "sl": 2,
       "city": "Nagpur",
       "addr": "Dr. Lal Pathlabs Ltd. |No 16, Situated at Sneh Nagar, Survey No 29/1 & 29/2, Mouza-Somalwada, Nagpur-440015",
       "group": "Nagpur (2 Centres)",
       "region": "WR-I"
     },
     {
-      "sl": 117,
+      "sl": 1,
       "city": "Nasik",
       "addr": "Shop No.24,Upper Ground Floor,Woodland Tower Apt,Near Hotel Vihar,Old Gangapurnaka,Gangapur Road,Nasik-422005,Maharashtra",
       "group": "Nasik (1 Centre)",
       "region": "WR-I"
     },
     {
-      "sl": 118,
+      "sl": 1,
       "city": "Navimumbai",
       "addr": "Shop No.9 & 10, Haware Shramik Chs. Plot No.17,Sector 20, Shilp Chowk,Kharghar-41021,Navi Mumbai,Maharashtra",
       "group": "Navimumbai (2 Centres)",
       "region": "WR-I"
     },
     {
-      "sl": 119,
+      "sl": 2,
       "city": "Navimumbai",
       "addr": "Ground Floor Shop No.38,Crystal Plaza,Hiranandani Complex,Sector-7,Kharghar,Navimumbai-4110210,Maharashtra",
       "group": "Navimumbai (2 Centres)",
       "region": "WR-I"
     },
     {
-      "sl": 120,
+      "sl": 1,
       "city": "Pune",
       "addr": "Ground Floor, Anand Emerald, Sakore Nagar, New-Airport Road, Near Symbiosis International University,Viman Nagar, Pune - 411014, Maharashtra",
       "group": "Pune (3 Centres)",
       "region": "WR-I"
     },
     {
-      "sl": 121,
+      "sl": 2,
       "city": "Pune",
       "addr": "Vikram Chambers, Near Prof. Ramkrishna More Sabhagruha, Near Gokhale Plaza, Chinchwadgaon, Pune-411 033",
       "group": "Pune (3 Centres)",
       "region": "WR-I"
     },
     {
-      "sl": 122,
+      "sl": 3,
       "city": "Pune",
       "addr": "Shop No. 40, Ground Floor, Sacred Heart Town Shoppingcomplex,75/2/2, Wananwadi, Pune \u2013 411040",
       "group": "Pune (3 Centres)",
       "region": "WR-I"
     },
     {
-      "sl": 123,
+      "sl": 1,
       "city": "Thane",
       "addr": "16a-16b, Sohum Plaza, Godbunder Road, Manpada, Thane(West), Mumbai- 400607, Maharashtra",
       "group": "Thane (1 Centre)",
       "region": "WR-I"
     },
     {
-      "sl": 124,
+      "sl": 1,
       "city": "Bhubneshwar",
       "addr": "Purabi,Plot No 2084/4837,Gautam Nagar ,Bhubnaeswar -14,Odisha",
       "group": "Bhubneshwar (1 Centre)",
       "region": "ER-II"
     },
     {
-      "sl": 125,
+      "sl": 1,
       "city": "Amritsar",
       "addr": "S.S.Tower,Plot No.59,Shop No-4,Opp.E.N.T.Hospital,Majitha Road,Amritsar-143001,Punjab.",
       "group": "Amritsar (3 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 126,
+      "sl": 2,
       "city": "Amritsar",
       "addr": "S.C.F Ground Floor No. 31, C Block Market, Ranjit Avenue,Sector-3, Amritsar-143001, Punjab.",
       "group": "Amritsar (3 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 127,
+      "sl": 3,
       "city": "Amritsar",
       "addr": "S.C.F No. 2374, Kot Kanhaya Lal, Sultanwind Road,Near Ajit Nagar Chowk, Amritsar ,Punjab-143006",
       "group": "Amritsar (3 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 128,
+      "sl": 1,
       "city": "Bathinda",
       "addr": "3025/26, Guru Kanshi Marg, Opposite Lg Showroom, Nearfouji Chowk, Bathinda - 151001",
       "group": "Bathinda (1 Centre)",
       "region": "NR-II"
     },
     {
-      "sl": 129,
+      "sl": 1,
       "city": "Chandigarh",
       "addr": "Booth No 3. Sector -19 D. Chandigarh- 16001-Punjab",
       "group": "Chandigarh (4 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 130,
+      "sl": 2,
       "city": "Chandigarh",
       "addr": "Booth No 336 ,Sec-44d, Chandigarh-160047-Punjab",
       "group": "Chandigarh (4 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 131,
+      "sl": 3,
       "city": "Chandigarh",
       "addr": "Booth No 100,Sector-38 C, Chandigarh-160036",
       "group": "Chandigarh (4 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 132,
+      "sl": 4,
       "city": "Chandigarh",
       "addr": "Booth No. 343, Sector 32 D, Chandigarh - 160032-Punjab",
       "group": "Chandigarh (4 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 133,
+      "sl": 1,
       "city": "Hoshiarpur",
       "addr": "Ram Complex, Mohalla Kamalpur, Near Civil Hospital, Jalandhar Road, Hoshiarpur-146001-Punjab",
       "group": "Hoshiarpur (1 Centre)",
       "region": "NR-II"
     },
     {
-      "sl": 134,
+      "sl": 1,
       "city": "Jalandhar",
       "addr": "1200-1201,Ajit Nagar ,Opp City Garden, Near Ajit Nagar Gurdawara, Nakodar Chowk,Jalandhar - 144001-Punjab.",
       "group": "Jalandhar (1 Centre)",
       "region": "NR-II"
     },
     {
-      "sl": 135,
+      "sl": 1,
       "city": "Khanna",
       "addr": "Plot No. B007/1684, Ambica Complex, Opp. Main Bus Stand,Gt Road, Khanna - 141401 - Punjab",
       "group": "Khanna (1 Centre)",
       "region": "NR-II"
     },
     {
-      "sl": 136,
+      "sl": 1,
       "city": "Ludhiana",
       "addr": "B-19,1121/a, Ground Floor, N.C Complex, Near Dmc, Tagore Nagar, Rajpura Road,Civil Lines,Ludhiana-141001,Punjab",
       "group": "Ludhiana (5 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 137,
+      "sl": 2,
       "city": "Ludhiana",
       "addr": "4047, Lig Flats, Phase Ii, Urban State (Near Police Station)Dugri, Ludhiana - 141002",
       "group": "Ludhiana (5 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 138,
+      "sl": 3,
       "city": "Ludhiana",
       "addr": "12-C, Sarabha Nagar, Ludhiana-141001, Punjab.",
       "group": "Ludhiana (5 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 139,
+      "sl": 4,
       "city": "Ludhiana",
       "addr": "Dr. B.D. Sabharwal, # 907/19, Adj School for Deaf and Dumb Children, Tagore Nagar\u2013 a,Ludhiana-141001-Punjab",
       "group": "Ludhiana (5 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 140,
+      "sl": 5,
       "city": "Ludhiana",
       "addr": "Ground Floor, Unit No:-B-Xi-964, Baba Than Singh Chowk, Samrala-Chandigarh Road,Ludhiana-141008-Punjab",
       "group": "Ludhiana (5 Centres)",
       "region": "NR-II"
     },
     {
-      "sl": 141,
+      "sl": 1,
       "city": "Moga",
       "addr": "City Complex, Near Planet Fashion Showroom, Partaproad, Moga - 142001, Punjab",
       "group": "Moga (1 Centre)",
       "region": "NR-II"
     },
     {
-      "sl": 142,
+      "sl": 1,
       "city": "Mohali",
       "addr": "Booth No : 52, Phase 7, Mohali-160055-Punjab",
       "group": "Mohali (1 Centre)",
       "region": "NR-II"
     },
     {
-      "sl": 143,
+      "sl": 1,
       "city": "Pathankot",
       "addr": "Ground Floor, Mk2 Complex, Near Kaalu Ka Petrolpump,Dalhousie Road, Pathankot-145001-Punjab",
       "group": "Pathankot (1 Centre)",
       "region": "NR-II"
     },
     {
-      "sl": 144,
+      "sl": 1,
       "city": "Patiala",
       "addr": "Leela Bhawan Chowk, Opposite Gopal Sweets, Patiala -147001",
       "group": "Patiala (1 Centre)",
       "region": "NR-II"
     },
     {
-      "sl": 145,
+      "sl": 1,
       "city": "Jaipur",
       "addr": "A-34, Prabhu Marg, Centre Point Building, Opp. a.C. Market, Tilak Nagar, Raja Park, Jaipur-302004, Rajasthan",
       "group": "Jaipur (1 Centre)",
       "region": "NWR"
     },
     {
-      "sl": 146,
+      "sl": 1,
       "city": "Jodhpur",
       "addr": "E-123, Shastri Nagar, Opp Manidhari Hospital, Residencyroad, Jodhpur-342 001, Rajasthan",
       "group": "Jodhpur (1 Centre)",
       "region": "NWR"
     },
     {
-      "sl": 147,
+      "sl": 1,
       "city": "Kota",
       "addr": "1-B-32 & 33, Talwandi, Rhb,Commerce College Road, Kota-324 005, Rajasthan.",
       "group": "Kota (1 Centre)",
       "region": "NWR"
     },
     {
-      "sl": 148,
+      "sl": 1,
       "city": "Udaipur",
       "addr": "Amolak Diagnostics Pvt Ltd, 24-C, Madhuban, Near Chetakcirlce, Opp Gpo, Udaipur-313001, Rajasthan",
       "group": "Udaipur (2 Centres)",
       "region": "NWR"
     },
     {
-      "sl": 149,
+      "sl": 2,
       "city": "Udaipur",
       "addr": "1-Ta-25 & 1-Ta-13, Ground Floor, Rhb Colony, Near Shashtrimisthan Bhandar, Sector -5, Hirang Magri, Udaipur-313 002, Rajasthan",
       "group": "Udaipur (2 Centres)",
       "region": "NWR"
     },
     {
-      "sl": 150,
+      "sl": 1,
       "city": "Hyderabad",
       "addr": "G29 & G30, Ground Floor, Swarna Jayanti Complex Beside Huda Maitrivanam Building, Ameerpet, Hyderabad-500038,Andhra Pradesh.",
       "group": "Hyderabad (2 Centres)",
       "region": "SR-I"
     },
     {
-      "sl": 151,
+      "sl": 2,
       "city": "Hyderabad",
       "addr": "Plot No 22,Ayyappa Arcade,Janardhan Hills,Gachibowli,Serilingampalli,Hyderabad-32",
       "group": "Hyderabad (2 Centres)",
       "region": "SR-I"
     },
     {
-      "sl": 152,
+      "sl": 1,
       "city": "Agartala",
       "addr": "Dr. P. B. Das Memorial Diagnostic Centre, Bidurkartachowuhani, Agartala-799001",
       "group": "Agartala (1 Centre)",
       "region": "NER"
     },
     {
-      "sl": 153,
+      "sl": 1,
       "city": "Agra",
       "addr": "G1, Vinayak Mall, Surya Nagar, Civil Lines, Near Diwanichowk, Agra-282002, U.P.",
       "group": "Agra (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 154,
+      "sl": 1,
       "city": "Aligarh",
       "addr": "3/168, Kushwah Complex, Vidhya Nagar Colony, Opp Obcbank, Near Great Shopping Mall, Ramghat Road, Aligarh- 202001, U.P.",
       "group": "Aligarh (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 155,
+      "sl": 1,
       "city": "Allahabad",
       "addr": "29-B, P.D. Tandon Marg, Vivekanand Churaha Near I-Indiamart, Civil Lines Allahabad-211001",
       "group": "Allahabad (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 156,
+      "sl": 1,
       "city": "Azamgarh",
       "addr": "Shop No. 120 & 121, Civil Lines, Opposite Civil Court, Near Busstand",
       "group": "Azamgarh (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 157,
+      "sl": 1,
       "city": "Bareilly",
       "addr": "Jai Hind Kothi, Maccnair Road, Prem Nagar",
       "group": "Bareilly (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 158,
+      "sl": 1,
       "city": "Bijnore",
       "addr": "Near Main Branch of Punjab Nation Bank, Civil Lines,Bijnore, U.P -246701",
       "group": "Bijnore (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 159,
+      "sl": 1,
       "city": "Deoria",
       "addr": "Rani Ghati Khoti, Near Jk Mittal Academy, Salempur Road",
       "group": "Deoria (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 160,
+      "sl": 1,
       "city": "Faizabad",
       "addr": "Hall No 2 Mukut Complex Rikub Ganj Faizabad up 224001",
       "group": "Faizabad (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 161,
+      "sl": 1,
       "city": "Ghaziabad",
       "addr": "Ground Floor, Shop No: Bg-03,Aditya Shopping Complex,Plot No. C/Gh-3, Vaibhav Khand, Indirapuram,Ghaziabad.- 201014-U.P",
       "group": "Ghaziabad (4 Centres)",
       "region": "NR-III"
     },
     {
-      "sl": 162,
+      "sl": 2,
       "city": "Ghaziabad",
       "addr": "Ground Floor, Plot No.20, Sector-15c, Near Sbi,Vasundhara, Ghaziabad,201012, U.P.",
       "group": "Ghaziabad (4 Centres)",
       "region": "NR-III"
     },
     {
-      "sl": 163,
+      "sl": 3,
       "city": "Ghaziabad",
       "addr": "Shop No. C3,C4,Ground Floor,Saya Buildcon Ahinsa Khand - 2,Plot No.Gh-11,Near Cisfcamp,Indirapuram, Ghaziabad",
       "group": "Ghaziabad (4 Centres)",
       "region": "NR-III"
     },
     {
-      "sl": 164,
+      "sl": 4,
       "city": "Ghaziabad",
       "addr": "C-30, Rdc, Near Krishna Sagar, Rajnagar, Ghaziabad- 201002,U.P.",
       "group": "Ghaziabad (4 Centres)",
       "region": "NR-III"
     },
     {
-      "sl": 165,
+      "sl": 1,
       "city": "Gorakhpur Sadar",
       "addr": "10 Park Road, Beside City Mall, Civil Line, Gorakhpur,",
       "group": "Gorakhpur Sadar (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 166,
+      "sl": 1,
       "city": "Kanpur",
       "addr": "117/H-2/168-a,Pandunagar,Kanpur-208005,up",
       "group": "Kanpur (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 167,
+      "sl": 1,
       "city": "Lucknow",
       "addr": "8 Mandir Marg Mahanagar Ext. Lucknow226006",
       "group": "Lucknow (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 168,
+      "sl": 1,
       "city": "Meerut",
       "addr": "5/5, Begam Bridge Road Opp. Raj Vanshi Kanya Inter College,Beside Akash Ganga Jwellers.",
       "group": "Meerut (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 169,
+      "sl": 1,
       "city": "Noida",
       "addr": "Shop No: G-18,G-19,G-20 & G-21, Msx Tower-Ii, B-2, Alpha- 1,Alpha Commercial Belt,Greaternoida, Gautam Budhnagar-201308-U.P",
       "group": "Noida (4 Centres)",
       "region": "NR-III"
     },
     {
-      "sl": 170,
+      "sl": 2,
       "city": "Noida",
       "addr": "B-1/1, Central Market, Sector \u2013 50, Noida-201301, U.P.",
       "group": "Noida (4 Centres)",
       "region": "NR-III"
     },
     {
-      "sl": 171,
+      "sl": 3,
       "city": "Noida",
       "addr": "N-27, Sector-18, Noida-201301, U.P.",
       "group": "Noida (4 Centres)",
       "region": "NR-III"
     },
     {
-      "sl": 172,
+      "sl": 4,
       "city": "Noida",
       "addr": "Shop No-103,Jaipuria Plaza,Sector-26 Noida-201301-U.P",
       "group": "Noida (4 Centres)",
       "region": "NR-III"
     },
     {
-      "sl": 173,
+      "sl": 1,
       "city": "Saharanpur",
       "addr": "2/880/37, Dr. Bheem Rao Ambedkar Marg, Opp. Sophiamarket, Court Road, Saharanpur- 247 001, U.P.",
       "group": "Saharanpur (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 174,
+      "sl": 1,
       "city": "Varanasi",
       "addr": "Nidan Kendra Godowlia, Varanasi, U.P. - 221010",
       "group": "Varanasi (2 Centres)",
       "region": "NR-III"
     },
     {
-      "sl": 175,
+      "sl": 2,
       "city": "Varanasi",
       "addr": "38,Gr.Flr.Shastri Nagar, Opp Sajan Cinema Hall, Sigravaranasi 221001 , U.P 0542-2222282, 07851810462",
       "group": "Varanasi (2 Centres)",
       "region": "NR-III"
     },
     {
-      "sl": 176,
+      "sl": 1,
       "city": "Haldwani",
       "addr": "Opposite Bhartiya Bal Vidhya Mandir Mandir Inter Collage,Kaladhungi Road ,Haldwani",
       "group": "Haldwani (2 Centres)",
       "region": "NR-III"
     },
     {
-      "sl": 177,
+      "sl": 2,
       "city": "Haldwani",
       "addr": "Haldwani Diagnostic Centre Sahukara Line, Opp. Ss Jeena Base Hospital, Haldwani, Nainital-263139, Uttarakhandhaldwani - 263139",
       "group": "Haldwani (2 Centres)",
       "region": "NR-III"
     },
     {
-      "sl": 178,
+      "sl": 1,
       "city": "Haridwar",
       "addr": "Abc Gf & 1st Floor , Plot No - 9, Opposite Classic Residency & Mohan Puri Restaurant, Nearshankar Ashram Chowk, Main Road, Haridwar, Uttarakhand- 249401",
       "group": "Haridwar (1 Centre)",
       "region": "NR-III"
     },
     {
-      "sl": 179,
+      "sl": 1,
       "city": "Kolkata",
       "addr": "11 a, Puranchand Nehar Avenue, Taltala, Kolkata-700013,W.B.",
       "group": "Kolkata (7 Centres)",
       "region": "ER-II"
     },
     {
-      "sl": 180,
+      "sl": 2,
       "city": "Kolkata",
       "addr": "P-258, Darga Road (Adj. Park Circus Maidan) Near No. 4bridge, Kolkata-700 017, W.B.",
       "group": "Kolkata (7 Centres)",
       "region": "ER-II"
     },
     {
-      "sl": 181,
+      "sl": 3,
       "city": "Kolkata",
       "addr": "Cb-31/1 Street 199 Action Action 1-C New Town Kolkata 700156",
       "group": "Kolkata (7 Centres)",
       "region": "ER-II"
     },
     {
-      "sl": 182,
+      "sl": 4,
       "city": "Kolkata",
       "addr": "1st Floor, Siddhi Appartments, 71 Vip Road, Adjacent Tohotel Rupassi Bangla, Teghoria, Kolkata \u2013 700059",
       "group": "Kolkata (7 Centres)",
       "region": "ER-II"
     },
     {
-      "sl": 183,
+      "sl": 5,
       "city": "Kolkata",
       "addr": "P-845, Block-a, Lake Town, Kolkata - 700089, Wb.",
       "group": "Kolkata (7 Centres)",
       "region": "ER-II"
     },
     {
-      "sl": 184,
+      "sl": 6,
       "city": "Kolkata",
       "addr": "Medicave Diagnostic Pvt. Ltd, 48-B , B.T Road, Sinthi,,Kolkata- 700050",
       "group": "Kolkata (7 Centres)",
       "region": "ER-II"
     },
     {
-      "sl": 185,
+      "sl": 7,
       "city": "Kolkata",
       "addr": "12 No. Railgate, Noapara, Barasat, 24 Pgs.(N), Kolkata",
       "group": "Kolkata (7 Centres)",
