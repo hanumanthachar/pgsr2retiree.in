@@ -26,8 +26,14 @@
       var esc = escapeHtml(c.highlight);
       var idx = subj.indexOf(esc);
       if (idx >= 0) {
-        return subj.slice(0, idx) + '<span class="hl-red">' + esc + "</span>" + subj.slice(idx + esc.length);
+        subj = subj.slice(0, idx) + '<span class="hl-red">' + esc + "</span>" + subj.slice(idx + esc.length);
       }
+    }
+    if (c.struckThrough) {
+      subj = '<s class="struck-subject">' + subj + "</s>";
+    }
+    if (c.supersededNote) {
+      subj += ' <span class="hl-red">' + escapeHtml(c.supersededNote) + "</span>";
     }
     return subj;
   }

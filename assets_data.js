@@ -67,6 +67,22 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
+      "subject": "Holy Family Hospital, New Delhi \u2014 Schedule of Charges 2026-28 (Effective from 01-04-2026 to 31-03-2028) (Superseding the Circular Sl No 9)",
+      "highlight": "(Superseding the Circular Sl No 9)",
+      "note": null,
+      "ref": "H-2014-0208",
+      "date": "29-Jul-2026",
+      "pages": 130,
+      "type": "Rates-Holy Family Rate List 2026-28",
+      "section": "RATES",
+      "sectionLabel": "APPROVED RATES / TARIFFS",
+      "color": "#2f7d3c",
+      "pdf": "circular_05.pdf",
+      "pageInFullCompendium": 97,
+      "region": "SR2"
+    },
+    {
+      "sl": 6,
       "subject": "Rationalization of Medical Attendance and Treatment Rules - Ayurveda treatment",
       "highlight": null,
       "note": null,
@@ -77,12 +93,12 @@ const COMPENDIUM_DATA = {
       "section": "RATES",
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
-      "pdf": "circular_05.pdf",
-      "pageInFullCompendium": 97,
+      "pdf": "circular_06.pdf",
+      "pageInFullCompendium": 227,
       "region": "SR2"
     },
     {
-      "sl": 6,
+      "sl": 7,
       "subject": "Revision of lists and rates of artificial appliances for CGHS/CS(MA) beneficiaries and general guidelines for eligibility criteria therefor",
       "highlight": null,
       "note": null,
@@ -93,12 +109,12 @@ const COMPENDIUM_DATA = {
       "section": "RATES",
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
-      "pdf": "circular_06.pdf",
-      "pageInFullCompendium": 111,
+      "pdf": "circular_07.pdf",
+      "pageInFullCompendium": 241,
       "region": "SR2"
     },
     {
-      "sl": 7,
+      "sl": 8,
       "subject": "Memorandum of Understanding with M/s Manipal Health Enterprises Pvt. Ltd. - Empanelment of Manipal Hospitals, Bangalore",
       "highlight": null,
       "note": null,
@@ -109,12 +125,12 @@ const COMPENDIUM_DATA = {
       "section": "RATES",
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
-      "pdf": "circular_07.pdf",
-      "pageInFullCompendium": 127,
+      "pdf": "circular_08.pdf",
+      "pageInFullCompendium": 257,
       "region": "SR2"
     },
     {
-      "sl": 8,
+      "sl": 9,
       "subject": "Empanelment of M/s Holy Family Hospital, Okhla Road, New Delhi - reg (09-09-2024 to 08-09-2026)",
       "highlight": null,
       "note": null,
@@ -125,12 +141,14 @@ const COMPENDIUM_DATA = {
       "section": "RATES",
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
-      "pdf": "circular_08.pdf",
-      "pageInFullCompendium": 135,
-      "region": "SR2"
+      "pdf": "circular_09.pdf",
+      "pageInFullCompendium": 265,
+      "region": "SR2",
+      "struckThrough": true,
+      "supersededNote": "(Superseded by Circular at Sl No 5)"
     },
     {
-      "sl": 9,
+      "sl": 10,
       "subject": "Empanelment of M/s Lal Path Lab - Rate Revision thereof",
       "highlight": null,
       "note": null,
@@ -141,12 +159,12 @@ const COMPENDIUM_DATA = {
       "section": "RATES",
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
-      "pdf": "circular_09.pdf",
-      "pageInFullCompendium": 271,
+      "pdf": "circular_10.pdf",
+      "pageInFullCompendium": 401,
       "region": "SR2"
     },
     {
-      "sl": 10,
+      "sl": 11,
       "subject": "Dr. Lal PathLabs Limited - Test Rate List (LPL Price List 2023-24)",
       "highlight": null,
       "note": null,
@@ -157,12 +175,12 @@ const COMPENDIUM_DATA = {
       "section": "RATES",
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
-      "pdf": "circular_10.pdf",
-      "pageInFullCompendium": 272,
+      "pdf": "circular_11.pdf",
+      "pageInFullCompendium": 402,
       "region": "SR2"
     },
     {
-      "sl": 11,
+      "sl": 12,
       "subject": "Approved Dental Rates of Batra Hospital, New Delhi",
       "highlight": null,
       "note": null,
@@ -173,12 +191,12 @@ const COMPENDIUM_DATA = {
       "section": "RATES",
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
-      "pdf": "circular_11.pdf",
-      "pageInFullCompendium": 414,
+      "pdf": "circular_12.pdf",
+      "pageInFullCompendium": 544,
       "region": "SR2"
     },
     {
-      "sl": 12,
+      "sl": 13,
       "subject": "SOC of Batra Hospital (Rates effective from 01-02-2019)",
       "highlight": null,
       "note": null,
@@ -189,12 +207,12 @@ const COMPENDIUM_DATA = {
       "section": "RATES",
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
-      "pdf": "circular_12.pdf",
-      "pageInFullCompendium": 420,
+      "pdf": "circular_13.pdf",
+      "pageInFullCompendium": 550,
       "region": "SR2"
     },
     {
-      "sl": 13,
+      "sl": 14,
       "subject": "Reimbursement of cost of Hearing Aid",
       "highlight": null,
       "note": null,
@@ -205,12 +223,12 @@ const COMPENDIUM_DATA = {
       "section": "RATES",
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
-      "pdf": "circular_13.pdf",
-      "pageInFullCompendium": 522,
+      "pdf": "circular_14.pdf",
+      "pageInFullCompendium": 652,
       "region": "SR2"
     },
     {
-      "sl": 14,
+      "sl": 15,
       "subject": "Discount facility by M/s Dr Lal Path Lab owned Diagnostic Centres",
       "highlight": null,
       "note": null,
@@ -221,12 +239,12 @@ const COMPENDIUM_DATA = {
       "section": "RATES",
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
-      "pdf": "circular_14.pdf",
-      "pageInFullCompendium": 523,
+      "pdf": "circular_15.pdf",
+      "pageInFullCompendium": 653,
       "region": "SR2"
     },
     {
-      "sl": 15,
+      "sl": 16,
       "subject": "Modification/amendment in the ceiling limit of the cost of lens used in Cataract surgery",
       "highlight": null,
       "note": null,
@@ -237,12 +255,12 @@ const COMPENDIUM_DATA = {
       "section": "RATES",
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
-      "pdf": "circular_15.pdf",
-      "pageInFullCompendium": 534,
+      "pdf": "circular_16.pdf",
+      "pageInFullCompendium": 664,
       "region": "SR2"
     },
     {
-      "sl": 16,
+      "sl": 17,
       "subject": "Circular regarding Clarification on reimbursement of charges towards pathological services availed from non-empanelled hospitals and centres / labs.",
       "highlight": null,
       "note": null,
@@ -253,12 +271,12 @@ const COMPENDIUM_DATA = {
       "section": "RATES",
       "sectionLabel": "APPROVED RATES / TARIFFS",
       "color": "#2f7d3c",
-      "pdf": "circular_16.pdf",
-      "pageInFullCompendium": 535,
+      "pdf": "circular_17.pdf",
+      "pageInFullCompendium": 665,
       "region": "SR2"
     },
     {
-      "sl": 17,
+      "sl": 18,
       "subject": "Revision in the \"Employees Medical Health Check-up Scheme (Same at Sl No: 3 but issued as CC:HR:Circular)",
       "highlight": "(Same at Sl No: 3 but issued as CC:HR:Circular)",
       "note": null,
@@ -269,12 +287,12 @@ const COMPENDIUM_DATA = {
       "section": "HEALTH",
       "sectionLabel": "PREVENTIVE HEALTH CHECK-UP",
       "color": "#128089",
-      "pdf": "circular_17.pdf",
-      "pageInFullCompendium": 628,
+      "pdf": "circular_18.pdf",
+      "pageInFullCompendium": 758,
       "region": "SR2"
     },
     {
-      "sl": 18,
+      "sl": 19,
       "subject": "Rate Contract for Preventive Health Check-Up of employees posted at RHQ-Bangalore, Bidadi, Kolar, Somanahalli, Tumkur & Yelahanka SS with M/s Aster CMI Hospital",
       "highlight": null,
       "note": null,
@@ -285,15 +303,15 @@ const COMPENDIUM_DATA = {
       "section": "HEALTH",
       "sectionLabel": "PREVENTIVE HEALTH CHECK-UP",
       "color": "#128089",
-      "pdf": "circular_18.pdf",
-      "pageInFullCompendium": 632,
+      "pdf": "circular_19.pdf",
+      "pageInFullCompendium": 762,
       "region": "SR2"
     },
     {
-      "sl": 19,
+      "sl": 20,
       "subject": "Medical Checkup of employees in M/s Aster CMI Hospital, Hebbal, Bangalore",
       "highlight": null,
-      "note": "This circular is superseded by circular at Sl No 18 - Ref SRTS-II/C&M/WC-3753/LOA-3434/2023 dt. 16-11-2023",
+      "note": "This circular is superseded by circular at Sl No 19 - Ref SRTS-II/C&M/WC-3753/LOA-3434/2023 dt. 16-11-2023",
       "ref": "\u0926\u0915\u094d\u0937\u0947\u092a\u093e\u092a\u094d\u0930-2/\u092e\u093e\u0938\u0902 \u092a\u094d\u0930\u0938\u093e\u0936\u0928/2021/",
       "date": "12-Oct-2021",
       "pages": 1,
@@ -301,12 +319,12 @@ const COMPENDIUM_DATA = {
       "section": "HEALTH",
       "sectionLabel": "PREVENTIVE HEALTH CHECK-UP",
       "color": "#128089",
-      "pdf": "circular_19.pdf",
-      "pageInFullCompendium": 634,
+      "pdf": "circular_20.pdf",
+      "pageInFullCompendium": 764,
       "region": "SR2"
     },
     {
-      "sl": 20,
+      "sl": 21,
       "subject": "Coverage of Retired Employees & Spouse and Dependent Parents under the Perview of Company's Preventive Health Check-up Scheme",
       "highlight": null,
       "note": null,
@@ -317,12 +335,12 @@ const COMPENDIUM_DATA = {
       "section": "HEALTH",
       "sectionLabel": "PREVENTIVE HEALTH CHECK-UP",
       "color": "#128089",
-      "pdf": "circular_20.pdf",
-      "pageInFullCompendium": 635,
+      "pdf": "circular_21.pdf",
+      "pageInFullCompendium": 765,
       "region": "SR2"
     },
     {
-      "sl": 21,
+      "sl": 22,
       "subject": "Modification in Medical Rules - Addition of day care procedures",
       "highlight": null,
       "note": null,
@@ -333,12 +351,12 @@ const COMPENDIUM_DATA = {
       "section": "DAYCARE",
       "sectionLabel": "DAY-CARE PROCEDURES",
       "color": "#c07f0e",
-      "pdf": "circular_21.pdf",
-      "pageInFullCompendium": 641,
+      "pdf": "circular_22.pdf",
+      "pageInFullCompendium": 771,
       "region": "SR2"
     },
     {
-      "sl": 22,
+      "sl": 23,
       "subject": "Contributory Scheme of Post-Retirement Medical Facilities - Modification thereof (Indoor Treatment of certain procedures)",
       "highlight": null,
       "note": null,
@@ -349,12 +367,12 @@ const COMPENDIUM_DATA = {
       "section": "DAYCARE",
       "sectionLabel": "DAY-CARE PROCEDURES",
       "color": "#c07f0e",
-      "pdf": "circular_22.pdf",
-      "pageInFullCompendium": 642,
+      "pdf": "circular_23.pdf",
+      "pageInFullCompendium": 772,
       "region": "SR2"
     },
     {
-      "sl": 23,
+      "sl": 24,
       "subject": "Addition/Updation of dependent children of superannuated employees as per the revised POWERGRID Post-Retirement Medical (PRMB) Scheme in 'Power Setu' Portal",
       "highlight": null,
       "note": null,
@@ -365,12 +383,12 @@ const COMPENDIUM_DATA = {
       "section": "DEP",
       "sectionLabel": "DEPENDENT COVERAGE",
       "color": "#a13a2f",
-      "pdf": "circular_23.pdf",
-      "pageInFullCompendium": 644,
+      "pdf": "circular_24.pdf",
+      "pageInFullCompendium": 774,
       "region": "SR2"
     },
     {
-      "sl": 24,
+      "sl": 25,
       "subject": "Scheme for Medical facilities to Dependents of deceased employees",
       "highlight": null,
       "note": null,
@@ -381,12 +399,12 @@ const COMPENDIUM_DATA = {
       "section": "DEP",
       "sectionLabel": "DEPENDENT COVERAGE",
       "color": "#a13a2f",
-      "pdf": "circular_24.pdf",
-      "pageInFullCompendium": 649,
+      "pdf": "circular_25.pdf",
+      "pageInFullCompendium": 779,
       "region": "SR2"
     },
     {
-      "sl": 25,
+      "sl": 26,
       "subject": "OPD Medical Treatment of Dependent Parents of Retired Employees to be included under PRMB Scheme",
       "highlight": null,
       "note": null,
@@ -397,12 +415,12 @@ const COMPENDIUM_DATA = {
       "section": "DEP",
       "sectionLabel": "DEPENDENT COVERAGE",
       "color": "#a13a2f",
-      "pdf": "circular_25.pdf",
-      "pageInFullCompendium": 650,
+      "pdf": "circular_26.pdf",
+      "pageInFullCompendium": 780,
       "region": "SR2"
     },
     {
-      "sl": 26,
+      "sl": 27,
       "subject": "System Generation of IPD Letter for admission in empanelled hospitals across POWERGRID",
       "highlight": null,
       "note": null,
@@ -413,12 +431,12 @@ const COMPENDIUM_DATA = {
       "section": "SYS",
       "sectionLabel": "PORTAL / SYSTEM CIRCULARS",
       "color": "#5c3d99",
-      "pdf": "circular_26.pdf",
-      "pageInFullCompendium": 652,
+      "pdf": "circular_27.pdf",
+      "pageInFullCompendium": 782,
       "region": "SR2"
     },
     {
-      "sl": 27,
+      "sl": 28,
       "subject": "Circular on \" POWER SETU\" - Mobile App for availing reimbursement of Medical Claims.",
       "highlight": null,
       "note": null,
@@ -429,12 +447,12 @@ const COMPENDIUM_DATA = {
       "section": "SYS",
       "sectionLabel": "PORTAL / SYSTEM CIRCULARS",
       "color": "#5c3d99",
-      "pdf": "circular_27.pdf",
-      "pageInFullCompendium": 662,
+      "pdf": "circular_28.pdf",
+      "pageInFullCompendium": 792,
       "region": "SR2"
     },
     {
-      "sl": 28,
+      "sl": 29,
       "subject": "Submission of Life Certificate for availing medical facility under POWERGRID Post-Retirement Medical Benefit Scheme (PRMBS)",
       "highlight": null,
       "note": null,
@@ -445,8 +463,24 @@ const COMPENDIUM_DATA = {
       "section": "SYS",
       "sectionLabel": "PORTAL / SYSTEM CIRCULARS",
       "color": "#5c3d99",
-      "pdf": "circular_28.pdf",
-      "pageInFullCompendium": 664,
+      "pdf": "circular_29.pdf",
+      "pageInFullCompendium": 794,
+      "region": "SR2"
+    },
+    {
+      "sl": 30,
+      "subject": "Extension of healthcare facilities on discounted rates in POWERGRID empanelled hospitals (that agree to extend this facility) to non-dependent family members of employees",
+      "highlight": null,
+      "note": null,
+      "ref": "CC/HR/Policy/5.0/2026 \u2014 Corporate HR Circular No. 683/2026 dt. 14-07-2026",
+      "date": "14-Jul-2026",
+      "pages": 2,
+      "type": "NonDep-Extension of Healthcare Facilities",
+      "section": "NONDEP",
+      "sectionLabel": "NON-DEPENDENT COVERAGE",
+      "color": "#8e2a68",
+      "pdf": "circular_30.pdf",
+      "pageInFullCompendium": 797,
       "region": "SR2"
     }
   ],
@@ -474,6 +508,10 @@ const COMPENDIUM_DATA = {
     "SYS": {
       "label": "PORTAL / SYSTEM CIRCULARS",
       "color": "#5c3d99"
+    },
+    "NONDEP": {
+      "label": "NON-DEPENDENT COVERAGE",
+      "color": "#8e2a68"
     }
   },
   "hospitals": [
@@ -5753,7 +5791,7 @@ const COMPENDIUM_DATA = {
       "region": "ER-II"
     }
   ],
-  "aabhaarStart": 666,
+  "aabhaarStart": 799,
   "faqs": [],
   "otherInfo": [
     {
@@ -5783,6 +5821,13 @@ const COMPENDIUM_DATA = {
       "description": "EPS-HigherPension-Calculation-Discrepancies.",
       "file": "EPS95_Higher_Pension_With_Annexures.pdf",
       "category": "Employees Pension Scheme"
+    },
+    {
+      "id": "other-05",
+      "title": "OPD Reimbursement -- Ceiling & Disallowance Guide",
+      "description": "Common reasons OPD medical bills are disallowed or deducted under the Medical Attendance and Treatment Rules, plus an Annexure giving the annual OPD ceiling limit by grade at retirement (Workmen/Supervisors/Executives).",
+      "file": "OPD_Reimbursement_Ceiling_and_Disallowance_Guide.pdf",
+      "category": "Medical Reimbursement"
     }
   ]
 };
