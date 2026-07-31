@@ -524,6 +524,50 @@
     resultsEl.innerHTML = html;
   }
 
+  /* ---------- scrolling "latest updates" ticker ---------- */
+
+  function renderTicker() {
+    var wrap = document.getElementById("tickerWrap");
+    var track = document.getElementById("tickerTrack");
+    if (!wrap || !track) return;
+
+    // Which circulars show up here: any circular flagged "recentUpdate": true
+    // in assets_data.js. To add a new one later, just set that flag on its
+    // entry (and clear it off older ones whenever the list should move on).
+    var items = (DATA.circulars || []).filter(function (c) {
+      return c.recentUpdate;
+    });
+
+    if (items.length === 0) {
+      wrap.style.display = "none"; // nothing flagged -> hide the whole bar, no empty scroll
+      return;
+    }
+
+    function shorten(text, max) {
+      if (text.length <= max) return text;
+      return text.slice(0, max - 1).replace(/\s+\S*$/, "") + "…";
+    }
+
+    var itemsHtml = items
+      .map(function (c) {
+        return (
+          '<span class="ticker-item">' +
+          '<span class="ticker-sl">Sl ' + c.sl + "</span>" +
+          escapeHtml(shorten(c.subject, 90)) +
+          '<span class="ticker-date">' + escapeHtml(c.date || "") + "</span>" +
+          "</span>"
+        );
+      })
+      .join("");
+
+    // The track is the SAME item list twice, back-to-back. The CSS animation
+    // slides it left by exactly 50% of the track's total width, so the
+    // moment the animation "restarts", copy #2 is sitting exactly where
+    // copy #1 began -- the loop is seamless, no visible jump.
+    track.innerHTML = itemsHtml + itemsHtml;
+    wrap.style.display = "";
+  }
+
   /* ---------- boot ---------- */
 
   document.addEventListener("DOMContentLoaded", function () {
@@ -532,5 +576,6 @@
     initHospitals();
     initFaqs();
     renderOtherInfo();
+    renderTicker();
   });
 })();

@@ -54,6 +54,73 @@ body {
   background: var(--gold);
 }
 
+/* ---------- scrolling "latest updates" ticker ---------- */
+.ticker-wrap {
+  display: flex;
+  align-items: stretch;
+  background: var(--navy);
+  border-bottom: 3px solid var(--gold);
+  overflow: hidden;
+}
+.ticker-label {
+  flex: 0 0 auto;
+  background: var(--gold);
+  color: var(--navy);
+  font-weight: 800;
+  font-size: 11.5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 7px 14px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.ticker-viewport {
+  flex: 1 1 auto;
+  overflow: hidden;
+  position: relative;
+}
+.ticker-track {
+  display: inline-flex;
+  white-space: nowrap;
+  width: max-content;
+  animation: ticker-scroll 35s linear infinite;
+}
+/* pause on hover/focus so it's readable */
+.ticker-wrap:hover .ticker-track,
+.ticker-track:focus-within {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track { animation: none; }
+}
+.ticker-item {
+  color: #fff;
+  font-size: 13px;
+  padding: 7px 48px 7px 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.ticker-item .ticker-sl {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-weight: 700;
+  font-size: 11px;
+}
+.ticker-item .ticker-date {
+  color: #cfd8e3;
+  font-size: 11.5px;
+}
+/* The track holds the item list TWICE back-to-back (see app.js). Animating
+   only halfway (-50%) means copy #2 lands exactly where copy #1 started --
+   a perfectly seamless loop, no jump/reset visible. */
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
 .tabs {
   display: flex;
   flex-wrap: wrap;

@@ -79,7 +79,8 @@ const COMPENDIUM_DATA = {
       "color": "#2f7d3c",
       "pdf": "circular_05.pdf",
       "pageInFullCompendium": 97,
-      "region": "SR2"
+      "region": "SR2",
+      "recentUpdate": true
     },
     {
       "sl": 6,
@@ -145,7 +146,8 @@ const COMPENDIUM_DATA = {
       "pageInFullCompendium": 265,
       "region": "SR2",
       "struckThrough": true,
-      "supersededNote": "(Superseded by Circular at Sl No 5)"
+      "supersededNote": "(Superseded by Circular at Sl No 5)",
+      "recentUpdate": true
     },
     {
       "sl": 10,
@@ -481,7 +483,8 @@ const COMPENDIUM_DATA = {
       "color": "#8e2a68",
       "pdf": "circular_30.pdf",
       "pageInFullCompendium": 797,
-      "region": "SR2"
+      "region": "SR2",
+      "recentUpdate": true
     }
   ],
   "sections": {
@@ -5825,7 +5828,7 @@ const COMPENDIUM_DATA = {
     {
       "id": "other-05",
       "title": "OPD Reimbursement -- Ceiling & Disallowance Guide",
-      "description": "Common reasons OPD medical bills are disallowed or deducted under the Medical Attendance and Treatment Rules, plus an Annexure giving the annual OPD ceiling limit by grade at retirement (Workmen/Supervisors/Executives).",
+      "description": "Common reasons OPD medical bills are disallowed or deducted under the Medical Attendance and Treatment Rules, plus retiree-specific observations from the PRMB Trust Rules (Circular Sl No 2) and an Annexure giving the annual OPD ceiling limit by grade at retirement (Workmen/Supervisors/Executives).",
       "file": "OPD_Reimbursement_Ceiling_and_Disallowance_Guide.pdf",
       "category": "Medical Reimbursement"
     }
