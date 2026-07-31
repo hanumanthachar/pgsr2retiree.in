@@ -274,6 +274,24 @@ body {
 
 .empty-msg { color: var(--muted); font-style: italic; padding: 20px 0; }
 
+.hint-note {
+  font-size: 12.5px;
+  color: #8a5a00;
+  background: #fff7e0;
+  border: 1px solid #f0d78c;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: -6px 0 14px 0;
+  line-height: 1.5;
+}
+.hint-note a {
+  color: var(--navy);
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.hint-note a:hover { color: var(--gold); }
+
 .hosp-group-heading {
   color: #fff;
   font-weight: 700;

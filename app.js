@@ -203,7 +203,7 @@
 
   /* ---------- hospitals / labs tab ---------- */
 
-  var hospState = { query: "", group: "hospitals", city: "ALL", region: "SR2" };
+  var hospState = { query: "", group: "hospitals", city: "ALL", region: "SR2", state: "ALL" };
 
   function buildHospRegionFilter() {
     var select = document.getElementById("hospRegionFilter");
@@ -227,6 +227,30 @@
     select.value = defaultRegion;
   }
 
+  function buildHospStateFilter() {
+    var select = document.getElementById("hospStateFilter");
+    if (!select) return;
+    var isHosp = hospState.group === "hospitals";
+    var list = isHosp ? DATA.hospitals : DATA.labs;
+    if (hospState.region !== "ALL") {
+      list = list.filter(function (r) { return (r.region || "SR2") === hospState.region; });
+    }
+    var states = [];
+    list.forEach(function (r) {
+      var st = r.state || "Not Specified";
+      if (states.indexOf(st) === -1) states.push(st);
+    });
+    states.sort();
+    var html = '<option value="ALL">All States</option>';
+    states.forEach(function (s) {
+      var count = list.filter(function (row) { return (row.state || "Not Specified") === s; }).length;
+      html += '<option value="' + escapeHtml(s) + '">' + escapeHtml(s) + " (" + count + ")</option>";
+    });
+    select.innerHTML = html;
+    hospState.state = "ALL";
+    select.value = "ALL";
+  }
+
   function buildHospCityFilter() {
     var select = document.getElementById("hospCityFilter");
     if (!select) return;
@@ -234,6 +258,9 @@
     var list = isHosp ? DATA.hospitals : DATA.labs;
     if (hospState.region !== "ALL") {
       list = list.filter(function (r) { return (r.region || "SR2") === hospState.region; });
+    }
+    if (hospState.state !== "ALL") {
+      list = list.filter(function (r) { return (r.state || "Not Specified") === hospState.state; });
     }
     var cities = [];
     list.forEach(function (r) {
@@ -266,6 +293,7 @@
     // for the same reason.
     var filtered = list.filter(function (r) {
       if (hospState.region !== "ALL" && (r.region || "SR2") !== hospState.region) return false;
+      if (hospState.state !== "ALL" && (r.state || "Not Specified") !== hospState.state) return false;
       if (hospState.city !== "ALL" && r.city !== hospState.city) return false;
       var parts = isHosp ? [r.name, r.addr] : [r.addr];
       return matchesQuery(parts, q);
@@ -314,6 +342,69 @@
     resultsEl.innerHTML = html;
   }
 
+  function computeStateRegionMap() {
+    // Which region(s) each state's hospitals/labs actually fall under, for
+    // the currently active group (hospitals or labs). Several states span
+    // more than one POWERGRID region (e.g. Uttar Pradesh sits under CC,
+    // NR-I and NR-III) -- this powers the "also has entries under..." hint
+    // so a reader filtering by a single region doesn't mistake a partial
+    // list for the whole state.
+    var isHosp = hospState.group === "hospitals";
+    var list = isHosp ? DATA.hospitals : DATA.labs;
+    var map = {};
+    list.forEach(function (r) {
+      var st = r.state || "Not Specified";
+      var reg = r.region || "SR2";
+      if (!map[st]) map[st] = [];
+      if (map[st].indexOf(reg) === -1) map[st].push(reg);
+    });
+    return map;
+  }
+
+  function updateMultiRegionHint() {
+    var hint = document.getElementById("hospStateHint");
+    if (!hint) return;
+
+    if (hospState.region === "ALL" || hospState.state === "ALL") {
+      hint.style.display = "none";
+      hint.innerHTML = "";
+      return;
+    }
+
+    var map = computeStateRegionMap();
+    var regions = (map[hospState.state] || []).slice().sort();
+    if (regions.length <= 1) {
+      hint.style.display = "none";
+      hint.innerHTML = "";
+      return;
+    }
+
+    var others = regions.filter(function (r) { return r !== hospState.region; });
+    var stateLabel = escapeHtml(hospState.state);
+    hint.innerHTML =
+      "<strong>" + stateLabel + "</strong> also has entries under " + escapeHtml(others.join(", ")) +
+      " &mdash; this view only shows its " + escapeHtml(hospState.region) + " entries. " +
+      '<a id="hospShowAllRegionsLink" href="javascript:void(0)">Show all of ' + stateLabel + "</a>";
+    hint.style.display = "block";
+
+    var link = document.getElementById("hospShowAllRegionsLink");
+    if (link) {
+      link.addEventListener("click", function () {
+        var keepState = hospState.state;
+        hospState.region = "ALL";
+        var regionSelect = document.getElementById("hospRegionFilter");
+        if (regionSelect) regionSelect.value = "ALL";
+        buildHospStateFilter();
+        var stateSelect = document.getElementById("hospStateFilter");
+        if (stateSelect) stateSelect.value = keepState;
+        hospState.state = keepState;
+        buildHospCityFilter();
+        renderHospitals();
+        updateMultiRegionHint();
+      });
+    }
+  }
+
   function updateHospChipCounts() {
     // The chip labels are static text in index.html; keep their counts honest
     // now that hospitals/labs span more than one region (they used to equal
@@ -327,8 +418,10 @@
   function initHospitals() {
     updateHospChipCounts();
     buildHospRegionFilter();
+    buildHospStateFilter();
     buildHospCityFilter();
     renderHospitals();
+    updateMultiRegionHint();
     var search = document.getElementById("hospSearch");
     if (search) {
       search.addEventListener("input", function () {
@@ -340,8 +433,21 @@
     if (regionSelect) {
       regionSelect.addEventListener("change", function () {
         hospState.region = regionSelect.value;
+        // changing the region invalidates any previously chosen state/city
+        buildHospStateFilter();
         buildHospCityFilter();
         renderHospitals();
+        updateMultiRegionHint();
+      });
+    }
+    var stateSelect = document.getElementById("hospStateFilter");
+    if (stateSelect) {
+      stateSelect.addEventListener("change", function () {
+        hospState.state = stateSelect.value;
+        // changing the state invalidates any previously chosen city
+        buildHospCityFilter();
+        renderHospitals();
+        updateMultiRegionHint();
       });
     }
     var citySelect = document.getElementById("hospCityFilter");
@@ -357,8 +463,10 @@
         document.querySelectorAll('.chip[data-hgroup]').forEach(function (c) { c.classList.remove("active"); });
         chip.classList.add("active");
         buildHospRegionFilter();
+        buildHospStateFilter();
         buildHospCityFilter();
         renderHospitals();
+        updateMultiRegionHint();
       });
     });
   }
