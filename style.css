@@ -102,6 +102,10 @@ body {
   align-items: center;
   gap: 8px;
 }
+.ticker-item .ticker-sl.ticker-new {
+  background: var(--gold);
+  color: var(--navy);
+}
 .ticker-item .ticker-sl {
   background: rgba(255, 255, 255, 0.15);
   border-radius: 4px;

@@ -550,13 +550,23 @@
 
     var itemsHtml = items
       .map(function (c) {
-        return (
+        var html =
           '<span class="ticker-item">' +
           '<span class="ticker-sl">Sl ' + c.sl + "</span>" +
           escapeHtml(shorten(c.subject, 90)) +
           '<span class="ticker-date">' + escapeHtml(c.date || "") + "</span>" +
-          "</span>"
-        );
+          "</span>";
+        // Optional second scrolling message for the same circular -- e.g. a
+        // plain-language callout instead of the raw subject line. Set
+        // "tickerExtra" on the circular's data to show one.
+        if (c.tickerExtra) {
+          html +=
+            '<span class="ticker-item">' +
+            '<span class="ticker-sl ticker-new">New</span>' +
+            escapeHtml(c.tickerExtra) +
+            "</span>";
+        }
+        return html;
       })
       .join("");
 

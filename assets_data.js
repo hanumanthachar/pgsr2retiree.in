@@ -80,7 +80,8 @@ const COMPENDIUM_DATA = {
       "pdf": "circular_05.pdf",
       "pageInFullCompendium": 97,
       "region": "SR2",
-      "recentUpdate": true
+      "recentUpdate": true,
+      "tickerExtra": "Holy Family Hospital rates revised for 2026-28 \u2014 the earlier Sl No 9 circular now stands superseded."
     },
     {
       "sl": 6,
@@ -147,7 +148,7 @@ const COMPENDIUM_DATA = {
       "region": "SR2",
       "struckThrough": true,
       "supersededNote": "(Superseded by Circular at Sl No 5)",
-      "recentUpdate": true
+      "recentUpdate": false
     },
     {
       "sl": 10,
