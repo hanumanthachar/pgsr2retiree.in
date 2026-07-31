@@ -1351,16 +1351,6 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 46,
-      "name": "Government Hospital",
-      "city": "Gurgaon",
-      "addr": "Government Hospital",
-      "group": "Gurgaon (13 Hospitals)",
-      "region": "CC",
-      "state": "Haryana"
-    },
-    {
-      "sl": 1,
       "portal": 24,
       "name": "Artemis Hospital",
       "city": "Gurgaon",
@@ -1475,6 +1465,16 @@ const COMPENDIUM_DATA = {
       "name": "Fortis Hospital",
       "city": "Gurgaon",
       "addr": "Plot No. 2, Sector- 5, Imt Manesar, Gurugram, Haryana,122052",
+      "group": "Gurgaon (13 Hospitals)",
+      "region": "CC",
+      "state": "Haryana"
+    },
+    {
+      "sl": 13,
+      "portal": 46,
+      "name": "Government Hospital",
+      "city": "Gurgaon",
+      "addr": "Government Hospital",
       "group": "Gurgaon (13 Hospitals)",
       "region": "CC",
       "state": "Haryana"
