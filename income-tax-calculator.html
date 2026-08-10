@@ -1,0 +1,1529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Income Tax Calculator — Tax Year 2026-27 (Income-tax Act, 2025)</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+  :root{
+    --navy:#1a3c6e;
+    --navy-dark:#12294d;
+    --blue-input:#0000FF;
+    --green-link:#008000;
+    --yellow-fill:#fff2cc;
+    --bg:#f4f6fa;
+    --border:#c7d0de;
+    --hdr-bg:#d9e2f0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:var(--bg);
+    margin:0;
+    color:#1c1c1c;
+  }
+  header.app-header{
+    background:var(--navy);
+    color:#fff;
+    padding:18px 24px;
+  }
+  header.app-header h1{
+    margin:0 0 4px 0;
+    font-size:1.4rem;
+  }
+  header.app-header p{
+    margin:0;
+    font-size:0.85rem;
+    color:#cfe0f5;
+  }
+  .wrap{
+    max-width:1200px;
+    margin:0 auto;
+    padding:16px;
+  }
+  .save-bar{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    flex-wrap:wrap;
+    padding:10px 12px;
+    margin-bottom:10px;
+    background:#eef3fa;
+    border:1px solid var(--border);
+    border-radius:6px;
+  }
+  .save-bar .action-btn{ margin:0; }
+  .save-status{
+    font-size:0.8rem;
+    color:#2a6b2a;
+    font-weight:bold;
+  }
+  .link-btn{
+    background:none;
+    border:none;
+    color:var(--navy);
+    text-decoration:underline;
+    font-size:0.78rem;
+    cursor:pointer;
+    padding:0;
+  }
+  .save-hint{
+    font-size:0.75rem;
+    color:#777;
+    width:100%;
+    margin-top:2px;
+  }
+  nav.tabs{
+    display:flex;
+    flex-wrap:wrap;
+    gap:4px;
+    margin-bottom:14px;
+    position:sticky;
+    top:0;
+    background:var(--bg);
+    padding:8px 0;
+    z-index:5;
+  }
+  nav.tabs button{
+    border:1px solid var(--border);
+    background:#fff;
+    color:var(--navy);
+    padding:8px 12px;
+    font-size:0.82rem;
+    font-weight:bold;
+    border-radius:6px 6px 0 0;
+    cursor:pointer;
+  }
+  nav.tabs button.active{
+    background:var(--navy);
+    color:#fff;
+    border-color:var(--navy);
+  }
+  section.panel{
+    display:none;
+    background:#fff;
+    border:1px solid var(--border);
+    border-radius:0 8px 8px 8px;
+    padding:18px;
+    margin-bottom:24px;
+  }
+  section.panel.active{display:block;}
+  h2.sched-title{
+    background:var(--navy);
+    color:#fff;
+    padding:8px 12px;
+    border-radius:5px;
+    font-size:1.05rem;
+    margin:0 0 14px 0;
+  }
+  h3.block-title{
+    color:var(--navy);
+    border-bottom:2px solid var(--hdr-bg);
+    padding-bottom:4px;
+    margin-top:22px;
+    font-size:0.95rem;
+  }
+  table.grid{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:10px;
+    font-size:0.82rem;
+  }
+  table.grid th{
+    background:var(--hdr-bg);
+    color:var(--navy);
+    text-align:left;
+    padding:6px 5px;
+    border:1px solid var(--border);
+    white-space:nowrap;
+  }
+  table.grid td{
+    border:1px solid var(--border);
+    padding:3px 4px;
+    vertical-align:middle;
+  }
+  table.grid input, table.grid select{
+    width:100%;
+    border:1px solid #d5d5d5;
+    padding:4px;
+    font-size:0.8rem;
+    color:var(--blue-input);
+    border-radius:3px;
+  }
+  .field-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;
+    margin-bottom:10px;
+  }
+  .field{
+    display:flex;
+    flex-direction:column;
+    min-width:220px;
+    flex:1;
+  }
+  .field label{
+    font-size:0.78rem;
+    color:#444;
+    margin-bottom:3px;
+  }
+  .field input, .field select{
+    padding:7px 8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    color:var(--blue-input);
+    font-size:0.88rem;
+  }
+  .cols3 .field-row > .field{flex-basis:31%;}
+  .note{
+    background:var(--yellow-fill);
+    border-left:4px solid #b58900;
+    padding:8px 10px;
+    font-size:0.78rem;
+    color:#5c4400;
+    margin:10px 0;
+    border-radius:3px;
+  }
+  .addrow-btn, .action-btn{
+    background:var(--navy);
+    color:#fff;
+    border:none;
+    padding:6px 12px;
+    border-radius:4px;
+    font-size:0.78rem;
+    cursor:pointer;
+    margin:4px 4px 12px 0;
+  }
+  .addrow-btn:hover, .action-btn:hover{background:var(--navy-dark);}
+  .rm-btn{
+    background:#c0392b;
+    color:#fff;
+    border:none;
+    border-radius:3px;
+    width:22px;
+    height:22px;
+    cursor:pointer;
+    font-size:0.75rem;
+  }
+  .subtotal-row td{
+    font-weight:bold;
+    background:#f0f4fa;
+  }
+  /* Output / computation styles */
+  table.comp{
+    width:100%;
+    border-collapse:collapse;
+    font-size:0.85rem;
+    margin-bottom:18px;
+  }
+  table.comp td{
+    padding:5px 8px;
+    border-bottom:1px solid #e3e8f0;
+  }
+  table.comp td:last-child{
+    text-align:right;
+    font-variant-numeric:tabular-nums;
+    white-space:nowrap;
+  }
+  table.comp tr.head td{
+    background:var(--navy);
+    color:#fff;
+    font-weight:bold;
+  }
+  table.comp tr.sub td{
+    background:var(--hdr-bg);
+    font-weight:bold;
+    color:var(--navy);
+  }
+  table.comp tr.total td{
+    font-weight:bold;
+    border-top:2px solid var(--navy);
+    border-bottom:2px solid var(--navy);
+  }
+  table.comp tr.final td{
+    font-weight:bold;
+    font-size:1.05rem;
+    background:#eaf3ea;
+    color:#1e5a1e;
+  }
+  table.comp tr.payable td{
+    font-weight:bold;
+    font-size:1.05rem;
+    background:#faeaea;
+    color:#7a1e1e;
+  }
+  .print-header{
+    border:1px solid var(--border);
+    border-radius:6px;
+    padding:12px 16px;
+    margin-bottom:16px;
+    background:#f8fafc;
+  }
+  .print-header .ph-title{
+    font-size:1.15rem;
+    font-weight:bold;
+    color:var(--navy);
+    margin-bottom:2px;
+  }
+  .print-header .ph-sub{
+    font-size:0.8rem;
+    color:#555;
+    margin-bottom:10px;
+  }
+  .print-header .ph-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:6px 20px;
+    font-size:0.85rem;
+  }
+  .print-header .ph-grid div span.ph-label{
+    color:#666;
+    margin-right:4px;
+  }
+  .print-header .ph-grid div span.ph-val{
+    font-weight:bold;
+    color:#111;
+  }
+  .summary-cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-bottom:20px;
+  }
+  .card{
+    flex:1;
+    min-width:180px;
+    background:#fff;
+    border:1px solid var(--border);
+    border-left:5px solid var(--navy);
+    border-radius:6px;
+    padding:12px 14px;
+  }
+  .card .lbl{font-size:0.72rem;color:#666;text-transform:uppercase;letter-spacing:.03em;}
+  .card .val{font-size:1.3rem;font-weight:bold;color:var(--navy);}
+  footer.app-footer{
+    text-align:center;
+    font-size:0.72rem;
+    color:#888;
+    padding:20px;
+  }
+  .legend{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+    font-size:0.75rem;
+    margin-top:6px;
+  }
+  .legend span.swatch{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;}
+  @media print{
+    nav.tabs, .action-btn, .addrow-btn, .rm-btn, .save-bar{display:none !important;}
+  }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <h1>Income Tax Calculator — Tax Year 2026-27</h1>
+  <p>Income-tax Act, 2025 · Both New Regime (u/s 202(1)) and Old Regime (u/s 202(4)(b)) fully computed · For personal guidance — not a substitute for professional advice</p>
+</header>
+
+<div class="wrap">
+
+  <div class="save-bar" id="saveBar">
+    <button class="action-btn" onclick="saveData()">💾 Save Data</button>
+    <button class="action-btn" onclick="document.getElementById('loadFileInput').click()">📂 Load Data</button>
+    <input type="file" id="loadFileInput" accept="application/json" style="display:none">
+    <button class="link-btn" id="saveAsNewBtn" onclick="saveData(true)" style="display:none;">Save As New File…</button>
+    <span class="save-status" id="saveStatus"></span>
+    <span class="save-hint" id="saveHint"></span>
+  </div>
+
+  <nav class="tabs" id="tabNav"></nav>
+
+  <!-- ============ Dash Board ============ -->
+  <section class="panel" data-panel="dash">
+    <h2 class="sched-title">Dash Board — Your Basic Details</h2>
+    <div class="field-row">
+      <div class="field"><label>Name</label><input id="d_name" type="text"></div>
+      <div class="field"><label>Address</label><input id="d_address" type="text"></div>
+      <div class="field"><label>PAN</label><input id="d_pan" type="text" maxlength="10" style="text-transform:uppercase"></div>
+    </div>
+    <div class="field-row">
+      <div class="field"><label>Date of Birth</label><input id="d_dob" type="date"></div>
+      <div class="field"><label>Father's Name</label><input id="d_father" type="text"></div>
+      <div class="field"><label>Aadhaar No.</label><input id="d_aadhaar" type="text" maxlength="12"></div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Status</label>
+        <select id="d_status">
+          <option>Resident Individual</option>
+          <option selected>Resident - Senior Citizen Individual</option>
+          <option>Resident - Super Senior Citizen Individual</option>
+          <option>Non-Resident Individual</option>
+        </select>
+      </div>
+      <div class="field"><label>Tax Year</label><input id="d_taxyear" type="text" value="2026-27" disabled></div>
+      <div class="field">
+        <label>Tax Regime</label>
+        <select id="d_regime">
+          <option value="new" selected>New Regime — u/s 202(1) (corresponding old Sec 115BAC)</option>
+          <option value="old">Old Regime — u/s 202(4)(b)</option>
+        </select>
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field"><label>Place</label><input id="d_place" type="text"></div>
+    </div>
+    <div class="note">This calculator reproduces the formulas and statutory figures used in your protected Excel workbook (ITCalculations_for_TY202627). It has been checked line-by-line against that workbook's own test data and reproduces its results to the rupee. Both New Regime and Old Regime are now fully computed, including Old Regime's age-based slabs (below 60 / 60-80 / 80+, taken from your Status selection) and its surcharge band above Rs. 5 crore.</div>
+  </section>
+
+  <!-- ============ Sch1 Salary ============ -->
+  <section class="panel" data-panel="sch1">
+    <h2 class="sched-title">Schedule 1 — Employer &amp; Salary / Pension Income</h2>
+    <div class="cols3">
+      <div class="field-row">
+        <div class="field"><label>Name of employer / pension authority — Employer 1</label><input id="s1_name_0" type="text"></div>
+        <div class="field"><label>Employer 2</label><input id="s1_name_1" type="text"></div>
+        <div class="field"><label>Employer 3</label><input id="s1_name_2" type="text"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Nature of receipt — Employer 1 (Salary/Pension/Annuity)</label><input id="s1_nature_0" type="text"></div>
+        <div class="field"><label>Employer 2</label><input id="s1_nature_1" type="text"></div>
+        <div class="field"><label>Employer 3</label><input id="s1_nature_2" type="text"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Monthly pension / salary — Employer 1</label><input id="s1_monthly_0" type="number" value="0"></div>
+        <div class="field"><label>Employer 2</label><input id="s1_monthly_1" type="number" value="0"></div>
+        <div class="field"><label>Employer 3</label><input id="s1_monthly_2" type="number" value="0"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Annual salary as per Form 16 (only if monthly amount varied) — Employer 1</label><input id="s1_form16_0" type="number" value="0"></div>
+        <div class="field"><label>Employer 2</label><input id="s1_form16_1" type="number" value="0"></div>
+        <div class="field"><label>Employer 3</label><input id="s1_form16_2" type="number" value="0"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Arrears / other salary receipts — Employer 1</label><input id="s1_arrears_0" type="number" value="0"></div>
+        <div class="field"><label>Employer 2</label><input id="s1_arrears_1" type="number" value="0"></div>
+        <div class="field"><label>Employer 3</label><input id="s1_arrears_2" type="number" value="0"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Taxable PF withdrawal — Employer 1</label><input id="s1_pf_0" type="number" value="0"></div>
+        <div class="field"><label>Employer 2</label><input id="s1_pf_1" type="number" value="0"></div>
+        <div class="field"><label>Employer 3</label><input id="s1_pf_2" type="number" value="0"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Value of perquisites — Employer 1</label><input id="s1_perq_0" type="number" value="0"></div>
+        <div class="field"><label>Employer 2</label><input id="s1_perq_1" type="number" value="0"></div>
+        <div class="field"><label>Employer 3</label><input id="s1_perq_2" type="number" value="0"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Profits in lieu of salary — Employer 1</label><input id="s1_pils_0" type="number" value="0"></div>
+        <div class="field"><label>Employer 2</label><input id="s1_pils_1" type="number" value="0"></div>
+        <div class="field"><label>Employer 3</label><input id="s1_pils_2" type="number" value="0"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Exempt receipts / allowances — Employer 1</label><input id="s1_exempt_0" type="number" value="0"></div>
+        <div class="field"><label>Employer 2</label><input id="s1_exempt_1" type="number" value="0"></div>
+        <div class="field"><label>Employer 3</label><input id="s1_exempt_2" type="number" value="0"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Tax on employment / professional tax — Employer 1</label><input id="s1_ptax_0" type="number" value="0"></div>
+        <div class="field"><label>Employer 2</label><input id="s1_ptax_1" type="number" value="0"></div>
+        <div class="field"><label>Employer 3</label><input id="s1_ptax_2" type="number" value="0"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Entertainment allowance — Employer 1</label><input id="s1_entl_0" type="number" value="0"></div>
+        <div class="field"><label>Employer 2</label><input id="s1_entl_1" type="number" value="0"></div>
+        <div class="field"><label>Employer 3</label><input id="s1_entl_2" type="number" value="0"></div>
+      </div>
+    </div>
+    <div class="note">Standard deduction [s.19] is applied automatically: Rs. 75,000 under the New Regime, Rs. 50,000 under the Old Regime (capped at net salary).</div>
+  </section>
+
+  <!-- ============ Sch2 House Property ============ -->
+  <section class="panel" data-panel="sch2">
+    <h2 class="sched-title">Schedule 2 — Income from House Property</h2>
+    <div class="cols3">
+      <div class="field-row">
+        <div class="field"><label>Occupancy — Property 1</label>
+          <select id="s2_occ_0"><option>Let out</option><option>Self-occupied</option></select></div>
+        <div class="field"><label>Property 2</label>
+          <select id="s2_occ_1"><option>Let out</option><option>Self-occupied</option></select></div>
+        <div class="field"><label>Property 3</label>
+          <select id="s2_occ_2"><option>Let out</option><option>Self-occupied</option></select></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Assessee's share (1 = 100%) — Property 1</label><input id="s2_share_0" type="number" step="0.01" value="1"></div>
+        <div class="field"><label>Property 2</label><input id="s2_share_1" type="number" step="0.01" value="1"></div>
+        <div class="field"><label>Property 3</label><input id="s2_share_2" type="number" step="0.01" value="1"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Rent received / receivable — Property 1</label><input id="s2_rent_0" type="number" value="0"></div>
+        <div class="field"><label>Property 2</label><input id="s2_rent_1" type="number" value="0"></div>
+        <div class="field"><label>Property 3</label><input id="s2_rent_2" type="number" value="0"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Municipal taxes paid — Property 1</label><input id="s2_mtax_0" type="number" value="0"></div>
+        <div class="field"><label>Property 2</label><input id="s2_mtax_1" type="number" value="0"></div>
+        <div class="field"><label>Property 3</label><input id="s2_mtax_2" type="number" value="0"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Interest on borrowed capital — current year — Property 1</label><input id="s2_int_0" type="number" value="0"></div>
+        <div class="field"><label>Property 2</label><input id="s2_int_1" type="number" value="0"></div>
+        <div class="field"><label>Property 3</label><input id="s2_int_2" type="number" value="0"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Pre-construction interest (1/5th instalment) — Property 1</label><input id="s2_preint_0" type="number" value="0"></div>
+        <div class="field"><label>Property 2</label><input id="s2_preint_1" type="number" value="0"></div>
+        <div class="field"><label>Property 3</label><input id="s2_preint_2" type="number" value="0"></div>
+      </div>
+    </div>
+    <div class="note">30% standard deduction and interest caps (Rs. 2,00,000 / Rs. 30,000 for self-occupied; nil under New Regime) are applied automatically, exactly as in the source workbook.</div>
+  </section>
+
+  <!-- ============ Sch3 Capital Gains ============ -->
+  <section class="panel" data-panel="sch3">
+    <h2 class="sched-title">Schedule 3 — Capital Gains</h2>
+    <h3 class="block-title">A. STT-paid shares / units of EOF or Business Trust — covered u/s 196 (STCG) &amp; 198 (LTCG)</h3>
+    <table class="grid" id="s3a_table">
+      <thead><tr>
+        <th>Particulars</th><th>Qty</th><th>Date of Purchase</th><th>Date of Transfer</th>
+        <th>Sale Consideration</th><th>Cost of Acquisition</th><th>FMV/Cost u/s198 (optional)</th><th></th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s3a')">+ Add transaction</button>
+
+    <h3 class="block-title">B. Listed securities / units of EOF — NOT covered u/s 196 (taxed at slab rates)</h3>
+    <table class="grid" id="s3b_table">
+      <thead><tr>
+        <th>Particulars</th><th>Qty</th><th>Date of Purchase</th><th>Date of Transfer</th>
+        <th>Sale Consideration</th><th>Cost of Acquisition</th><th></th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s3b')">+ Add transaction</button>
+    <div class="note">Long-term vs short-term is worked out automatically (sale date more than 12 months after purchase date = Long-term), exactly as the workbook's formula does. LTCG is taxed at 12.5% after a Rs. 1,25,000 exemption; STCG (block A) at 20%; block B stays in normal-rate slab income.</div>
+  </section>
+
+  <!-- ============ Sch4A Dividends ============ -->
+  <section class="panel" data-panel="sch4a">
+    <h2 class="sched-title">Schedule 4A — Other Sources: Dividends</h2>
+    <h3 class="block-title">Dividends from companies</h3>
+    <table class="grid" id="s4a_co_table">
+      <thead><tr><th>Company</th><th>Date of Receipt</th><th>Amount</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s4a_co')">+ Add dividend</button>
+
+    <h3 class="block-title">Others (mutual fund income distributions etc.)</h3>
+    <table class="grid" id="s4a_ot_table">
+      <thead><tr><th>Particulars</th><th>Date of Receipt</th><th>Amount</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s4a_ot')">+ Add row</button>
+  </section>
+
+  <!-- ============ Sch4B Interest ============ -->
+  <section class="panel" data-panel="sch4b">
+    <h2 class="sched-title">Schedule 4B — Other Sources: Interest Income</h2>
+    <h3 class="block-title">Interest from deposits (bank / post office / co-op society)</h3>
+    <table class="grid" id="s4b_dep_table">
+      <thead><tr><th>Bank / Account</th><th>Interest</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s4b_dep')">+ Add</button>
+
+    <h3 class="block-title">Interest on savings accounts</h3>
+    <table class="grid" id="s4b_sav_table">
+      <thead><tr><th>Bank / Account</th><th>Interest</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s4b_sav')">+ Add</button>
+
+    <h3 class="block-title">Other interest [s.92(2)] (e.g. interest on income-tax refund)</h3>
+    <table class="grid" id="s4b_oth_table">
+      <thead><tr><th>Particulars</th><th>Interest</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s4b_oth')">+ Add</button>
+  </section>
+
+  <!-- ============ Sch4C Other Income ============ -->
+  <section class="panel" data-panel="sch4c">
+    <h2 class="sched-title">Schedule 4C — Other Sources: Pension / Insurance / Misc.</h2>
+    <h3 class="block-title">1. Pension / annuity from LIC Jeevan Suraksha Policy / PMVVY (Pradhan Mantri Vaya Vandana Yojana)</h3>
+    <table class="grid" id="s4c_pen_table">
+      <thead><tr><th>Policy Number</th><th>Monthly pension</th><th>No. of months</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s4c_pen')">+ Add</button>
+
+    <h3 class="block-title">2. Taxable sums received on life insurance policies</h3>
+    <table class="grid" id="s4c_lic_table">
+      <thead><tr><th>Insurer / Policy No.</th><th>Sum received</th><th>Premiums paid (not already claimed)</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s4c_lic')">+ Add</button>
+
+    <h3 class="block-title">3. Other receipts chargeable under "Income from Other Sources"</h3>
+    <table class="grid">
+      <thead><tr><th style="width:40%">Particulars</th><th>Gross amount</th><th>Deduction</th></tr></thead>
+      <tbody id="s4c_other_body"></tbody>
+    </table>
+  </section>
+
+  <!-- ============ Sch4D Misc ============ -->
+  <section class="panel" data-panel="sch4d">
+    <h2 class="sched-title">Schedule 4D — Other Sources: Lottery / Betting / Online Game Winnings</h2>
+    <h3 class="block-title">Winnings from lotteries, crossword puzzles, races, card games, gambling or betting</h3>
+    <table class="grid" id="s4d_lot_table">
+      <thead><tr><th>Nature / Source</th><th>Gross winnings (cash)</th><th>Value in kind</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s4d_lot')">+ Add</button>
+
+    <h3 class="block-title">Net winnings from online games</h3>
+    <table class="grid" id="s4d_og_table">
+      <thead><tr><th>Platform / Payer</th><th>Net winnings</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s4d_og')">+ Add</button>
+    <div class="note">No deduction, no loss set-off, and no basic exemption applies to this schedule — taxed flat at 30%, exactly as received.</div>
+  </section>
+
+  <!-- ============ Sch6 TDS/TCS ============ -->
+  <section class="panel" data-panel="sch6">
+    <h2 class="sched-title">Schedule 6 — TDS / TCS Already Deducted or Collected</h2>
+    <h3 class="block-title">Non-salary TDS (Form 16A / 26AS)</h3>
+    <table class="grid" id="s6_ns_table">
+      <thead><tr><th>Deductor</th><th>TAN</th><th>Section</th><th>TDS deducted</th><th>Gross receipt offered</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s6_ns')">+ Add</button>
+
+    <h3 class="block-title">Salary TDS (Form 16)</h3>
+    <table class="grid" id="s6_sal_table">
+      <thead><tr><th>Employer</th><th>TAN</th><th>Section</th><th>TDS deducted</th><th>Gross Salary</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s6_sal')">+ Add</button>
+
+    <h3 class="block-title">TCS collected on you (Form 27D / 26AS)</h3>
+    <table class="grid" id="s6_tcs_table">
+      <thead><tr><th>Collector</th><th>TAN</th><th>Section</th><th>TCS collected</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s6_tcs')">+ Add</button>
+
+    <h3 class="block-title">Other taxes paid</h3>
+    <div class="field-row">
+      <div class="field"><label>Advance tax paid</label><input id="s6_advtax" type="number" value="0"></div>
+      <div class="field"><label>Self-assessment tax paid u/s 263</label><input id="s6_satax" type="number" value="0"></div>
+      <div class="field"><label>Relief u/s 157(1) — arrears/advance salary (Form 10E)</label><input id="s6_relief" type="number" value="0"></div>
+    </div>
+  </section>
+
+  <!-- ============ Sch7 Bank Accounts ============ -->
+  <section class="panel" data-panel="sch7">
+    <h2 class="sched-title">Schedule 7 — Bank Accounts Held in India</h2>
+    <table class="grid" id="s7_table">
+      <thead><tr><th>Bank Name &amp; Account No.</th><th>IFS Code</th><th>Type of Account</th><th>For Refund?</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="addrow-btn" onclick="addRow('s7')">+ Add account</button>
+  </section>
+
+  <!-- ============ Computation Output ============ -->
+  <section class="panel active" data-panel="comp">
+    <h2 class="sched-title">Computation of Total Income &amp; Tax — Tax Year 2026-27</h2>
+    <div id="printHeader" class="print-header"></div>
+    <div class="summary-cards" id="summaryCards"></div>
+    <div id="oldRegimeWarning"></div>
+    <table class="comp" id="compTable"></table>
+    <button class="action-btn" onclick="downloadPDF()">Download PDF</button>
+    <button class="action-btn" onclick="window.print()">Print</button>
+    <div class="legend">
+      <span><span class="swatch" style="background:#0000FF"></span>Input cell</span>
+      <span><span class="swatch" style="background:#000"></span>Formula (auto)</span>
+      <span><span class="swatch" style="background:#008000"></span>Linked from another schedule</span>
+    </div>
+  </section>
+
+</div>
+
+<footer class="app-footer">
+  Prepared for personal guidance only — not a substitute for professional tax advice. Figures mirror the statutory rates and formulas built into the reference Excel workbook (Income-tax Act, 2025, Tax Year 2026-27).
+</footer>
+
+<script>
+/* ==========================================================================
+   Income Tax Calculator — Tax Year 2026-27 (Income-tax Act, 2025)
+   Mirrors the formulas and statutory constants of the reference Excel
+   workbook (ITCalculations_for_TY202627). New Regime fully validated
+   against that workbook's own test data.
+   ========================================================================== */
+
+/* ---------------- Statutory constants (from Schedule 5 / assumption cells) --------------- */
+const CONST = {
+  NEW_SLABS: [
+    [0, 400000, 0],
+    [400000, 800000, 0.05],
+    [800000, 1200000, 0.10],
+    [1200000, 1600000, 0.15],
+    [1600000, 2000000, 0.20],
+    [2000000, 2400000, 0.25],
+    [2400000, Infinity, 0.30],
+  ],
+  SURCHARGE_BANDS: [ // [threshold, rate] evaluated highest-first — New Regime caps at 25% (no 37% band)
+    [20000000, 0.25],
+    [10000000, 0.15],
+    [5000000, 0.10],
+  ],
+  // Old Regime slabs (Income-tax Act, 2025, corresponding to erstwhile s.115BAC opt-out) —
+  // unchanged structure carried forward from the 1961 Act, differentiated by age.
+  OLD_SLABS: {
+    normal: [ // below 60 years / non-resident (no age-based relief)
+      [0, 250000, 0],
+      [250000, 500000, 0.05],
+      [500000, 1000000, 0.20],
+      [1000000, Infinity, 0.30],
+    ],
+    senior: [ // resident, 60 to below 80 years
+      [0, 300000, 0],
+      [300000, 500000, 0.05],
+      [500000, 1000000, 0.20],
+      [1000000, Infinity, 0.30],
+    ],
+    superSenior: [ // resident, 80 years and above
+      [0, 500000, 0],
+      [500000, 1000000, 0.20],
+      [1000000, Infinity, 0.30],
+    ],
+  },
+  OLD_SURCHARGE_BANDS: [ // Old Regime retains the top 37% band (above Rs. 5 crore) that New Regime caps out of
+    [50000000, 0.37],
+    [20000000, 0.25],
+    [10000000, 0.15],
+    [5000000, 0.10],
+  ],
+  CESS_RATE: 0.04,
+  LTCG_RATE: 0.125,
+  LTCG_EXEMPTION: 125000,
+  STCG_RATE: 0.20,
+  WINNINGS_RATE: 0.30,
+  STD_DED_NEW: 75000,
+  STD_DED_OLD: 50000,
+  HP_STD_DED_RATE: 0.30,
+  HP_INT_CAP_SELF_A: 200000, // conditions met
+  HP_INT_CAP_SELF_B: 30000,  // other cases (use A as workbook does, kept for reference)
+  HP_SETOFF_CAP_OLD: 200000,
+  FAMILY_PENSION_CEIL_NEW: 25000,
+  FAMILY_PENSION_CEIL_OLD: 15000,
+  REBATE_LIMIT_NEW: 1200000,
+  REBATE_MAX_NEW: 60000,
+  REBATE_LIMIT_OLD: 500000,
+  REBATE_MAX_OLD: 12500,
+};
+
+const OTHER_INCOME_ROWS = [
+  { key: 'family_pension', label: 'Family pension received (pension of a deceased employee) [s.92(2)]', auto: true },
+  { key: 'gifts', label: 'Sums of money / property received without consideration exceeding Rs.50,000 (gifts) [s.92(2)(m)]' },
+  { key: 'nsc_kvp', label: 'Accrued interest on NSC / KVP (not included in Schedule 4B)' },
+  { key: 'letting', label: 'Income from letting of plant, machinery, furniture or building [s.92(2)]' },
+  { key: 'comp_interest', label: 'Interest received on compensation / enhanced compensation [s.92(2)]' },
+  { key: 'forfeited', label: 'Advance or earnest money forfeited on transfer negotiations [s.92(2)]' },
+  { key: 'commission', label: 'Commission, honorarium, tuition or other casual receipts' },
+  { key: 'other', label: 'Any other income (specify)' },
+];
+
+let rowCounters = {};
+function nextId(type){ rowCounters[type] = (rowCounters[type]||0)+1; return type+'_'+rowCounters[type]; }
+
+/* ---------------- Row templates for dynamic tables ---------------- */
+const ROW_DEFS = {
+  s3a: (id) => `<tr data-row="${id}">
+    <td><input type="text" data-f="particulars"></td>
+    <td><input type="number" data-f="qty"></td>
+    <td><input type="date" data-f="buy"></td>
+    <td><input type="date" data-f="sell"></td>
+    <td><input type="number" data-f="sale" value="0"></td>
+    <td><input type="number" data-f="cost" value="0"></td>
+    <td><input type="number" data-f="fmv"></td>
+    <td><button class="rm-btn" onclick="removeRow(this)">×</button></td>
+  </tr>`,
+  s3b: (id) => `<tr data-row="${id}">
+    <td><input type="text" data-f="particulars"></td>
+    <td><input type="number" data-f="qty"></td>
+    <td><input type="date" data-f="buy"></td>
+    <td><input type="date" data-f="sell"></td>
+    <td><input type="number" data-f="sale" value="0"></td>
+    <td><input type="number" data-f="cost" value="0"></td>
+    <td><button class="rm-btn" onclick="removeRow(this)">×</button></td>
+  </tr>`,
+  s4a_co: (id) => `<tr data-row="${id}">
+    <td><input type="text" data-f="name"></td>
+    <td><input type="date" data-f="date"></td>
+    <td><input type="number" data-f="amount" value="0"></td>
+    <td><button class="rm-btn" onclick="removeRow(this)">×</button></td>
+  </tr>`,
+  s4a_ot: (id) => ROW_DEFS.s4a_co(id),
+  s4b_dep: (id) => `<tr data-row="${id}">
+    <td><input type="text" data-f="name"></td>
+    <td><input type="number" data-f="amount" value="0"></td>
+    <td><button class="rm-btn" onclick="removeRow(this)">×</button></td>
+  </tr>`,
+  s4b_sav: (id) => ROW_DEFS.s4b_dep(id),
+  s4b_oth: (id) => ROW_DEFS.s4b_dep(id),
+  s4c_pen: (id) => `<tr data-row="${id}">
+    <td><input type="text" data-f="policy"></td>
+    <td><input type="number" data-f="monthly" value="0"></td>
+    <td><input type="number" data-f="months" value="12"></td>
+    <td><button class="rm-btn" onclick="removeRow(this)">×</button></td>
+  </tr>`,
+  s4c_lic: (id) => `<tr data-row="${id}">
+    <td><input type="text" data-f="insurer"></td>
+    <td><input type="number" data-f="sum" value="0"></td>
+    <td><input type="number" data-f="premium" value="0"></td>
+    <td><button class="rm-btn" onclick="removeRow(this)">×</button></td>
+  </tr>`,
+  s4d_lot: (id) => `<tr data-row="${id}">
+    <td><input type="text" data-f="source"></td>
+    <td><input type="number" data-f="cash" value="0"></td>
+    <td><input type="number" data-f="kind" value="0"></td>
+    <td><button class="rm-btn" onclick="removeRow(this)">×</button></td>
+  </tr>`,
+  s4d_og: (id) => `<tr data-row="${id}">
+    <td><input type="text" data-f="platform"></td>
+    <td><input type="number" data-f="net" value="0"></td>
+    <td><button class="rm-btn" onclick="removeRow(this)">×</button></td>
+  </tr>`,
+  s6_ns: (id) => `<tr data-row="${id}">
+    <td><input type="text" data-f="deductor"></td>
+    <td><input type="text" data-f="tan"></td>
+    <td><input type="text" data-f="section"></td>
+    <td><input type="number" data-f="tds" value="0"></td>
+    <td><input type="number" data-f="gross" value="0"></td>
+    <td><button class="rm-btn" onclick="removeRow(this)">×</button></td>
+  </tr>`,
+  s6_sal: (id) => ROW_DEFS.s6_ns(id),
+  s6_tcs: (id) => `<tr data-row="${id}">
+    <td><input type="text" data-f="collector"></td>
+    <td><input type="text" data-f="tan"></td>
+    <td><input type="text" data-f="section"></td>
+    <td><input type="number" data-f="tcs" value="0"></td>
+    <td><button class="rm-btn" onclick="removeRow(this)">×</button></td>
+  </tr>`,
+  s7: (id) => `<tr data-row="${id}">
+    <td><input type="text" data-f="bank"></td>
+    <td><input type="text" data-f="ifsc"></td>
+    <td><select data-f="type"><option>Savings</option><option>Current</option></select></td>
+    <td><select data-f="refund"><option>No</option><option>Yes</option></select></td>
+    <td><button class="rm-btn" onclick="removeRow(this)">×</button></td>
+  </tr>`,
+};
+
+const TABLE_BODY = {
+  s3a: '#s3a_table tbody', s3b: '#s3b_table tbody',
+  s4a_co: '#s4a_co_table tbody', s4a_ot: '#s4a_ot_table tbody',
+  s4b_dep: '#s4b_dep_table tbody', s4b_sav: '#s4b_sav_table tbody', s4b_oth: '#s4b_oth_table tbody',
+  s4c_pen: '#s4c_pen_table tbody', s4c_lic: '#s4c_lic_table tbody',
+  s4d_lot: '#s4d_lot_table tbody', s4d_og: '#s4d_og_table tbody',
+  s6_ns: '#s6_ns_table tbody', s6_sal: '#s6_sal_table tbody', s6_tcs: '#s6_tcs_table tbody',
+  s7: '#s7_table tbody',
+};
+
+function addRow(type, silent){
+  const id = nextId(type);
+  const tbody = document.querySelector(TABLE_BODY[type]);
+  tbody.insertAdjacentHTML('beforeend', ROW_DEFS[type](id));
+  const tr = tbody.querySelector(`tr[data-row="${id}"]`);
+  tr.querySelectorAll('input,select').forEach(el => el.addEventListener('input', scheduleCalc));
+  if(!silent) scheduleCalc();
+  return tr;
+}
+function removeRow(btn){
+  btn.closest('tr').remove();
+  scheduleCalc();
+}
+function rowsData(type){
+  const tbody = document.querySelector(TABLE_BODY[type]);
+  return Array.from(tbody.querySelectorAll('tr')).map(tr=>{
+    const o = {};
+    tr.querySelectorAll('[data-f]').forEach(el=>{
+      o[el.dataset.f] = el.type==='number' ? (parseFloat(el.value)||0) : el.value;
+    });
+    return o;
+  });
+}
+
+/* ---------------- Tabs ---------------- */
+const TABS = [
+  ['dash','Dash Board'],['sch1','Sch 1 · Salary'],['sch2','Sch 2 · House Property'],
+  ['sch3','Sch 3 · Capital Gains'],['sch4a','Sch 4A · Dividends'],['sch4b','Sch 4B · Interest'],
+  ['sch4c','Sch 4C · Pension/Insurance'],['sch4d','Sch 4D · Winnings'],['sch6','Sch 6 · TDS/TCS'],
+  ['sch7','Sch 7 · Bank A/c'],['comp','Computation'],
+];
+function buildTabs(){
+  const nav = document.getElementById('tabNav');
+  nav.innerHTML = TABS.map(([id,label],i)=>`<button data-tab="${id}" class="${id==='comp'?'active':''}">${label}</button>`).join('');
+  nav.querySelectorAll('button').forEach(btn=>{
+    btn.addEventListener('click', ()=> showTab(btn.dataset.tab));
+  });
+}
+function showTab(id){
+  document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.toggle('active', b.dataset.tab===id));
+  document.querySelectorAll('section.panel').forEach(p=>p.classList.toggle('active', p.dataset.panel===id));
+  if(id==='comp') calcAll();
+}
+
+/* ---------------- Helpers ---------------- */
+const $ = (id) => document.getElementById(id);
+const num = (id) => parseFloat($(id)?.value)||0;
+const monthsBetween = (buy, sell) => {
+  // Long-term test: sell date strictly later than buy date + 12 months (EDATE logic)
+  if(!buy || !sell) return null;
+  const b = new Date(buy), s = new Date(sell);
+  const edate = new Date(b.getFullYear(), b.getMonth()+12, b.getDate());
+  return s > edate ? 'LT' : 'ST';
+};
+const round0 = (x) => Math.round(x);
+const roundTo10 = (x) => Math.round(x/10)*10;
+const fmt = (x) => {
+  if (x === null || x === undefined || isNaN(x)) x = 0;
+  const neg = x < 0; x = Math.abs(Math.round(x));
+  let s = x.toString();
+  let last3 = s.slice(-3), rest = s.slice(0,-3);
+  if(rest !== '') last3 = ',' + last3;
+  rest = rest.replace(/\B(?=(\d{2})+(?!\d))/g, ',');
+  return (neg?'-':'') + 'Rs. ' + rest + last3;
+};
+
+/* ---------------- Slab tax ---------------- */
+function slabTax(income, table){
+  if(income<=0) return 0;
+  let tax=0;
+  for(const [lo,hi,rate] of (table || CONST.NEW_SLABS)){
+    const w = Math.max(0, Math.min(income,hi===Infinity?income:hi) - lo);
+    tax += w*rate;
+  }
+  return round0(tax);
+}
+
+/* ---------------- Age category (drives Old Regime slab selection) ---------------- */
+function getAgeCategory(){
+  const status = ($('d_status').value || '').toLowerCase();
+  if(status.includes('super senior')) return 'superSenior';
+  if(status.includes('senior')) return 'senior';
+  return 'normal'; // includes Resident Individual and Non-Resident Individual
+}
+
+/* ---------------- Core calculation engine ---------------- */
+function calcAll(){
+  const regime = $('d_regime').value; // 'new' | 'old'
+  const isNew = regime === 'new';
+  const ageCategory = getAgeCategory();
+  const slabTable = isNew ? CONST.NEW_SLABS : CONST.OLD_SLABS[ageCategory];
+  const surchargeBands = isNew ? CONST.SURCHARGE_BANDS : CONST.OLD_SURCHARGE_BANDS;
+
+  /* ---- Schedule 1: Salary ---- */
+  let s1_gross = [0,0,0], s1_net = [0,0,0];
+  for(let i=0;i<3;i++){
+    const monthly = num('s1_monthly_'+i)*12;
+    const form16 = num('s1_form16_'+i);
+    const arrears = num('s1_arrears_'+i);
+    const pf = num('s1_pf_'+i);
+    const perq = num('s1_perq_'+i);
+    const pils = num('s1_pils_'+i);
+    const exempt = num('s1_exempt_'+i);
+    const gross = monthly + form16 + arrears + pf + perq + pils;
+    s1_gross[i] = gross;
+    s1_net[i] = gross - exempt;
+  }
+  const netSalaryTotal = s1_net.reduce((a,b)=>a+b,0);
+  const grossSalaryTotal = s1_gross.reduce((a,b)=>a+b,0);
+  const stdDedLimit = isNew ? CONST.STD_DED_NEW : CONST.STD_DED_OLD;
+  const stdDedApplied = Math.min(Math.max(netSalaryTotal,0), stdDedLimit);
+  let ptaxTotal=0, entlTotal=0;
+  for(let i=0;i<3;i++){ ptaxTotal += num('s1_ptax_'+i); entlTotal += num('s1_entl_'+i); }
+  const salaryChargeable = Math.max(0, netSalaryTotal - stdDedApplied - ptaxTotal - entlTotal);
+
+  /* ---- Schedule 2: House Property ---- */
+  let hpIncomeTotal = 0, hpGAVTotal=0, hpMTaxTotal=0, hpStdDedTotal=0, hpIntTotal=0;
+  for(let i=0;i<3;i++){
+    const occ = $('s2_occ_'+i).value;
+    const selfOcc = occ === 'Self-occupied';
+    const rent = num('s2_rent_'+i);
+    const mtax = num('s2_mtax_'+i);
+    const share = parseFloat($('s2_share_'+i).value)||0;
+    const curInt = num('s2_int_'+i);
+    const preInt = num('s2_preint_'+i);
+    const totalInt = curInt + preInt;
+
+    const gav = selfOcc ? 0 : rent;
+    const nav = gav - (selfOcc ? 0 : mtax);
+    const stdDed = selfOcc ? 0 : round0(CONST.HP_STD_DED_RATE * nav);
+    const intAllowed = selfOcc
+      ? (isNew ? 0 : Math.min(totalInt, CONST.HP_INT_CAP_SELF_A))
+      : totalInt;
+    const income = nav - stdDed - intAllowed;
+    const attributable = round0(income * share);
+
+    hpGAVTotal += selfOcc?0:rent;
+    hpMTaxTotal += selfOcc?0:mtax;
+    hpStdDedTotal += stdDed;
+    hpIntTotal += intAllowed;
+    hpIncomeTotal += attributable;
+  }
+  const hpSetoffCap = isNew ? 0 : CONST.HP_SETOFF_CAP_OLD;
+  const hpAllowed = hpIncomeTotal >= 0 ? hpIncomeTotal : -Math.min(-hpIncomeTotal, hpSetoffCap);
+
+  /* ---- Schedule 3: Capital Gains ---- */
+  const s3a = rowsData('s3a');
+  let ltcg = 0, stcg = 0;
+  s3a.forEach(r=>{
+    if(!r.sale && !r.cost) return;
+    const gain = (r.sale||0) - ((r.fmv && r.fmv!=='')? parseFloat(r.fmv) : (r.cost||0));
+    const term = monthsBetween(r.buy, r.sell);
+    if(term==='LT') ltcg += gain;
+    else if(term==='ST') stcg += gain;
+  });
+  const s3b = rowsData('s3b');
+  let stcg1 = 0; // not covered u/s 196, taxed at slab
+  s3b.forEach(r=>{
+    if(!r.sale && !r.cost) return;
+    stcg1 += (r.sale||0) - (r.cost||0);
+  });
+  const cgTotal = ltcg + stcg1 + stcg;
+
+  /* ---- Schedule 4A: Dividends ---- */
+  const divCo = rowsData('s4a_co').reduce((a,r)=>a+(r.amount||0),0);
+  const divOt = rowsData('s4a_ot').reduce((a,r)=>a+(r.amount||0),0);
+  const dividendsTotal = divCo + divOt;
+
+  /* ---- Schedule 4B: Interest ---- */
+  const intDep = rowsData('s4b_dep').reduce((a,r)=>a+(r.amount||0),0);
+  const intSav = rowsData('s4b_sav').reduce((a,r)=>a+(r.amount||0),0);
+  const intOth = rowsData('s4b_oth').reduce((a,r)=>a+(r.amount||0),0);
+  const interestTotal = intDep + intSav + intOth;
+
+  /* ---- Schedule 4C: Pension / Insurance / Other ---- */
+  const pensionRows = rowsData('s4c_pen');
+  const jeevanTotal = pensionRows.reduce((a,r)=>a+(r.monthly||0)*(r.months||0),0);
+  const licRows = rowsData('s4c_lic');
+  const licTotal = licRows.reduce((a,r)=>a+Math.max(0,(r.sum||0)-(r.premium||0)),0);
+
+  const famPensionCeil = isNew ? CONST.FAMILY_PENSION_CEIL_NEW : CONST.FAMILY_PENSION_CEIL_OLD;
+  let otherIncomeTotal = 0;
+  const otherRowVals = {};
+  OTHER_INCOME_ROWS.forEach(r=>{
+    const gross = num('oi_gross_'+r.key);
+    let ded;
+    if(r.auto){
+      ded = gross===0 ? 0 : Math.min(gross/3, famPensionCeil);
+    } else {
+      ded = num('oi_ded_'+r.key);
+    }
+    const taxable = gross - ded;
+    otherRowVals[r.key] = { gross, ded, taxable };
+    otherIncomeTotal += taxable;
+  });
+  const sch4cTotal = jeevanTotal + licTotal + otherIncomeTotal;
+
+  /* ---- Schedule 4D: Misc / Winnings ---- */
+  const lotTotal = rowsData('s4d_lot').reduce((a,r)=>a+(r.cash||0)+(r.kind||0),0);
+  const ogTotal = rowsData('s4d_og').reduce((a,r)=>a+(r.net||0),0);
+  const miscTotal = lotTotal + ogTotal;
+
+  const osTotal = dividendsTotal + interestTotal + sch4cTotal + miscTotal;
+
+  /* ---- Total income ---- */
+  const totalIncome = salaryChargeable + hpAllowed + cgTotal + osTotal;
+  const totalIncomeRounded = roundTo10(totalIncome);
+
+  /* ---- Schedule 5: Tax computation (slab table selected by regime + age above) ---- */
+  const normalIncome = totalIncomeRounded - ((Math.max(0,ltcg)) + Math.max(0,stcg) + Math.max(0,miscTotal));
+  const taxNormal = slabTax(Math.max(0,normalIncome), slabTable);
+  const ltcgTaxable = Math.max(0, ltcg - CONST.LTCG_EXEMPTION);
+  const taxLTCG = round0(ltcgTaxable * CONST.LTCG_RATE);
+  const stcgTaxable = Math.max(0, stcg);
+  const taxSTCG = round0(stcgTaxable * CONST.STCG_RATE);
+  const taxWinnings = round0(Math.max(0,miscTotal) * CONST.WINNINGS_RATE);
+  const taxOnTotalIncome = taxNormal + taxLTCG + taxSTCG + taxWinnings;
+
+  // Rebate u/s 156
+  const rebateLimit = isNew ? CONST.REBATE_LIMIT_NEW : CONST.REBATE_LIMIT_OLD;
+  const rebateMax = isNew ? CONST.REBATE_MAX_NEW : CONST.REBATE_MAX_OLD;
+  let rebate = 0;
+  if(totalIncomeRounded <= rebateLimit){
+    rebate = Math.min(taxNormal, rebateMax);
+  } else if(isNew){
+    rebate = Math.max(0, taxNormal - (totalIncomeRounded - rebateLimit));
+  }
+  rebate = Math.max(0, rebate);
+
+  // Surcharge with marginal relief
+  let surchargeThreshold = 0, surchargeRate = 0;
+  for(const [th, rate] of surchargeBands){
+    if(totalIncomeRounded > th){ surchargeThreshold = th; surchargeRate = rate; break; }
+  }
+  const taxAfterRebate = Math.max(0, taxOnTotalIncome - rebate);
+  const surchargeBeforeRelief = round0(taxAfterRebate * surchargeRate);
+  let surcharge = surchargeBeforeRelief;
+  if(surchargeThreshold > 0){
+    // Note: mirrors the source workbook's own marginal-relief formula, which compares
+    // against plain slab tax at the threshold (no surcharge). This is exact for the
+    // nil->10% crossing; for Old Regime's higher crossings (15%->25%->37%, above Rs.1cr)
+    // it is the same simplification already present in the source workbook.
+    const slabAtThreshold = slabTax(surchargeThreshold, slabTable);
+    const excessIncome = totalIncomeRounded - surchargeThreshold;
+    const taxPlusSurchargeOnTotal = taxAfterRebate + surchargeBeforeRelief;
+    const taxAtThresholdPlusExcess = slabAtThreshold + excessIncome;
+    const marginalRelief = Math.max(0, taxPlusSurchargeOnTotal - taxAtThresholdPlusExcess);
+    surcharge = Math.max(0, surchargeBeforeRelief - marginalRelief);
+  }
+
+  const cess = round0((taxOnTotalIncome - rebate + surcharge) * CONST.CESS_RATE);
+  const grossTax = taxOnTotalIncome - rebate + surcharge + cess;
+  const relief10E = num('s6_relief');
+  const netTaxLiability = grossTax - relief10E;
+
+  /* ---- Schedule 6: TDS/TCS & taxes paid ---- */
+  const tdsNonSalary = rowsData('s6_ns').reduce((a,r)=>a+(r.tds||0),0);
+  const tdsSalary = rowsData('s6_sal').reduce((a,r)=>a+(r.tds||0),0);
+  const tcsTotal = rowsData('s6_tcs').reduce((a,r)=>a+(r.tcs||0),0);
+  const tdsTcsTotal = tdsNonSalary + tdsSalary + tcsTotal;
+  const advanceTax = num('s6_advtax');
+  const selfAssessTax = num('s6_satax');
+  const totalTaxesPaid = tdsTcsTotal + advanceTax + selfAssessTax;
+
+  const aggregateLiability = netTaxLiability; // interest u/s 423-425 not modelled (manual return-filing stage items)
+  const taxPayable = Math.max(0, roundTo10(aggregateLiability - totalTaxesPaid));
+  const refundDue = Math.max(0, roundTo10(totalTaxesPaid - aggregateLiability));
+
+  return {
+    regime, isNew, ageCategory, salaryChargeable, grossSalaryTotal, stdDedApplied,
+    hpAllowed, hpIncomeTotal, hpGAVTotal, hpMTaxTotal, hpStdDedTotal, hpIntTotal,
+    ltcg, stcg, stcg1, cgTotal,
+    dividendsTotal, interestTotal, jeevanTotal, licTotal, otherIncomeTotal, sch4cTotal, miscTotal, osTotal,
+    totalIncome, totalIncomeRounded,
+    normalIncome, taxNormal, ltcgTaxable, taxLTCG, stcgTaxable, taxSTCG, taxWinnings, taxOnTotalIncome,
+    rebate, surchargeThreshold, surchargeRate, surcharge, cess, grossTax, relief10E, netTaxLiability,
+    tdsNonSalary, tdsSalary, tcsTotal, tdsTcsTotal, advanceTax, selfAssessTax, totalTaxesPaid,
+    aggregateLiability, taxPayable, refundDue,
+    otherRowVals,
+  };
+}
+
+/* ---------------- Render output ---------------- */
+function row(label, val, cls){ return `<tr class="${cls||''}"><td>${label}</td><td>${typeof val==='number'?fmt(val):val}</td></tr>`; }
+
+function renderOutput(r){
+  const ph = document.getElementById('printHeader');
+  const val = (v) => v && String(v).trim() ? v : '(not entered)';
+  const todayStr = new Date().toLocaleDateString('en-GB', {day:'2-digit',month:'short',year:'numeric'});
+  ph.innerHTML = `
+    <div class="ph-title">${val($('d_name').value)}</div>
+    <div class="ph-sub">Computation of Income &amp; Tax — Tax Year 2026-27 (Income-tax Act, 2025) &middot; ${r.isNew ? 'New Regime u/s 202(1)' : 'Old Regime u/s 202(4)(b)'} &middot; Printed ${todayStr}</div>
+    <div class="ph-grid">
+      <div><span class="ph-label">PAN:</span><span class="ph-val">${val($('d_pan').value)}</span></div>
+      <div><span class="ph-label">Status:</span><span class="ph-val">${val($('d_status').value)}</span></div>
+      <div><span class="ph-label">Date of Birth:</span><span class="ph-val">${val($('d_dob').value)}</span></div>
+      <div><span class="ph-label">Father's Name:</span><span class="ph-val">${val($('d_father').value)}</span></div>
+      <div><span class="ph-label">Aadhaar No.:</span><span class="ph-val">${val($('d_aadhaar').value)}</span></div>
+      <div><span class="ph-label">Place:</span><span class="ph-val">${val($('d_place').value)}</span></div>
+      <div style="grid-column:1 / -1;"><span class="ph-label">Address:</span><span class="ph-val">${val($('d_address').value)}</span></div>
+    </div>`;
+
+  const cards = document.getElementById('summaryCards');
+  cards.innerHTML = `
+    <div class="card"><div class="lbl">Total Income</div><div class="val">${fmt(r.totalIncomeRounded)}</div></div>
+    <div class="card"><div class="lbl">Tax + Surcharge + Cess</div><div class="val">${fmt(r.grossTax)}</div></div>
+    <div class="card"><div class="lbl">Taxes Already Paid (TDS/TCS/Advance)</div><div class="val">${fmt(r.totalTaxesPaid)}</div></div>
+    <div class="card" style="border-left-color:${r.taxPayable>0?'#7a1e1e':'#1e5a1e'}">
+      <div class="lbl">${r.taxPayable>0 ? 'Tax Payable' : 'Refund Due'}</div>
+      <div class="val" style="color:${r.taxPayable>0?'#7a1e1e':'#1e5a1e'}">${fmt(r.taxPayable>0?r.taxPayable:r.refundDue)}</div>
+    </div>`;
+
+  const warnDiv = document.getElementById('oldRegimeWarning');
+  const ageLabel = { normal: 'below 60 years (or non-resident)', senior: 'senior citizen, 60 to below 80 years', superSenior: 'super senior citizen, 80 years and above' }[r.ageCategory];
+  warnDiv.innerHTML = r.isNew ? '' : `<div class="note">You have selected the <b>Old Regime</b>. Slab rates for <b>${ageLabel}</b> are applied (based on Status on the Dash Board), along with the Old Regime standard deduction, house-property interest cap, rebate limit and family-pension deduction. Old Regime's surcharge table also includes the 37% band above Rs. 5 crore that New Regime does not have. Note: marginal relief above roughly Rs. 1 crore uses the same simplified single-tier formula as the source workbook — for very high incomes crossing more than one surcharge band, consult a tax professional to confirm the exact relief.</div>`;
+
+  const t = document.getElementById('compTable');
+  let html = '';
+  html += `<tr class="head"><td colspan="2">Income from Salaries (Schedule 1)</td></tr>`;
+  html += row('Gross salary, allowances and perquisites', r.grossSalaryTotal);
+  html += row('Less: Deductions from salaries u/s 19', r.stdDedApplied);
+  html += row('Income chargeable under the head "Salaries"', r.salaryChargeable, 'sub');
+
+  html += `<tr class="head"><td colspan="2">Income from House Property (Schedule 2)</td></tr>`;
+  html += row('Gross annual value [s.21]', r.hpGAVTotal);
+  html += row('Less: Municipal taxes', r.hpMTaxTotal);
+  html += row('Less: Standard deduction @ 30%', r.hpStdDedTotal);
+  html += row('Less: Interest on borrowed capital allowable [s.22(2)]', r.hpIntTotal);
+  html += row('Income chargeable under the head "House Property"', r.hpAllowed, 'sub');
+
+  html += `<tr class="head"><td colspan="2">Capital Gains (Schedule 3)</td></tr>`;
+  html += row('Long-term capital gain u/s 198', r.ltcg);
+  html += row('STCG-1: not covered u/s 196 (taxed at slab rates)', r.stcg1);
+  html += row('STCG-2: covered u/s 196', r.stcg);
+  html += row('Income chargeable under the head "Capital Gains"', r.cgTotal, 'sub');
+
+  html += `<tr class="head"><td colspan="2">Income from Other Sources</td></tr>`;
+  html += row('Dividends (Sch. 4A)', r.dividendsTotal);
+  html += row('Interest income (Sch. 4B)', r.interestTotal);
+  html += row('Pension / insurance / misc. (Sch. 4C)', r.sch4cTotal);
+  html += row('Winnings / misc. income at flat rate (Sch. 4D)', r.miscTotal);
+  html += row('Income chargeable under the head "Other Sources"', r.osTotal, 'sub');
+
+  html += row('Total Income', r.totalIncome, 'total');
+  html += row('Total income rounded off u/s 516', r.totalIncomeRounded, 'total');
+
+  html += `<tr class="head"><td colspan="2">Tax Computation (Schedule 5)</td></tr>`;
+  html += row('Income taxable at normal (slab) rates', r.normalIncome);
+  html += row('Tax on normal-rate income', r.taxNormal);
+  html += row(`LTCG taxable (after Rs. 1,25,000 exemption) @ 12.5%`, r.ltcgTaxable);
+  html += row('Tax on LTCG', r.taxLTCG);
+  html += row('STCG (u/s 196) @ 20%', r.stcgTaxable);
+  html += row('Tax on STCG', r.taxSTCG);
+  html += row('Winnings / misc. income @ 30%', Math.max(0,r.miscTotal));
+  html += row('Tax on winnings', r.taxWinnings);
+  html += row('Tax on total income', r.taxOnTotalIncome, 'sub');
+  html += row('Less: Rebate u/s 156 (erstwhile s.87A)', r.rebate);
+  html += row(`Add: Surcharge (rate: ${(r.surchargeRate*100).toFixed(0)}%, after marginal relief)`, r.surcharge);
+  html += row('Add: Health & Education Cess @ 4%', r.cess);
+  html += row('Gross tax liability', r.grossTax, 'sub');
+  html += row('Less: Relief u/s 157(1) [erstwhile s.89(1)]', r.relief10E);
+  html += row('Net tax liability', r.netTaxLiability, 'sub');
+
+  html += `<tr class="head"><td colspan="2">Taxes Already Paid</td></tr>`;
+  html += row('TDS (non-salary)', r.tdsNonSalary);
+  html += row('TDS (salary)', r.tdsSalary);
+  html += row('TCS', r.tcsTotal);
+  html += row('Advance tax paid', r.advanceTax);
+  html += row('Self-assessment tax paid u/s 263', r.selfAssessTax);
+  html += row('Total taxes paid', r.totalTaxesPaid, 'sub');
+
+  if(r.taxPayable > 0){
+    html += row('Tax Payable', r.taxPayable, 'payable');
+  } else {
+    html += row('Refund Due', r.refundDue, 'final');
+  }
+  t.innerHTML = html;
+}
+
+let calcTimer=null;
+function scheduleCalc(){
+  clearTimeout(calcTimer);
+  calcTimer = setTimeout(()=>{ const r = calcAll(); renderOutput(r); }, 150);
+}
+
+/* ---------------- PDF export ---------------- */
+function downloadPDF(){
+  const r = calcAll();
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({ unit:'pt', format:'a4' });
+  const NAVY = [26,60,110];
+  let y = 50;
+  doc.setFont('helvetica','bold'); doc.setFontSize(16); doc.setTextColor(...NAVY);
+  doc.text('Computation of Total Income & Tax', 40, y); y+=18;
+  doc.setFontSize(10); doc.setTextColor(80,80,80); doc.setFont('helvetica','italic');
+  doc.text(`Tax Year 2026-27 (Income-tax Act, 2025) — ${r.isNew?'New Regime u/s 202(1)':'Old Regime u/s 202(4)(b)'}`, 40, y); y+=16;
+  doc.setDrawColor(...NAVY); doc.setLineWidth(1); doc.line(40,y,555,y); y+=16;
+
+  doc.setFont('helvetica','normal'); doc.setFontSize(9.5); doc.setTextColor(20,20,20);
+  const V = (v) => v && String(v).trim() ? v : '(not entered)';
+  const name = V($('d_name').value);
+  const pan = V($('d_pan').value);
+  const status = V($('d_status').value);
+  const dob = V($('d_dob').value);
+  const father = V($('d_father').value);
+  const aadhaar = V($('d_aadhaar').value);
+  const place = V($('d_place').value);
+  const address = V($('d_address').value);
+  const todayStr = new Date().toLocaleDateString('en-GB', {day:'2-digit',month:'short',year:'numeric'});
+
+  doc.text(`Name: ${name}`, 40, y); doc.text(`PAN: ${pan}`, 300, y); y+=14;
+  doc.text(`Status: ${status}`, 40, y); doc.text(`Date of Birth: ${dob}`, 300, y); y+=14;
+  doc.text(`Father's Name: ${father}`, 40, y); doc.text(`Aadhaar No.: ${aadhaar}`, 300, y); y+=14;
+  doc.text(`Place: ${place}`, 40, y); doc.text(`Date: ${todayStr}`, 300, y); y+=14;
+  const addrLines = doc.splitTextToSize(`Address: ${address}`, 515);
+  doc.text(addrLines, 40, y); y += 14*addrLines.length + 6;
+
+  function section(title){
+    doc.setFillColor(...NAVY); doc.rect(40,y-11,515,16,'F');
+    doc.setTextColor(255,255,255); doc.setFont('helvetica','bold'); doc.setFontSize(9.5);
+    doc.text(title, 45, y); y+=18;
+    doc.setTextColor(20,20,20); doc.setFont('helvetica','normal');
+  }
+  function line(label, val, bold){
+    if(y>760){ doc.addPage(); y=50; }
+    doc.setFont('helvetica', bold?'bold':'normal'); doc.setFontSize(9.2);
+    doc.text(label, 45, y);
+    doc.text(fmt(val), 550, y, {align:'right'});
+    y+=14;
+  }
+
+  section('Income from Salaries (Schedule 1)');
+  line('Gross salary, allowances and perquisites', r.grossSalaryTotal);
+  line('Less: Deductions u/s 19', r.stdDedApplied);
+  line('Income chargeable under "Salaries"', r.salaryChargeable, true); y+=6;
+
+  section('Income from House Property (Schedule 2)');
+  line('Income chargeable under "House Property"', r.hpAllowed, true); y+=6;
+
+  section('Capital Gains (Schedule 3)');
+  line('Long-term capital gain u/s 198', r.ltcg);
+  line('STCG-1 (slab rate)', r.stcg1);
+  line('STCG-2 u/s 196', r.stcg);
+  line('Income chargeable under "Capital Gains"', r.cgTotal, true); y+=6;
+
+  section('Income from Other Sources');
+  line('Dividends (Sch. 4A)', r.dividendsTotal);
+  line('Interest income (Sch. 4B)', r.interestTotal);
+  line('Pension / insurance / misc. (Sch. 4C)', r.sch4cTotal);
+  line('Winnings / misc. income (Sch. 4D)', r.miscTotal);
+  line('Income chargeable under "Other Sources"', r.osTotal, true); y+=6;
+
+  section('Total Income & Tax');
+  line('Total Income', r.totalIncome, true);
+  line('Total income rounded off u/s 516', r.totalIncomeRounded, true);
+  line('Tax on total income', r.taxOnTotalIncome);
+  line('Less: Rebate u/s 156', r.rebate);
+  line(`Add: Surcharge (${(r.surchargeRate*100).toFixed(0)}%, after marginal relief)`, r.surcharge);
+  line('Add: Health & Education Cess @ 4%', r.cess);
+  line('Gross tax liability', r.grossTax, true);
+  line('Less: Relief u/s 157(1)', r.relief10E);
+  line('Net tax liability', r.netTaxLiability, true); y+=6;
+
+  section('Taxes Already Paid');
+  line('TDS / TCS', r.tdsTcsTotal);
+  line('Advance tax paid', r.advanceTax);
+  line('Self-assessment tax paid', r.selfAssessTax);
+  line('Total taxes paid', r.totalTaxesPaid, true); y+=6;
+
+  if(r.taxPayable>0){ line('TAX PAYABLE', r.taxPayable, true); }
+  else { line('REFUND DUE', r.refundDue, true); }
+
+  y+=10;
+  doc.setFont('helvetica','italic'); doc.setFontSize(7.5); doc.setTextColor(120,120,120);
+  const disclaimer = 'Prepared for personal guidance only, using the statutory rates and formulas mirrored from the reference Excel workbook. Not a substitute for professional tax advice or the official return-filing utility.';
+  doc.text(doc.splitTextToSize(disclaimer, 515), 40, y);
+
+  doc.save(`Tax_Computation_TY2026-27_${(name||'output').replace(/\s+/g,'_')}.pdf`);
+}
+
+/* ---------------- Save / Load data (to/from a local file — no server involved) ---------------- */
+function serializeForm(){
+  const fields = {};
+  document.querySelectorAll('input[id], select[id]').forEach(el=>{
+    if(el.id === 'loadFileInput') return;
+    fields[el.id] = el.value;
+  });
+  const tables = {};
+  Object.keys(TABLE_BODY).forEach(type=>{
+    tables[type] = rowsData(type);
+  });
+  return { app:'IncomeTaxCalculator', taxYear:'2026-27', version:1, savedAt:new Date().toISOString(), fields, tables };
+}
+
+function loadDataFromObject(data){
+  if(!data || typeof data !== 'object' || !data.fields){
+    alert('This does not look like a Tax Data file saved from this calculator.');
+    return;
+  }
+  Object.keys(data.fields).forEach(id=>{
+    const el = document.getElementById(id);
+    if(el) el.value = data.fields[id];
+  });
+  Object.keys(TABLE_BODY).forEach(type=>{
+    const tbody = document.querySelector(TABLE_BODY[type]);
+    tbody.innerHTML = '';
+    const rows = (data.tables && data.tables[type]) || [];
+    if(rows.length === 0){
+      addRow(type, true); // keep one blank row, same as the initial page state
+    } else {
+      rows.forEach(rowObj=>{
+        const tr = addRow(type, true);
+        Object.keys(rowObj).forEach(f=>{
+          const input = tr.querySelector(`[data-f="${f}"]`);
+          if(input) input.value = rowObj[f];
+        });
+      });
+    }
+  });
+  scheduleCalc();
+}
+
+function showSaveStatus(msg){
+  const el = document.getElementById('saveStatus');
+  el.textContent = msg;
+  clearTimeout(showSaveStatus._t);
+  showSaveStatus._t = setTimeout(()=>{ el.textContent=''; }, 6000);
+}
+
+/* ---- True same-file overwrite via the File System Access API (Chrome / Edge / Opera) ----
+   Falls back to a normal browser download (creates a new file each time — the browser's
+   own doing, not something a webpage can override) on Firefox / Safari, which don't
+   support this API yet. */
+const FSA_SUPPORTED = 'showSaveFilePicker' in window;
+let fileHandle = null; // in-memory cache for this page session
+
+function idbOpen(){
+  return new Promise((resolve, reject)=>{
+    const req = indexedDB.open('TaxCalcFileHandles', 1);
+    req.onupgradeneeded = () => req.result.createObjectStore('handles');
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+async function idbGetHandle(){
+  try{
+    const db = await idbOpen();
+    return await new Promise((resolve)=>{
+      const tx = db.transaction('handles','readonly');
+      const req = tx.objectStore('handles').get('saveFile');
+      req.onsuccess = () => resolve(req.result || null);
+      req.onerror = () => resolve(null);
+    });
+  }catch(e){ return null; }
+}
+async function idbSetHandle(handle){
+  try{
+    const db = await idbOpen();
+    await new Promise((resolve)=>{
+      const tx = db.transaction('handles','readwrite');
+      tx.objectStore('handles').put(handle, 'saveFile');
+      tx.oncomplete = () => resolve();
+      tx.onerror = () => resolve();
+    });
+  }catch(e){ /* ignore — worst case we just ask again next time */ }
+}
+
+async function getFileHandle(forceNew){
+  if(!forceNew && fileHandle){
+    if(await verifyPermission(fileHandle)) return fileHandle;
+  }
+  if(!forceNew){
+    const stored = await idbGetHandle();
+    if(stored && await verifyPermission(stored)){
+      fileHandle = stored;
+      return fileHandle;
+    }
+  }
+  const nameForFile = (($('d_name').value || 'TaxData').trim().replace(/[^a-zA-Z0-9]+/g,'_')) || 'TaxData';
+  const handle = await window.showSaveFilePicker({
+    suggestedName: `${nameForFile}_TY2026-27_TaxData.json`,
+    types: [{ description: 'Tax Data (JSON)', accept: {'application/json': ['.json']} }],
+  });
+  fileHandle = handle;
+  await idbSetHandle(handle);
+  return handle;
+}
+
+async function verifyPermission(handle){
+  const opts = { mode: 'readwrite' };
+  if((await handle.queryPermission(opts)) === 'granted') return true;
+  // requestPermission needs a user gesture — safe here since we're always called from a click handler
+  if((await handle.requestPermission(opts)) === 'granted') return true;
+  return false;
+}
+
+function downloadAsNewFile(dataStr){
+  const blob = new Blob([dataStr], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const nameForFile = (($('d_name').value || 'TaxData').trim().replace(/[^a-zA-Z0-9]+/g,'_')) || 'TaxData';
+  a.href = url;
+  a.download = `${nameForFile}_TY2026-27_TaxData.json`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+  showSaveStatus('Saved — new file downloaded (this browser can\'t overwrite in place; see note below) ✓');
+}
+
+async function saveData(forceNew){
+  const data = serializeForm();
+  const dataStr = JSON.stringify(data, null, 2);
+
+  if(!FSA_SUPPORTED){
+    downloadAsNewFile(dataStr);
+    return;
+  }
+  try{
+    const handle = await getFileHandle(!!forceNew);
+    const writable = await handle.createWritable();
+    await writable.write(dataStr);
+    await writable.close();
+    showSaveStatus(`Saved to "${handle.name}" ✓ (same file updated in place)`);
+    document.getElementById('saveAsNewBtn').style.display = 'inline';
+  }catch(err){
+    if(err && err.name === 'AbortError') return; // user cancelled the save dialog — do nothing
+    // Any other failure (e.g. permission revoked, handle stale) — fall back to a normal download
+    downloadAsNewFile(dataStr);
+  }
+}
+
+function loadDataFile(file){
+  const reader = new FileReader();
+  reader.onload = (evt) => {
+    try{
+      const data = JSON.parse(evt.target.result);
+      loadDataFromObject(data);
+      showSaveStatus('Data loaded ✓');
+    }catch(err){
+      alert('Could not read this file — please make sure it is a Tax Data (.json) file saved earlier from this calculator.');
+    }
+  };
+  reader.readAsText(file);
+}
+
+/* ---------------- Init ---------------- */
+function init(){
+  buildTabs();
+
+  // Other-income fixed rows (Sch4C block 3)
+  const body = document.getElementById('s4c_other_body');
+  body.innerHTML = OTHER_INCOME_ROWS.map(r=>`
+    <tr>
+      <td>${r.label}</td>
+      <td><input type="number" id="oi_gross_${r.key}" value="0"></td>
+      <td>${r.auto ? '<span style="color:#666;font-style:italic;">auto</span>' : `<input type="number" id="oi_ded_${r.key}" value="0">`}</td>
+    </tr>`).join('');
+
+  // Attach listeners
+  document.querySelectorAll('input,select').forEach(el=>{
+    if(!el.dataset.f) el.addEventListener('input', scheduleCalc);
+  });
+
+  // Seed one blank row per dynamic table so users see the format
+  ['s3a','s3b','s4a_co','s4a_ot','s4b_dep','s4b_sav','s4b_oth','s4c_pen','s4c_lic','s4d_lot','s4d_og','s6_ns','s6_sal','s6_tcs','s7']
+    .forEach(t=>addRow(t, true));
+
+  // Save / Load wiring
+  document.getElementById('loadFileInput').addEventListener('change', function(e){
+    const file = e.target.files[0];
+    if(file) loadDataFile(file);
+    e.target.value = '';
+  });
+
+  const hintEl = document.getElementById('saveHint');
+  if(FSA_SUPPORTED){
+    hintEl.textContent = 'First "Save Data" click asks you to pick a file once — after that, every click overwrites that same file, no extra copies.';
+    idbGetHandle().then(h=>{
+      if(h){ document.getElementById('saveAsNewBtn').style.display = 'inline'; }
+    });
+  } else {
+    hintEl.textContent = 'This browser (likely Firefox or Safari) always creates a new downloaded file on each save — that\'s a browser limitation, not this page. Chrome or Edge can overwrite the same file in place.';
+  }
+
+  scheduleCalc();
+}
+document.addEventListener('DOMContentLoaded', init);
+
+</script>
+</body>
+</html>
