@@ -59,6 +59,21 @@
     color:#2a6b2a;
     font-weight:bold;
   }
+  .link-btn{
+    background:none;
+    border:none;
+    color:var(--navy);
+    text-decoration:underline;
+    font-size:0.78rem;
+    cursor:pointer;
+    padding:0;
+  }
+  .save-hint{
+    font-size:0.75rem;
+    color:#777;
+    width:100%;
+    margin-top:2px;
+  }
   nav.tabs{
     display:flex;
     flex-wrap:wrap;
@@ -319,7 +334,9 @@
     <button class="action-btn" onclick="saveData()">💾 Save Data</button>
     <button class="action-btn" onclick="document.getElementById('loadFileInput').click()">📂 Load Data</button>
     <input type="file" id="loadFileInput" accept="application/json" style="display:none">
+    <button class="link-btn" id="saveAsNewBtn" onclick="saveData(true)" style="display:none;">Save As New File…</button>
     <span class="save-status" id="saveStatus"></span>
+    <span class="save-hint" id="saveHint"></span>
   </div>
 
   <nav class="tabs" id="tabNav"></nav>
@@ -1344,12 +1361,78 @@ function showSaveStatus(msg){
   const el = document.getElementById('saveStatus');
   el.textContent = msg;
   clearTimeout(showSaveStatus._t);
-  showSaveStatus._t = setTimeout(()=>{ el.textContent=''; }, 4000);
+  showSaveStatus._t = setTimeout(()=>{ el.textContent=''; }, 6000);
 }
 
-function saveData(){
-  const data = serializeForm();
-  const blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json'});
+/* ---- True same-file overwrite via the File System Access API (Chrome / Edge / Opera) ----
+   Falls back to a normal browser download (creates a new file each time — the browser's
+   own doing, not something a webpage can override) on Firefox / Safari, which don't
+   support this API yet. */
+const FSA_SUPPORTED = 'showSaveFilePicker' in window;
+let fileHandle = null; // in-memory cache for this page session
+
+function idbOpen(){
+  return new Promise((resolve, reject)=>{
+    const req = indexedDB.open('TaxCalcFileHandles', 1);
+    req.onupgradeneeded = () => req.result.createObjectStore('handles');
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+async function idbGetHandle(){
+  try{
+    const db = await idbOpen();
+    return await new Promise((resolve)=>{
+      const tx = db.transaction('handles','readonly');
+      const req = tx.objectStore('handles').get('saveFile');
+      req.onsuccess = () => resolve(req.result || null);
+      req.onerror = () => resolve(null);
+    });
+  }catch(e){ return null; }
+}
+async function idbSetHandle(handle){
+  try{
+    const db = await idbOpen();
+    await new Promise((resolve)=>{
+      const tx = db.transaction('handles','readwrite');
+      tx.objectStore('handles').put(handle, 'saveFile');
+      tx.oncomplete = () => resolve();
+      tx.onerror = () => resolve();
+    });
+  }catch(e){ /* ignore — worst case we just ask again next time */ }
+}
+
+async function getFileHandle(forceNew){
+  if(!forceNew && fileHandle){
+    if(await verifyPermission(fileHandle)) return fileHandle;
+  }
+  if(!forceNew){
+    const stored = await idbGetHandle();
+    if(stored && await verifyPermission(stored)){
+      fileHandle = stored;
+      return fileHandle;
+    }
+  }
+  const nameForFile = (($('d_name').value || 'TaxData').trim().replace(/[^a-zA-Z0-9]+/g,'_')) || 'TaxData';
+  const handle = await window.showSaveFilePicker({
+    suggestedName: `${nameForFile}_TY2026-27_TaxData.json`,
+    types: [{ description: 'Tax Data (JSON)', accept: {'application/json': ['.json']} }],
+  });
+  fileHandle = handle;
+  await idbSetHandle(handle);
+  return handle;
+}
+
+async function verifyPermission(handle){
+  const opts = { mode: 'readwrite' };
+  if((await handle.queryPermission(opts)) === 'granted') return true;
+  // requestPermission needs a user gesture — safe here since we're always called from a click handler
+  if((await handle.requestPermission(opts)) === 'granted') return true;
+  return false;
+}
+
+function downloadAsNewFile(dataStr){
+  const blob = new Blob([dataStr], {type:'application/json'});
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   const nameForFile = (($('d_name').value || 'TaxData').trim().replace(/[^a-zA-Z0-9]+/g,'_')) || 'TaxData';
@@ -1359,7 +1442,29 @@ function saveData(){
   a.click();
   a.remove();
   URL.revokeObjectURL(url);
-  showSaveStatus('Saved — file downloaded ✓');
+  showSaveStatus('Saved — new file downloaded (this browser can\'t overwrite in place; see note below) ✓');
+}
+
+async function saveData(forceNew){
+  const data = serializeForm();
+  const dataStr = JSON.stringify(data, null, 2);
+
+  if(!FSA_SUPPORTED){
+    downloadAsNewFile(dataStr);
+    return;
+  }
+  try{
+    const handle = await getFileHandle(!!forceNew);
+    const writable = await handle.createWritable();
+    await writable.write(dataStr);
+    await writable.close();
+    showSaveStatus(`Saved to "${handle.name}" ✓ (same file updated in place)`);
+    document.getElementById('saveAsNewBtn').style.display = 'inline';
+  }catch(err){
+    if(err && err.name === 'AbortError') return; // user cancelled the save dialog — do nothing
+    // Any other failure (e.g. permission revoked, handle stale) — fall back to a normal download
+    downloadAsNewFile(dataStr);
+  }
 }
 
 function loadDataFile(file){
@@ -1404,6 +1509,16 @@ function init(){
     if(file) loadDataFile(file);
     e.target.value = '';
   });
+
+  const hintEl = document.getElementById('saveHint');
+  if(FSA_SUPPORTED){
+    hintEl.textContent = 'First "Save Data" click asks you to pick a file once — after that, every click overwrites that same file, no extra copies.';
+    idbGetHandle().then(h=>{
+      if(h){ document.getElementById('saveAsNewBtn').style.display = 'inline'; }
+    });
+  } else {
+    hintEl.textContent = 'This browser (likely Firefox or Safari) always creates a new downloaded file on each save — that\'s a browser limitation, not this page. Chrome or Edge can overwrite the same file in place.';
+  }
 
   scheduleCalc();
 }
