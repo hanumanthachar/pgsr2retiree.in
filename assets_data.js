@@ -6499,6 +6499,13 @@ const COMPENDIUM_DATA = {
       "description": "Common reasons OPD medical bills are disallowed or deducted under the Medical Attendance and Treatment Rules, plus retiree-specific observations from the PRMB Trust Rules (Circular Sl No 2) and an Annexure giving the annual OPD ceiling limit by grade at retirement (Workmen/Supervisors/Executives).",
       "file": "OPD_Reimbursement_Ceiling_and_Disallowance_Guide.pdf",
       "category": "Medical Reimbursement"
+    },
+  {
+      "id": "other-06",
+      "title": "Income Tax Calculator (Tax Year 2026-27)",
+      "description": "Enter your income across all schedules (Salary, House Property, Capital Gains, Other Sources, TDS) and get New Regime / Old Regime tax computed instantly, with a downloadable PDF computation certificate.",
+      "file": "income-tax-calculator.html",
+      "category": "INCOME TAX"
     }
   ]
 };
