@@ -5016,7 +5016,7 @@ const COMPENDIUM_DATA = {
       "city": "Madurai",
       "addr": "Vellammal Village, Madurai Tuticorin Ring Road, Anupanadi, Madurai",
       "group": "Madurai (4 Hospitals)",
-      "region": "SR-II",
+      "region": "SR2",
       "state": "Tamil Nadu"
     },
     {
