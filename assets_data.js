@@ -521,7 +521,7 @@ const COMPENDIUM_DATA = {
   "hospitals": [
     {
       "sl": 1,
-      "portal": 316,
+      "portal": 320,
       "name": "Manipal Hospital",
       "city": "Bangalore",
       "addr": "Airport Road, Bangalore",
@@ -531,7 +531,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 317,
+      "portal": 321,
       "name": "Baptist Hospital",
       "city": "Bangalore",
       "addr": "Bangalore Baptist Hospital, Bellary Road, Hebbal, Bangalore",
@@ -541,7 +541,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 318,
+      "portal": 322,
       "name": "Narayana Hrudayalaya Hospitals & Heath City",
       "city": "Bangalore",
       "addr": "# 258/a, Bommasandra Indusrtrial Area, Anekal Taluk, Bangalore",
@@ -551,7 +551,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 319,
+      "portal": 323,
       "name": "Apollo Hospital",
       "city": "Bangalore",
       "addr": "154/11, Opp.I.I.M, Bannerghatta Road, Bangalore",
@@ -561,7 +561,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 320,
+      "portal": 324,
       "name": "HCG Hospital",
       "city": "Bangalore",
       "addr": "Healthcare Global Enterprises Ltd., Hcg Tower #8, P Kalinga Rao Road, Sampangi Ram Nagar, Bangalore",
@@ -571,7 +571,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 321,
+      "portal": 325,
       "name": "Aster Medicity",
       "city": "Bangalore",
       "addr": "M/S. Aster Cmi Hospital, #43/2, New Airport Road, Nh-7, Sahakara Nagar, Hebbal, Bangalore",
@@ -581,7 +581,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 7,
-      "portal": 324,
+      "portal": 328,
       "name": "Narayana Nethralaya",
       "city": "Bangalore",
       "addr": "121/C, Chord Road, Rajajinagar 1st R Block, Bangalore",
@@ -591,7 +591,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 8,
-      "portal": 325,
+      "portal": 329,
       "name": "Sparsh Hospital",
       "city": "Bangalore",
       "addr": "Ideal Homes Hbcs Layout, 8, 4th Cross Rd, Javarandoddi, Rr Nagar, Bengaluru, Karnataka-560098",
@@ -601,7 +601,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 9,
-      "portal": 326,
+      "portal": 330,
       "name": "Sparsh Hospital",
       "city": "Bangalore",
       "addr": "#4/1, Tumkur Main Rd, Yeshwanthpur Industrial Area, Phase 1, Yeswanthpur, Bengaluru",
@@ -611,7 +611,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 10,
-      "portal": 344,
+      "portal": 348,
       "name": "Narayana Nethralaya",
       "city": "Bangalore",
       "addr": "Nh Health City, # 258/a, Bommasandra, Hosur Road, Bangalore",
@@ -621,7 +621,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 11,
-      "portal": 345,
+      "portal": 349,
       "name": "Manipal Hospital,Hebbal",
       "city": "Bangalore",
       "addr": "Kirloskar Business Park, Bellary Road, Hebbal, Bangalore",
@@ -631,7 +631,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 12,
-      "portal": 346,
+      "portal": 350,
       "name": "Manipal Hospital,Yeshwantpur",
       "city": "Bangalore",
       "addr": "26/4, Brigade Gateway, Beside Metro, Malleswaram West, Bangalore",
@@ -641,7 +641,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 13,
-      "portal": 347,
+      "portal": 351,
       "name": "Manipal Hospital, Varthur",
       "city": "Bangalore",
       "addr": "Survey No. 10p &, 12p, Whitefield Rd, Varthur Kodi, Palm Meadows, Ramagondanahalli, Bengaluru",
@@ -651,7 +651,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 14,
-      "portal": 348,
+      "portal": 352,
       "name": "Manipal Hospital,Sarjapur",
       "city": "Bangalore",
       "addr": "Survey No 45/2 Ward No \u2013 150, Ambalipura, Sarjapura Main Road (Opposite Iblur), Bangalore",
@@ -661,7 +661,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 15,
-      "portal": 349,
+      "portal": 353,
       "name": "Manipal Hospital,Doddaballapur",
       "city": "Bangalore",
       "addr": "Bashettihalli, Doddaballapur Bangalore",
@@ -671,7 +671,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 16,
-      "portal": 360,
+      "portal": 364,
       "name": "Fortis Hospital",
       "city": "Bangalore",
       "addr": "154/4, Bannerghatta Road, Opp Iim, Bangalore",
@@ -681,7 +681,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 17,
-      "portal": 361,
+      "portal": 365,
       "name": "Fortis Hospital",
       "city": "Bangalore",
       "addr": "No. 14, Cunnigham Road, Bangalore",
@@ -691,7 +691,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 18,
-      "portal": 373,
+      "portal": 378,
       "name": "Institute of Ayurveda and Integrative Medicine(I-Aim) Healthcare Center",
       "city": "Bangalore",
       "addr": "#74/2, Jarakbandekaval Post Attur via Yelahanka Bangalore-560064",
@@ -701,7 +701,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 19,
-      "portal": 375,
+      "portal": 380,
       "name": "Ramaiah Memorial Hospital",
       "city": "Bangalore",
       "addr": "New Bel Road, M S Ramaiah Nagar, Msrit Post Mathikere Bangalore - 560054",
@@ -711,7 +711,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 20,
-      "portal": 376,
+      "portal": 381,
       "name": "Cytecare Hospital Pvt. Ltd.",
       "city": "Bangalore",
       "addr": "Venkatala, Near Bagalur Cross, Yelahanka, Bangalore - 560064",
@@ -721,7 +721,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 21,
-      "portal": 377,
+      "portal": 382,
       "name": "Aster Rv Hospital",
       "city": "Bangalore",
       "addr": "Ca 37, 24th Main Rd, Iti Layout, 1st Phase, J.P. Nagar, Bengaluru, Karnataka- 560078",
@@ -731,7 +731,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 22,
-      "portal": 381,
+      "portal": 386,
       "name": "Manipal Hospital, Millers Road, Bangalore",
       "city": "Bangalore",
       "addr": "Manipal Hospital Millers Road. 71/1, Millers Road, Opposite to St. Annes College, Vasanth Nagar, Bengaluru, Karnataka 560052",
@@ -741,7 +741,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 23,
-      "portal": 383,
+      "portal": 388,
       "name": "Manipal Hospital",
       "city": "Bangalore",
       "addr": "Venkatala Village, Yelahanka, Bangalore,560064",
@@ -751,7 +751,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 310,
+      "portal": 314,
       "name": "Sri Ramachandra Medical Centre",
       "city": "Chennai",
       "addr": "Porur, Chennai",
@@ -761,7 +761,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 311,
+      "portal": 315,
       "name": "Apollo Hospital",
       "city": "Chennai",
       "addr": "Greams Road, Chennai",
@@ -771,7 +771,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 314,
+      "portal": 318,
       "name": "Bilroth Hsopital",
       "city": "Chennai",
       "addr": "Lakshmi Talkies Rd, Shenoy Nagar, Chennai",
@@ -781,7 +781,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 315,
+      "portal": 319,
       "name": "Miot Hospital",
       "city": "Chennai",
       "addr": "Mount Poonamalle High Rd, Manapakkam, Chennai",
@@ -791,7 +791,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 350,
+      "portal": 354,
       "name": "Apollo Vanagaram Unit",
       "city": "Chennai",
       "addr": "Ayanambakkam, Thiruverkadu, Chennai",
@@ -801,7 +801,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 351,
+      "portal": 355,
       "name": "Apollo Cancer Unit",
       "city": "Chennai",
       "addr": "320, Anna Salai, Nandanam, Chennai",
@@ -811,7 +811,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 7,
-      "portal": 352,
+      "portal": 356,
       "name": "Apollo Omr Unit",
       "city": "Chennai",
       "addr": "Perungudi, Chennai",
@@ -821,7 +821,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 8,
-      "portal": 353,
+      "portal": 357,
       "name": "Apollo Childrens' Unit",
       "city": "Chennai",
       "addr": "15, Safi Mahammed Street, Greams Road, Chennai",
@@ -831,7 +831,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 9,
-      "portal": 354,
+      "portal": 358,
       "name": "Apollo Women & Cradle Unit",
       "city": "Chennai",
       "addr": "Shafee Mohammed Road, Thousand Lights, Chennai",
@@ -841,7 +841,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 10,
-      "portal": 355,
+      "portal": 359,
       "name": "Apollo Proton Cancer Centre",
       "city": "Chennai",
       "addr": "Tharamani, Chennai",
@@ -851,7 +851,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 11,
-      "portal": 356,
+      "portal": 360,
       "name": "Dr.Mohan's Diabets Specialities Centre",
       "city": "Chennai",
       "addr": "35 Conran Smith Road, Gopalapuram, Chennai",
@@ -861,7 +861,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 12,
-      "portal": 363,
+      "portal": 368,
       "name": "Dr Agarwals Eye Hospital Ltd",
       "city": "Chennai",
       "addr": "No.222, Ttk Road, Alwarpet, Chennai",
@@ -871,7 +871,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 13,
-      "portal": 369,
+      "portal": 374,
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Chennai",
       "addr": "No 6, Tdk Tower, Duraiswamy Reddy St, Near Tambaram, Tambaram West, Chennai",
@@ -881,7 +881,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 312,
+      "portal": 316,
       "name": "Kg Hospital",
       "city": "Coimbatore",
       "addr": "5, Government Arts College Rd, Opposite Court, Gopalapuram, Coimbatore",
@@ -891,7 +891,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 313,
+      "portal": 317,
       "name": "Aravind Eye Hospital",
       "city": "Coimbatore",
       "addr": "Avinashi Road, Coimbatore",
@@ -901,7 +901,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 367,
+      "portal": 372,
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Coimbatore",
       "addr": "#1091, Sakthi Arcade, Mettupalayam Road, R.S Puram, Coimbatore",
@@ -911,7 +911,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 384,
+      "portal": 389,
       "name": "Royalcare Super Speciality Hospital Limited",
       "city": "Coimbatore",
       "addr": "Sf No. 554/555, Neelambur Village Coimbatore, 641062",
@@ -921,7 +921,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 323,
+      "portal": 327,
       "name": "Sdm College of Medical Science and Hospital",
       "city": "Dharwad",
       "addr": "Manjushree Nagar, Sattur, Dharwad",
@@ -931,7 +931,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 358,
+      "portal": 362,
       "name": "Kauvery Hospital Medical Services Pvt Ltd.",
       "city": "Hosur",
       "addr": "35,Shanthi Nagar, Opposite to Csi Church, Hosur-635 109",
@@ -941,7 +941,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 371,
+      "portal": 376,
       "name": "Km Cherian Institute of Medical Sciences Hospital",
       "city": "Kallisserry",
       "addr": "Kallisserry, Chengannur, Alappuzha Dist., Kerala",
@@ -951,7 +951,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 342,
+      "portal": 346,
       "name": "Aster Mims Hospital",
       "city": "Kannur",
       "addr": "Chala East Kannur, Kannur",
@@ -961,7 +961,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 382,
+      "portal": 387,
       "name": "Baby Memorial Hospital ( a Unit of Genesis Institute of Medical Science Pvt Ltd.)",
       "city": "Kannur",
       "addr": "Near Chala Bypass, Kannur, Kerela, 670007",
@@ -971,7 +971,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 330,
+      "portal": 334,
       "name": "Lakeshore Hospital and Research Centre",
       "city": "Kochi",
       "addr": "Nh Bypass, Nettoor, Maradu, Kochi",
@@ -981,7 +981,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 331,
+      "portal": 335,
       "name": "Rajagiri Health Care and Education Trust",
       "city": "Kochi",
       "addr": "Near Gtn Junction, Chunagamvely, Aluwa, Kochi",
@@ -991,7 +991,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 332,
+      "portal": 336,
       "name": "Amrita Institute of Medical Science and Research Centre",
       "city": "Kochi",
       "addr": "Aims, Ponnekkara-P.O, Edappally, Kochi",
@@ -1001,7 +1001,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 333,
+      "portal": 337,
       "name": "The Medical Trust Hospital",
       "city": "Kochi",
       "addr": "M. G. Road, Pallimukku, Kochi",
@@ -1011,7 +1011,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 340,
+      "portal": 344,
       "name": "Apollo Adlux Hospital",
       "city": "Kochi",
       "addr": "Angamaly, Kochi",
@@ -1021,7 +1021,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 359,
+      "portal": 363,
       "name": "Aster Medcity Hospital",
       "city": "Kochi",
       "addr": "Cheranelloor, Kochi, Ernakulam Dist -682027, Kerala",
@@ -1031,7 +1031,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 374,
+      "portal": 379,
       "name": "K S Health Care Hospital",
       "city": "Koppal",
       "addr": "#9-13-1270, Hosapete Road, Koppal - Karnataka 583231",
@@ -1041,7 +1041,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 327,
+      "portal": 331,
       "name": "Baby Memorial Hospital",
       "city": "Kozhikode",
       "addr": "Ariyadathupalam,Indira Gandhi Road, Kozhikode",
@@ -1051,7 +1051,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 343,
+      "portal": 347,
       "name": "Aster Mims Hospital",
       "city": "Kozhikode",
       "addr": "Mini Bypass Rd, Govindapuram, Kozhikode",
@@ -1061,7 +1061,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 378,
+      "portal": 383,
       "name": "Meitra Hospital",
       "city": "Kozhikode",
       "addr": "38/2208, B Karaparamba, Mini Bypass Rd, Kunduparampa,Edakkad, Kozhikode, Kerala - 673005",
@@ -1071,37 +1071,37 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 306,
+      "portal": 310,
       "name": "Meenakshi Mission Hospital & Research Centre",
       "city": "Madurai",
       "addr": "Lake Area, Melur Road, Madurai",
-      "group": "Madurai (3 Hospitals)",
+      "group": "Madurai (4 Hospitals)",
       "region": "SR2",
       "state": "Tamil Nadu"
     },
     {
       "sl": 2,
-      "portal": 307,
+      "portal": 311,
       "name": "Apollo Hospital",
       "city": "Madurai",
       "addr": "Lake View Road, Kk Nagar, Madurai",
-      "group": "Madurai (3 Hospitals)",
+      "group": "Madurai (4 Hospitals)",
       "region": "SR2",
       "state": "Tamil Nadu"
     },
     {
       "sl": 3,
-      "portal": 308,
+      "portal": 312,
       "name": "Aravind Eye Hospital",
       "city": "Madurai",
       "addr": "1, Anna Nagar, Madurai",
-      "group": "Madurai (3 Hospitals)",
+      "group": "Madurai (4 Hospitals)",
       "region": "SR2",
       "state": "Tamil Nadu"
     },
     {
       "sl": 1,
-      "portal": 380,
+      "portal": 385,
       "name": "M/S Aster Mother Hospital, Areekode, Run by M/S Malabar Institute of Medical Science",
       "city": "Malappuram",
       "addr": "Vazhakad Road, Ugrapuram (Po), Malappuram , Kerala- 673639",
@@ -1111,7 +1111,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 322,
+      "portal": 326,
       "name": "Apollo Bgs Hospitals",
       "city": "Mysore",
       "addr": "Adichunchanagiri Road, Kuvempunagar Mysore",
@@ -1121,7 +1121,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 334,
+      "portal": 338,
       "name": "Lakshmi Hospital, Chittur",
       "city": "Palakkad",
       "addr": "Lakshmi Hospital No. 17/751, Chittur Road, Palakkad",
@@ -1131,7 +1131,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 379,
+      "portal": 384,
       "name": "M/S Thangam Hospitals of Palakkad Medical and Research Centre Ltd",
       "city": "Palakkad",
       "addr": "Chadanamkurussi, West Yakkara, Palakkad, Kerala, 678004",
@@ -1141,7 +1141,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 335,
+      "portal": 339,
       "name": "Aravind Eye Hospital",
       "city": "Puducherry",
       "addr": "Thavalakuppam, Puducherry",
@@ -1151,7 +1151,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 368,
+      "portal": 373,
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Puducherry",
       "addr": "Nsj Avenue, 601 Kamarajar Salai, Rajiv Gandhi Square, Puducherry",
@@ -1161,7 +1161,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 305,
+      "portal": 309,
       "name": "Manipal Hospital",
       "city": "Salem",
       "addr": "Dalmia Board, Salem - Bangalore Highway, Salem",
@@ -1171,7 +1171,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 362,
+      "portal": 367,
       "name": "Dharan Hospital",
       "city": "Salem",
       "addr": "Seelanaickenpatti by-Pass, Salem",
@@ -1181,7 +1181,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 364,
+      "portal": 369,
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Thanjavur",
       "addr": "No. 2851/30a,V O C Nagar, Trichy Main Road, Thanjavur",
@@ -1191,7 +1191,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 328,
+      "portal": 332,
       "name": "Sree Uthradom Thirunal Hospital Pattom",
       "city": "Thiruvananthapuram",
       "addr": "Pattom Palace View Road,Thiruvananthapuram",
@@ -1201,7 +1201,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 329,
+      "portal": 333,
       "name": "Kerala Institute of Medical Science",
       "city": "Thiruvananthapuram",
       "addr": "Kerala Institute of Medical Science, P.B.No.1, Anayara P.O, Trivandrum",
@@ -1211,7 +1211,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 339,
+      "portal": 343,
       "name": "Ananthapuri Hospitals and Research Institute",
       "city": "Thiruvananthapuram",
       "addr": "Chacka Nh Bypass, Thiruvananthapuram-695024, Kerala",
@@ -1221,7 +1221,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 341,
+      "portal": 345,
       "name": "Daya General Hospital",
       "city": "Thrissur",
       "addr": "Shornur Road, Thrissur",
@@ -1231,7 +1231,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 372,
+      "portal": 377,
       "name": "Atreya Hospital (a Unit of Dmri)",
       "city": "Thrissur",
       "addr": "Thrissur, Kerela",
@@ -1241,7 +1241,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 337,
+      "portal": 341,
       "name": "Galaxy Hospital",
       "city": "Tirunelveli",
       "addr": "110 E/20/1, North Bypass Road, Vannarpet, Tirunelveli",
@@ -1251,7 +1251,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 357,
+      "portal": 361,
       "name": "Aravind Eye Hospital, Tirunelveli",
       "city": "Tirunelveli",
       "addr": "S.N. High Road, Tirunelveli - 627001",
@@ -1261,7 +1261,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 366,
+      "portal": 371,
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Tirunelveli",
       "addr": "No: 10/1/1-5, Land Mark Towers, South Bye Pass,Opp to Bsnl, Vannarpet, Tirunelveli",
@@ -1271,7 +1271,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 370,
+      "portal": 375,
       "name": "Sri Kauvery Medical Care (India) Ltd",
       "city": "Tirunelveli",
       "addr": "Door No. 110 E/20/1, North Bypass Road, Vannarpet, Tirunelveli",
@@ -1281,7 +1281,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 336,
+      "portal": 340,
       "name": "Kauvery Hospital",
       "city": "Trichy",
       "addr": "6, Royal Road, Cantonment, Trichy",
@@ -1291,7 +1291,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 338,
+      "portal": 342,
       "name": "Apollo Hospital",
       "city": "Trichy",
       "addr": "Chennai Bypass Road, Ariyamangalam Area, Old Palpannai, Trichy-620010",
@@ -1301,7 +1301,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 365,
+      "portal": 370,
       "name": "Dr Agarwals Healthcare Ltd",
       "city": "Trichy",
       "addr": "Saroj, B 31, Shastri Road, Thillai Nagar, Trichy",
@@ -1311,7 +1311,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 309,
+      "portal": 313,
       "name": "CMC-Vellore",
       "city": "Vellore",
       "addr": "Ida Scudder Road, Vellore",
@@ -1745,7 +1745,7 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Hospital",
       "city": "Noida",
       "addr": "E-2, Sector - 26, Noida",
-      "group": "Noida (4 Hospitals)",
+      "group": "Noida (8 Hospitals)",
       "region": "CC",
       "state": "Uttar Pradesh"
     },
@@ -1755,7 +1755,7 @@ const COMPENDIUM_DATA = {
       "name": "Fortis Hospital",
       "city": "Noida",
       "addr": "Sector 62, Gautam Buddh, Noida",
-      "group": "Noida (4 Hospitals)",
+      "group": "Noida (8 Hospitals)",
       "region": "CC",
       "state": "Uttar Pradesh"
     },
@@ -1765,7 +1765,7 @@ const COMPENDIUM_DATA = {
       "name": "Kailash Hospital",
       "city": "Noida",
       "addr": "H-33, Sector-27, Noida",
-      "group": "Noida (4 Hospitals)",
+      "group": "Noida (8 Hospitals)",
       "region": "CC",
       "state": "Uttar Pradesh"
     },
@@ -1775,13 +1775,13 @@ const COMPENDIUM_DATA = {
       "name": "Kailash Hospital & Neuro Institute",
       "city": "Noida",
       "addr": "Sector 71, Noida",
-      "group": "Noida (4 Hospitals)",
+      "group": "Noida (8 Hospitals)",
       "region": "CC",
       "state": "Uttar Pradesh"
     },
     {
       "sl": 1,
-      "portal": 157,
+      "portal": 160,
       "name": "Brahm Shakti Sanjivani Super Speciality Hospital",
       "city": "Bahadurgarh",
       "addr": "Delhi Road, Bahadurgarh",
@@ -1791,7 +1791,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 142,
+      "portal": 145,
       "name": "Max Super Specialty Hospital",
       "city": "Dehradun",
       "addr": "Malsi, Mussoorie Diversion Road, Dehradun",
@@ -1801,7 +1801,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 145,
+      "portal": 148,
       "name": "Synergy Institute of Medical Science",
       "city": "Dehradun",
       "addr": "Ballupur-Canal Road, Dehradun",
@@ -1811,7 +1811,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 130,
+      "portal": 133,
       "name": "Asian Institute of Medical Sciences",
       "city": "Faridabad",
       "addr": "Sector 21a, Faridabad",
@@ -1821,7 +1821,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 131,
+      "portal": 134,
       "name": "Metro Heart Institute",
       "city": "Faridabad",
       "addr": "Sector 16 a, Faridabad",
@@ -1831,7 +1831,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 132,
+      "portal": 135,
       "name": "Sarvodaya Hospital",
       "city": "Faridabad",
       "addr": "Sector 8, Faridabad",
@@ -1841,7 +1841,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 133,
+      "portal": 136,
       "name": "Qrg Medicare Limited (Qrg Health City Hospital)",
       "city": "Faridabad",
       "addr": "Sector-16, Faridabad",
@@ -1851,7 +1851,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 160,
+      "portal": 163,
       "name": "Accord Superspeciality Hospital",
       "city": "Faridabad",
       "addr": "Sector 86, Faridabad",
@@ -1861,7 +1861,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 161,
+      "portal": 164,
       "name": "Amrita Hospital",
       "city": "Faridabad",
       "addr": "Sector 88, Faridabad",
@@ -1871,7 +1871,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 7,
-      "portal": 166,
+      "portal": 170,
       "name": "Yatharth Super Specialty Hospital",
       "city": "Faridabad",
       "addr": "Rps City, Sector-88, Faridabad",
@@ -1881,7 +1881,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 148,
+      "portal": 151,
       "name": "Yashoda Super Specialty Hospitals",
       "city": "Ghaziabad",
       "addr": "Kaushambi, Ghaziabad",
@@ -1891,7 +1891,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 129,
+      "portal": 132,
       "name": "Yatharth Wellness",
       "city": "Greater Noida",
       "addr": "Greater Noida",
@@ -1901,7 +1901,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 151,
+      "portal": 154,
       "name": "Yatharth Super Specialty Hospital",
       "city": "Greater Noida",
       "addr": "Ho-01, Sector-1, Greater Noida West",
@@ -1911,7 +1911,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 153,
+      "portal": 156,
       "name": "Cygnus Superspeciality Hospital",
       "city": "Kurukshetra",
       "addr": "Kurukshetra",
@@ -1921,7 +1921,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 144,
+      "portal": 147,
       "name": "Jaswant Rai Spatiality Hospital",
       "city": "Meerut",
       "addr": "Opp. Sport Stadium, Mawana Road, Meerut",
@@ -1931,7 +1931,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 152,
+      "portal": 155,
       "name": "Kailashi Super Speciality Hospital",
       "city": "Meerut",
       "addr": "C2, Shradha Puri Phase-Ii, Near Bsnl Office, Kankar Khera, Meerut",
@@ -1941,7 +1941,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 28,
-      "portal": 126,
+      "portal": 129,
       "name": "Venu Eye Institute",
       "city": "New Delhi",
       "addr": "Sheikh Sarai, Delhi",
@@ -1951,7 +1951,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 29,
-      "portal": 165,
+      "portal": 169,
       "name": "Indian Spinal Injuries Centre",
       "city": "New Delhi",
       "addr": "Sector-C, Vasant Kunj, New Delhi-110070",
@@ -1960,38 +1960,38 @@ const COMPENDIUM_DATA = {
       "state": "Delhi"
     },
     {
-      "sl": 1,
-      "portal": 128,
+      "sl": 5,
+      "portal": 131,
       "name": "Icare Eye Hospitals & Pg Institute",
       "city": "Noida",
       "addr": "Sector 26, Noida",
-      "group": "Noida (3 Hospitals)",
+      "group": "Noida (8 Hospitals)",
       "region": "NR-I",
       "state": "Uttar Pradesh"
     },
     {
-      "sl": 2,
-      "portal": 150,
+      "sl": 6,
+      "portal": 153,
       "name": "Yatharth Wellness, Super Specialty Hospital & Heart Centre",
       "city": "Noida",
       "addr": "Nh-01, Sector-110, Noida",
-      "group": "Noida (3 Hospitals)",
+      "group": "Noida (8 Hospitals)",
       "region": "NR-I",
       "state": "Uttar Pradesh"
     },
     {
-      "sl": 3,
-      "portal": 174,
+      "sl": 7,
+      "portal": 178,
       "name": "Medanta Hospital, Noida",
       "city": "Noida",
       "addr": "Sector-50, Noida",
-      "group": "Noida (3 Hospitals)",
+      "group": "Noida (8 Hospitals)",
       "region": "NR-I",
       "state": "Uttar Pradesh"
     },
     {
       "sl": 1,
-      "portal": 143,
+      "portal": 146,
       "name": "Medigram, the Super Specialty Hospital",
       "city": "Saharanpur",
       "addr": "7th Km Mile Stone, Chunhaiti, Delhi Road, Saharanpur",
@@ -2001,7 +2001,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 191,
+      "portal": 196,
       "name": "Fortis Escorts Hospital",
       "city": "Amritsar",
       "addr": "Majitha-Verka Bypass Road, Amritsar",
@@ -2011,7 +2011,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 208,
+      "portal": 215,
       "name": "M/S Fortis Hospital (an Undertaking of International Hospital Limited)",
       "city": "Amritsar",
       "addr": "Majitha-Verka Bypass Road, Amritsar",
@@ -2021,7 +2021,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 197,
+      "portal": 204,
       "name": "Sadbhavna Hospital",
       "city": "Fatehabad",
       "addr": "Sco 176-181p, Sector 3, Huda, Fatehabad",
@@ -2031,7 +2031,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 185,
+      "portal": 190,
       "name": "Sacred Heart Hospital",
       "city": "Jalandhar",
       "addr": "Grand Trunk Road, Maqsudan, Near Petrol Pump, Jalandhar",
@@ -2041,7 +2041,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 186,
+      "portal": 191,
       "name": "Tagore Hospital & Heart Care Centre (P) Limited",
       "city": "Jalandhar",
       "addr": "91, Mahavir Marg, Banda Bahadur Nagar, Jalandhar",
@@ -2051,7 +2051,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 187,
+      "portal": 192,
       "name": "Capitol Hospital",
       "city": "Jalandhar",
       "addr": "Nh-44, Jalandhar - Pathankot Road, Near Reru Chowk, Jalandhar",
@@ -2061,7 +2061,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 188,
+      "portal": 193,
       "name": "Patel Hospital",
       "city": "Jalandhar",
       "addr": "Civil Lines, Jalandhar",
@@ -2071,7 +2071,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 189,
+      "portal": 194,
       "name": "Akal Eye Hospital",
       "city": "Jalandhar",
       "addr": "606 R, Mall Rd, Abadpura, Model Town, Jalandhar",
@@ -2081,7 +2081,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 194,
+      "portal": 200,
       "name": "Nhs Hospital (a Unit of Nasa Brain and Spine Center)",
       "city": "Jalandhar",
       "addr": "Opp Sports College, Kapurthala Road, Jallandhar City-144001",
@@ -2091,7 +2091,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 176,
+      "portal": 181,
       "name": "Bee Enn General Hospital",
       "city": "Jammu",
       "addr": "147, Lane Number 16, Talab Tillo Road, Jammu",
@@ -2101,7 +2101,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 177,
+      "portal": 182,
       "name": "Care and Cure Nursing Home",
       "city": "Jammu",
       "addr": "Near Tawi Railway Station, Jammu",
@@ -2111,7 +2111,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 179,
+      "portal": 184,
       "name": "Sddm Hospital",
       "city": "Jammu",
       "addr": "Plot : Nh, Sector-2, Channi Himmat, Jammu",
@@ -2121,7 +2121,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 180,
+      "portal": 185,
       "name": "Medicare Nursing Home",
       "city": "Jammu",
       "addr": "39 B/C, Gandhi Nagar, Jammu",
@@ -2131,7 +2131,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 181,
+      "portal": 186,
       "name": "Acharya Shree Chander Medical College & Hospital (Ascoms)",
       "city": "Jammu",
       "addr": "Bye Pass Road, Sidhra, Jammu",
@@ -2141,7 +2141,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 182,
+      "portal": 187,
       "name": "Jk Medicity",
       "city": "Jammu",
       "addr": "Narwal Bypass Road, Channi Himmat, Jammu",
@@ -2151,7 +2151,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 7,
-      "portal": 196,
+      "portal": 203,
       "name": "Ankur Maitrika Hospital Pvt. Ltd.",
       "city": "Jammu",
       "addr": "Ward No. 55, Channi by Pass, Jammu",
@@ -2161,7 +2161,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 8,
-      "portal": 207,
+      "portal": 214,
       "name": "Ujala Cgynus Jk Medicity Hospital",
       "city": "Jammu",
       "addr": "Nh-1, Narwal Bypass Road, Channi Himmat, Jammu-180015, J&K",
@@ -2171,7 +2171,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 199,
+      "portal": 206,
       "name": "M/S Shah Hospital",
       "city": "Kaithal",
       "addr": "Near Old Bus Stand, Kaithal, Haryana-136027",
@@ -2181,7 +2181,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 200,
+      "portal": 207,
       "name": "Cygnus Super Speciality Hospital",
       "city": "Kaithal",
       "addr": "By Pass Road, Huda Sec-20, Kaithal, Haryana-136027",
@@ -2191,7 +2191,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 178,
+      "portal": 183,
       "name": "Shri Mata Viashno Devi Naryana Superspeciality Hospital",
       "city": "Katra",
       "addr": "Kakryal (Village & Post) Katra Tehsil Reasi District",
@@ -2201,7 +2201,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 192,
+      "portal": 197,
       "name": "Dayanand Medical College & Hospital (Dmc)",
       "city": "Ludhiana",
       "addr": "Civil Lines, Tagore Nagar, Ludhiana",
@@ -2211,7 +2211,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 193,
+      "portal": 199,
       "name": "Satguru Pratap Singh Hospital",
       "city": "Ludhiana",
       "addr": "Sherpur Chowk, Gt Road, Ludhiana-141003",
@@ -2221,7 +2221,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 203,
+      "portal": 210,
       "name": "Dmch Cancer Care Centre",
       "city": "Ludhiana",
       "addr": "Civil Lines, Tagore Nagar, Ludhiana",
@@ -2231,7 +2231,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 204,
+      "portal": 211,
       "name": "Hero Dmc Heart Institute",
       "city": "Ludhiana",
       "addr": "Civil Lines, Tagore Nagar, Ludhiana",
@@ -2241,7 +2241,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 184,
+      "portal": 189,
       "name": "Max Super Speciality Hopsital",
       "city": "Mohali",
       "addr": "Near Civil Hospital, Phase Vi, Mohali",
@@ -2251,7 +2251,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 198,
+      "portal": 205,
       "name": "Tata Memorial Center, Homi Bhabha Cancer Hospital and Research Centre, Mohali",
       "city": "Mohali",
       "addr": "Multanpur Medicity, Mohali, Punjab - 140901",
@@ -2261,7 +2261,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 202,
+      "portal": 209,
       "name": "Livasa Hospital, a Unit of Ivy Health and Life Sciences Private Limited",
       "city": "Mohali",
       "addr": "Sector 71, Sas Nagar, Mohali, Punjab-160071",
@@ -2271,7 +2271,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 195,
+      "portal": 201,
       "name": "Paras Healthcare Private Ltd",
       "city": "Panchkula",
       "addr": "Plot H-2, Hsiidc Technology Park, Sector 22, Panchkula",
@@ -2281,7 +2281,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 206,
+      "portal": 213,
       "name": "M/S Chauhan Multispeciality & Trauma Centre",
       "city": "Pathankot",
       "addr": "Village Kotli Muglan, Post Office Jhakolari, Pathankot-145025 (Punjab)",
@@ -2291,7 +2291,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 190,
+      "portal": 195,
       "name": "Manipal Hospital",
       "city": "Patiala",
       "addr": "Bhupindra Road Near 22 Number Phatak, Patiala",
@@ -2301,7 +2301,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 205,
+      "portal": 212,
       "name": "Shri Mata Vaishno Devi Narayana Hospital(an Undertaking of Shri Mata Vaishno Devi Charitable Society",
       "city": "Reasi",
       "addr": "Kakryal, Katra, Reasi-182320",
@@ -2311,7 +2311,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 183,
+      "portal": 188,
       "name": "Fortis Super Speciality Hospital",
       "city": "Sas Nagar",
       "addr": "Sector 62, Phase 8, Sas Nagar (Mohali)",
@@ -2321,7 +2321,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 201,
+      "portal": 208,
       "name": "M/S Paras Hospital, Srinagar",
       "city": "Srinagar",
       "addr": "Durganag Dalgate, Equinox Real Estate Private Ltd, Srinagar",
@@ -2331,7 +2331,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 213,
+      "portal": 220,
       "name": "Upadhyay Hospital",
       "city": "Agra",
       "addr": "Upadhyay Hospital, Near Shaheed Nagar Crossing, Agra",
@@ -2341,7 +2341,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 214,
+      "portal": 221,
       "name": "Pushpanjali Hospital & Research",
       "city": "Agra",
       "addr": "Pushpanjali Hospital & Research Centre, Pushpanjali Palace, Delhi Gate, Agra",
@@ -2351,7 +2351,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 229,
+      "portal": 234,
       "name": "K P Institute of Medical Science",
       "city": "Agra",
       "addr": "Near St.Johns Crossing,Bagh Muzaffar Khan Road,Agra,up",
@@ -2361,7 +2361,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 215,
+      "portal": 222,
       "name": "Gangasheel Hospital",
       "city": "Bareilly",
       "addr": "C-17, D. D. Puram, Bareilly",
@@ -2371,17 +2371,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 233,
-      "name": "Fatima Hospital",
-      "city": "Gorakhpur",
-      "addr": "Mother Teresa Road, Padari Bazar, Gorakhpur-273014",
-      "group": "Gorakhpur (1 Hospital)",
-      "region": "NR-III",
-      "state": "Uttar Pradesh"
-    },
-    {
-      "sl": 1,
-      "portal": 227,
+      "portal": 232,
       "name": "Brijlal Hospital & Research Center Pvt. Ltd.",
       "city": "Haldwani",
       "addr": "Anandi Tower, Nanital Road, Nh-87, Haldwani, Uttarkhand",
@@ -2391,7 +2381,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 222,
+      "portal": 229,
       "name": "Kailash Hospital",
       "city": "Jewar",
       "addr": "Tappal Road, Jewar (Gautam Budh Nagar)",
@@ -2401,7 +2391,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 216,
+      "portal": 223,
       "name": "Kanpur Medical Center",
       "city": "Kanpur",
       "addr": "120/500 (24) Lajpat Nagar, Kanpur",
@@ -2411,7 +2401,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 217,
+      "portal": 224,
       "name": "Regency Hospital",
       "city": "Kanpur",
       "addr": "A2, Sarvodaya Nagar, Kanpur",
@@ -2421,7 +2411,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 209,
+      "portal": 216,
       "name": "Shekhar Hospital (P) Ltd",
       "city": "Lucknow",
       "addr": "B Block, Church Road, Indira Nagar, Lucknow",
@@ -2431,7 +2421,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 210,
+      "portal": 217,
       "name": "Prakash Netra Kendra Eye Hospital",
       "city": "Lucknow",
       "addr": "Nh-Ii, Vipul Khand-Iv, Gomtinagar, Lucknow",
@@ -2441,7 +2431,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 211,
+      "portal": 218,
       "name": "Apollo Hospitals",
       "city": "Lucknow",
       "addr": "Kbc-31, Sector B Lda Colony, Kanpur Road, Lucknow",
@@ -2451,7 +2441,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 218,
+      "portal": 225,
       "name": "Chandan Hospital",
       "city": "Lucknow",
       "addr": "Near Chinhat Flyover, Vijayant Khand, Gomtinagar, Lucknow",
@@ -2461,7 +2451,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 219,
+      "portal": 226,
       "name": "Medanta Hospital",
       "city": "Lucknow",
       "addr": "Plot Ssh, Sector a, Shushant Golf City, Lucknow",
@@ -2471,7 +2461,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 221,
+      "portal": 228,
       "name": "Regency Hospital",
       "city": "Lucknow",
       "addr": "Lucknow",
@@ -2480,28 +2470,8 @@ const COMPENDIUM_DATA = {
       "state": "Uttar Pradesh"
     },
     {
-      "sl": 7,
-      "portal": 225,
-      "name": "Max Hospital",
-      "city": "Lucknow",
-      "addr": "1, Viraj Khand, Gomtinagar, Lucknow",
-      "group": "Lucknow (9 Hospitals)",
-      "region": "NR-III",
-      "state": "Uttar Pradesh"
-    },
-    {
-      "sl": 8,
-      "portal": 226,
-      "name": "Dr. Kns Memorial Hospital",
-      "city": "Lucknow",
-      "addr": "Vikas Khand 2, Gomtinagar, Lucknow - 226010",
-      "group": "Lucknow (9 Hospitals)",
-      "region": "NR-III",
-      "state": "Uttar Pradesh"
-    },
-    {
       "sl": 9,
-      "portal": 235,
+      "portal": 239,
       "name": "Health City Vistaar Super Speciality Hospital & Trauma Centre",
       "city": "Lucknow",
       "addr": "Sector 4, Vasant Khand Yojna, Opp. Amar Shaheed Path, Lucknow",
@@ -2511,7 +2481,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 220,
+      "portal": 227,
       "name": "Nazareth Hospital",
       "city": "Prayagraj",
       "addr": "13-a, Kamla Nehru Road, Prayagraj",
@@ -2521,7 +2491,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 234,
+      "portal": 238,
       "name": "Shanti Vilas Hospital",
       "city": "Prayagraj",
       "addr": "9/5, Amarnath Jha Marg, George Town, Prayagraj, U.P.",
@@ -2531,7 +2501,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 212,
+      "portal": 219,
       "name": "Heritage Hospital",
       "city": "Varanasi",
       "addr": "Heritage Hospitals Ltd. Lanka, Varanasi",
@@ -2541,7 +2511,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 223,
+      "portal": 230,
       "name": "Infinity Care Hospital (a Unit of Saraswati Trust)",
       "city": "Varanasi",
       "addr": "92-93, Taigor Town, Orderly Bazar, Varanasi",
@@ -2551,7 +2521,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 224,
+      "portal": 231,
       "name": "Apex Hospital",
       "city": "Varanasi",
       "addr": "Dlw Hydle Road Varanasi",
@@ -2561,7 +2531,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 228,
+      "portal": 233,
       "name": "Sas (Society of Advanced Studies) Hospital",
       "city": "Varanasi",
       "addr": "Rameshwar Road, Harahua, Varanasi-221105, up",
@@ -2571,7 +2541,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 230,
+      "portal": 235,
       "name": "Heritage Institute of Medical Science (a Unit of Heritage Hospitals Ltd.)",
       "city": "Varanasi",
       "addr": "Nh-2, Gt Road Bypass, Bhadwar, Mohansarai, Varanasi-221311, up",
@@ -2581,7 +2551,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 231,
+      "portal": 236,
       "name": "Surya Super Speciality Hospital ( a Unit of G V Meditech Pvt Ltd)",
       "city": "Varanasi",
       "addr": "D-63/11-a-B-R, Dayal Enclave, Mahmoorganj, Varanasi-221010, up",
@@ -2591,7 +2561,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 7,
-      "portal": 232,
+      "portal": 237,
       "name": "Surya Heart Centre ( a Unit of G V Meditech Pvt Ltd)",
       "city": "Varanasi",
       "addr": "B-38/46, Raman Niwas, Mahmoorganj, Varanasi-221010, up",
@@ -2601,7 +2571,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 139,
+      "portal": 142,
       "name": "Gheesibai Memorial Mittal Hospital & Research Centre",
       "city": "Ajmer",
       "addr": "Pushkar Rd, Near Regional College, Haribhau Upadhyay Nagar, Ajmer",
@@ -2611,7 +2581,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 158,
+      "portal": 161,
       "name": "Kshetrapal Hospital",
       "city": "Ajmer",
       "addr": "Sector-C, Panchsheel Nagar, Ajmer",
@@ -2621,7 +2591,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 159,
+      "portal": 162,
       "name": "Kothari Medical & Research Institute",
       "city": "Bikaner",
       "addr": "Nh 15, Jaisalmer Road, Bikaner",
@@ -2631,7 +2601,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 163,
+      "portal": 166,
       "name": "M P Birla Hospital",
       "city": "Chittorgarh",
       "addr": "Birla Hospital Road, Senthi, Chittorgarh",
@@ -2641,7 +2611,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 134,
+      "portal": 137,
       "name": "Fortis Escorts Hospital",
       "city": "Jaipur",
       "addr": "Jawahar Lal Nehru Marg, Sector 5, Malviya Nagar, Jaipur",
@@ -2651,7 +2621,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 135,
+      "portal": 138,
       "name": "Narayana Multispeciality Hospital",
       "city": "Jaipur",
       "addr": "Kumbha Marg, Rana Sanga Marg, Sector 28, Sanganer, Pratap Nagar, Jaipur",
@@ -2661,7 +2631,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 136,
+      "portal": 139,
       "name": "Ck Birla Rukmani Hospital",
       "city": "Jaipur",
       "addr": "Bhawaninear Triveni Flyover, Gopalpura Bypass Rd, Shanthi Nagar, Jaipur",
@@ -2671,7 +2641,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 154,
+      "portal": 157,
       "name": "Eternal Hospital",
       "city": "Jaipur",
       "addr": "3a, Jagatpura Road, Near Jawahar Circle, Chainpura, Malviya Nagar, Jaipur",
@@ -2681,7 +2651,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 155,
+      "portal": 158,
       "name": "Manipal Hospital",
       "city": "Jaipur",
       "addr": "Sikar Rd, Sectoe-2, Vidyadhar Nagar, Jaipur",
@@ -2691,7 +2661,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 156,
+      "portal": 159,
       "name": "Santokba Durlabji Memorial Hospital",
       "city": "Jaipur",
       "addr": "Near Bhawani Singh Road, Rambagh, Jaipur",
@@ -2701,7 +2671,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 7,
-      "portal": 162,
+      "portal": 165,
       "name": "Amar Medical and Research Centre (Amrc)",
       "city": "Jaipur",
       "addr": "Kiran Path, Mansarovar Sector 3, Mansarovar, Jaipur",
@@ -2711,7 +2681,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 8,
-      "portal": 167,
+      "portal": 171,
       "name": "Shalby Multi-Specialty Hospital",
       "city": "Jaipur",
       "addr": "Sector-3, Near Gandhi Path Underpass, 200 Ft Bypass, Chitrakoot, Vaishali Nagar, Jaipur-302021",
@@ -2721,7 +2691,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 9,
-      "portal": 168,
+      "portal": 172,
       "name": "Anand Hospital & Eye Centre",
       "city": "Jaipur",
       "addr": "21, Bharat Mata Lane, Jamnalal Bajaj Marg, C-Scheme, Jaipur",
@@ -2731,7 +2701,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 10,
-      "portal": 169,
+      "portal": 173,
       "name": "Hcg Hospital (a Unit of Health Care Global Enterprises Limited)",
       "city": "Jaipur",
       "addr": "Sector-5, Shipra Path, Mansarovar, Jaipur",
@@ -2741,7 +2711,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 11,
-      "portal": 170,
+      "portal": 174,
       "name": "Mahatma Gandhi Medical College & Hospital",
       "city": "Jaipur",
       "addr": "Riico Industrial Area, Sitapura, Tonk Road, Jaipur-302022",
@@ -2751,7 +2721,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 12,
-      "portal": 172,
+      "portal": 176,
       "name": "Apex Hospitals Pvt. Ltd.",
       "city": "Jaipur",
       "addr": "Sp 4 & 6, Malviya Nagar, Jaipur-302017",
@@ -2761,7 +2731,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 13,
-      "portal": 173,
+      "portal": 177,
       "name": "Bhagwan Mahaveer Cancer Hospital & Research Center",
       "city": "Jaipur",
       "addr": "Jawahar Lal Nehru Marg, Jaipur - 302017",
@@ -2771,7 +2741,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 171,
+      "portal": 175,
       "name": "Priya Hospital & Research Center",
       "city": "Jaisalmer",
       "addr": "Plot No. 116-117, Cvs Colony, Ramgarh Road, Jaisalmer",
@@ -2781,7 +2751,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 137,
+      "portal": 140,
       "name": "Goyal Hospital & Research Centre",
       "city": "Jodhpur",
       "addr": "961/3, Residency Road, Opposite Caf\u00e9 Coffee Day, Sardarpura, Jodhpur",
@@ -2791,7 +2761,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 140,
+      "portal": 143,
       "name": "Kota Heart Institute and General Hospital",
       "city": "Kota",
       "addr": "10-a, Talwandi, Nh-12, New Rajeev Gandhi Nagar, Sector - a, Talwandi, Kota",
@@ -2801,7 +2771,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 141,
+      "portal": 144,
       "name": "Sudha Hospital & Medical Research Centre",
       "city": "Kota",
       "addr": "11-a, Jhalawar Road, New Rajeev Gandhi Nagar, Vip Colony, Talwandi, Kota",
@@ -2811,7 +2781,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 164,
+      "portal": 167,
       "name": "S.B. Mittal Memorial Heart & Critical Care Hospital",
       "city": "Sikar",
       "addr": "Opp. S.K.School, Silver Jubliee Road, Sikar, Rajasthan",
@@ -2821,21 +2791,21 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 138,
+      "portal": 141,
       "name": "Gbh American Hospital",
       "city": "Udaipur",
       "addr": "Meera Girls, 20-Bhatt Ji Ki Bari, 101, College Road, Kothi Bagh, Udaipur",
-      "group": "Udaipur (2 Hospitals)",
+      "group": "Udaipur (3 Hospitals)",
       "region": "NWR",
       "state": "Rajasthan"
     },
     {
       "sl": 2,
-      "portal": 149,
+      "portal": 152,
       "name": "Geetanjali Medical College & Hospital",
       "city": "Udaipur",
       "addr": "Geetanjali Medicity, Hiran Magri Extn., Eklingpura Chouraha, Udaipur",
-      "group": "Udaipur (2 Hospitals)",
+      "group": "Udaipur (3 Hospitals)",
       "region": "NWR",
       "state": "Rajasthan"
     },
@@ -3431,7 +3401,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 120,
+      "portal": 123,
       "name": "Jeevan Jyoti Health Care and Research Centre",
       "city": "Cachar",
       "addr": "Madam Mohan Lane, Meherpur, \u00a0silchar, Cachar, Assam-788015",
@@ -3441,7 +3411,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 117,
+      "portal": 119,
       "name": "Aditya Diagnostics & Hospitals",
       "city": "Dibrugarh",
       "addr": "Bordoloi Avenue, Dibrugarh, Assam",
@@ -3451,7 +3421,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 123,
+      "portal": 126,
       "name": "M/S Aditya Superspeciality Hospital",
       "city": "Dibrugarh",
       "addr": "Satsang Vihar, Jyotinagar, Dibrugarh-786005",
@@ -3465,7 +3435,7 @@ const COMPENDIUM_DATA = {
       "name": "Apollo Hospital",
       "city": "Guwahati",
       "addr": "Lotus Tower, G.S.Road, Guwahati",
-      "group": "Guwahati (6 Hospitals)",
+      "group": "Guwahati (7 Hospitals)",
       "region": "NER",
       "state": "Assam"
     },
@@ -3475,7 +3445,7 @@ const COMPENDIUM_DATA = {
       "name": "Down Town Hospital",
       "city": "Guwahati",
       "addr": "Dispur, G.S.Road, Guwahati",
-      "group": "Guwahati (6 Hospitals)",
+      "group": "Guwahati (7 Hospitals)",
       "region": "NER",
       "state": "Assam"
     },
@@ -3485,7 +3455,7 @@ const COMPENDIUM_DATA = {
       "name": "GNRC Hospital",
       "city": "Guwahati",
       "addr": "Dispur, G.S.Road, Guwahati",
-      "group": "Guwahati (6 Hospitals)",
+      "group": "Guwahati (7 Hospitals)",
       "region": "NER",
       "state": "Assam"
     },
@@ -3495,27 +3465,27 @@ const COMPENDIUM_DATA = {
       "name": "Sri Sankardeva Nethralaya Hospital",
       "city": "Guwahati",
       "addr": "96, Basistha Rd, Beltola Tiniali, Saurabh Nagar, Beltola Tiniali, Guwahati",
-      "group": "Guwahati (6 Hospitals)",
+      "group": "Guwahati (7 Hospitals)",
       "region": "NER",
       "state": "Assam"
     },
     {
       "sl": 5,
-      "portal": 115,
+      "portal": 116,
       "name": "Health City Hospital",
       "city": "Guwahati",
       "addr": "Nh-37, Uday Nagar, Khanapara, Opp Bodoland Guest House, Guwahati",
-      "group": "Guwahati (6 Hospitals)",
+      "group": "Guwahati (7 Hospitals)",
       "region": "NER",
       "state": "Assam"
     },
     {
-      "sl": 6,
-      "portal": 118,
+      "sl": 7,
+      "portal": 121,
       "name": "Apollo Excelcare Hospital",
       "city": "Guwahati",
       "addr": "Nh-37 Highway, Paschim, Near Ganesh Mandir, Boragaon, Guwahati",
-      "group": "Guwahati (6 Hospitals)",
+      "group": "Guwahati (7 Hospitals)",
       "region": "NER",
       "state": "Assam"
     },
@@ -3531,7 +3501,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 124,
+      "portal": 127,
       "name": "G.D. Hospital & Research Centre",
       "city": "Nagaon",
       "addr": "Nh-37, Khutikatia, Haibargaon, Nagaon, Assam - 782002",
@@ -3541,7 +3511,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 122,
+      "portal": 125,
       "name": "M/S Niba Hospital",
       "city": "Naharlugun",
       "addr": "Pappunallah, Naharlugun, Arunachal Pradesh-791110, India",
@@ -3551,7 +3521,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 121,
+      "portal": 124,
       "name": "Lower Assam Hospital & Research Centre",
       "city": "North Bongaigaon",
       "addr": "Bongaigaon Chapaguri Road,\u00a0North Bongaigaon, Assam-783380",
@@ -3565,7 +3535,7 @@ const COMPENDIUM_DATA = {
       "name": "Woodland Hospital",
       "city": "Shillong",
       "addr": "Dhankheti, Shillong",
-      "group": "Shillong (1 Hospital)",
+      "group": "Shillong (2 Hospitals)",
       "region": "NER",
       "state": "Meghalaya"
     },
@@ -3581,7 +3551,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 119,
+      "portal": 122,
       "name": "Tezpur Institute of Medical Sciences Pvt Ltd",
       "city": "Tezpur",
       "addr": "Mission Chariali, Deurigaon, Tezpur, Distt: Sonitpur, Assam",
@@ -3591,7 +3561,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 116,
+      "portal": 118,
       "name": "Ils Hospital",
       "city": "Tripura West",
       "addr": "Capital Complex Extension, Po New Secretariat, Agartala, Tripura West",
@@ -3601,7 +3571,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 412,
+      "portal": 418,
       "name": "Medicover Hospital",
       "city": "Aurangabad",
       "addr": "Near Chistiya Police Chowk, N-6 Cidco Aurangabad",
@@ -3611,7 +3581,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 393,
+      "portal": 399,
       "name": "Chandulal Chandrakar Memorial Hospital",
       "city": "Bhilai",
       "addr": "Nehru Nagar Chowk, Ge Road, Bhilai",
@@ -3621,7 +3591,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 411,
+      "portal": 417,
       "name": "Hi-Tek Super Speciality Hospital",
       "city": "Bhilai",
       "addr": "Junwani Road, Near Surya Ti Mall, Smriti Nagar, Bhilai",
@@ -3631,7 +3601,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 413,
+      "portal": 420,
       "name": "Aarogyam Superspeciality Hospital",
       "city": "Bhilai",
       "addr": "Nh53, Opp, Toyota Showroom, Durg Bypassroad, Kadambari Nagar, Bhilai Durg, Chattishgarh",
@@ -3641,7 +3611,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 407,
+      "portal": 413,
       "name": "Apollo Hospitals",
       "city": "Bilaspur",
       "addr": "Rajkishor Nagar, Bilaspur",
@@ -3651,7 +3621,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 415,
+      "portal": 422,
       "name": "Elite (Arpa) Medcity Hospital & Research Institute",
       "city": "Bilaspur",
       "addr": "Vyapar Vihar Rd, Talapara, Bilaspur, Chhattisgarh 495001",
@@ -3661,7 +3631,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 389,
+      "portal": 395,
       "name": "Forties Hospital",
       "city": "Kalyan",
       "addr": "Bail Bazar, Kalyan",
@@ -3671,7 +3641,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 387,
+      "portal": 393,
       "name": "Aster Aadhar Hospital (Prerana Hospital Ltd)",
       "city": "Kolhapur",
       "addr": "R S No 628 , \u2018b\u2019 Ward, Near Shastri Nagar, Kolhapur",
@@ -3681,7 +3651,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 410,
+      "portal": 416,
       "name": "Shetye Vision Hospital Pvt. Ltd.",
       "city": "Mapusa",
       "addr": "Duler Ground Rd, Karaswada, Mapusa, Goa",
@@ -3691,7 +3661,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 397,
+      "portal": 403,
       "name": "Dr. Balabhai Nanavati Hospital",
       "city": "Mumbai",
       "addr": "S.V. Road, Vileparle, West- Mumbai",
@@ -3701,7 +3671,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 398,
+      "portal": 404,
       "name": "Holy Spirit Hospital",
       "city": "Mumbai",
       "addr": "Mahakali Caves Rd., Andheri East, Mumbai",
@@ -3711,7 +3681,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 399,
+      "portal": 405,
       "name": "P.D. Hinduja Hospital",
       "city": "Mumbai",
       "addr": "Veer Savarkar Marg, Mahim West, Mumbai",
@@ -3721,7 +3691,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 400,
+      "portal": 406,
       "name": "L.H. Hiranandani, Hospital",
       "city": "Mumbai",
       "addr": "Hiranandani Garden, Powai, Mumbai",
@@ -3731,7 +3701,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 401,
+      "portal": 407,
       "name": "Fortis Hospital Ltd",
       "city": "Mumbai",
       "addr": "Mulund Goregaon, Link Road, Bhandup, West, Mumbai",
@@ -3741,7 +3711,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 402,
+      "portal": 408,
       "name": "Kokilaben Dhirubhai Ambani Hospital",
       "city": "Mumbai",
       "addr": "Four Bungalows, Andheri West, Mumbai",
@@ -3751,7 +3721,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 7,
-      "portal": 403,
+      "portal": 409,
       "name": "Tata Memorial, Hospital",
       "city": "Mumbai",
       "addr": "Dr.Earnest Borges, Marg, Parel, Mumbai",
@@ -3761,7 +3731,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 8,
-      "portal": 404,
+      "portal": 410,
       "name": "Jaslok Hospital and Research Centre",
       "city": "Mumbai",
       "addr": "15, Pedder Rd, It Colony, Tardeo, Mumbai",
@@ -3771,7 +3741,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 9,
-      "portal": 418,
+      "portal": 425,
       "name": "Sir H. N. Reliance Foundation Hospital and Research Centre",
       "city": "Mumbai",
       "addr": "Girgaum, Mumbai \u2013 400004, Maharashtra",
@@ -3780,78 +3750,78 @@ const COMPENDIUM_DATA = {
       "state": "Maharashtra"
     },
     {
-      "sl": 1,
-      "portal": 385,
+      "sl": 2,
+      "portal": 391,
       "name": "Orange City Hospital & Research Institute",
       "city": "Nagpur",
       "addr": "19, Khamla Road Veer Sawarkar Square Opposite to Jupiter College, Nagpur",
-      "group": "Nagpur (7 Hospitals)",
-      "region": "WR-I",
-      "state": "Maharashtra"
-    },
-    {
-      "sl": 2,
-      "portal": 386,
-      "name": "Evista Eye Care Centre",
-      "city": "Nagpur",
-      "addr": "14, 1, W Park Rd, Dhantoli, Nagpur",
-      "group": "Nagpur (7 Hospitals)",
+      "group": "Nagpur (8 Hospitals)",
       "region": "WR-I",
       "state": "Maharashtra"
     },
     {
       "sl": 3,
-      "portal": 408,
-      "name": "Kims Kingsway Hospital (a Unit of Spanv Medisearch Lifesciences Pvt. Ltd.)",
+      "portal": 392,
+      "name": "Evista Eye Care Centre",
       "city": "Nagpur",
-      "addr": "44, Parwana Bhawan, Kingsway, Nagpur - 440001, Maharashtra",
-      "group": "Nagpur (7 Hospitals)",
+      "addr": "14, 1, W Park Rd, Dhantoli, Nagpur",
+      "group": "Nagpur (8 Hospitals)",
       "region": "WR-I",
       "state": "Maharashtra"
     },
     {
       "sl": 4,
-      "portal": 409,
-      "name": "Platina Heart Hospital",
+      "portal": 414,
+      "name": "Kims Kingsway Hospital (a Unit of Spanv Medisearch Lifesciences Pvt. Ltd.)",
       "city": "Nagpur",
-      "addr": "Dhanashree Commercial Complex, Near Hotel Hardeo, Sitabuldi, Nagpur - 440012",
-      "group": "Nagpur (7 Hospitals)",
+      "addr": "44, Parwana Bhawan, Kingsway, Nagpur - 440001, Maharashtra",
+      "group": "Nagpur (8 Hospitals)",
       "region": "WR-I",
       "state": "Maharashtra"
     },
     {
       "sl": 5,
-      "portal": 416,
-      "name": "Khare Dental & Implant Centre",
+      "portal": 415,
+      "name": "Platina Heart Hospital",
       "city": "Nagpur",
-      "addr": "289, Prakash Bhawan, Near Coffee House Square, Dharampeth, Nagpur, Maharashtra, 440010",
-      "group": "Nagpur (7 Hospitals)",
+      "addr": "Dhanashree Commercial Complex, Near Hotel Hardeo, Sitabuldi, Nagpur - 440012",
+      "group": "Nagpur (8 Hospitals)",
       "region": "WR-I",
       "state": "Maharashtra"
     },
     {
       "sl": 6,
-      "portal": 417,
-      "name": "Max Super Speciality Hospital",
+      "portal": 423,
+      "name": "Khare Dental & Implant Centre",
       "city": "Nagpur",
-      "addr": "Survey No. 232, House No. 1313, Mankapur Square, Koradi Road, Nagpur - 440030, Maharashtra",
-      "group": "Nagpur (7 Hospitals)",
+      "addr": "289, Prakash Bhawan, Near Coffee House Square, Dharampeth, Nagpur, Maharashtra, 440010",
+      "group": "Nagpur (8 Hospitals)",
       "region": "WR-I",
       "state": "Maharashtra"
     },
     {
       "sl": 7,
-      "portal": 419,
+      "portal": 424,
+      "name": "Max Super Speciality Hospital",
+      "city": "Nagpur",
+      "addr": "Survey No. 232, House No. 1313, Mankapur Square, Koradi Road, Nagpur - 440030, Maharashtra",
+      "group": "Nagpur (8 Hospitals)",
+      "region": "WR-I",
+      "state": "Maharashtra"
+    },
+    {
+      "sl": 8,
+      "portal": 426,
       "name": "Midas Hospital, Nagpur",
       "city": "Nagpur",
       "addr": "(A Unit of Midas Multispeciality Hospital Pvt. Ltd.), 392, Khasra No. 10/3, Village Parsodi, Wardha Road, Nagpur Rural, Nagpur",
-      "group": "Nagpur (7 Hospitals)",
+      "group": "Nagpur (8 Hospitals)",
       "region": "WR-I",
       "state": "Maharashtra"
     },
     {
       "sl": 1,
-      "portal": 388,
+      "portal": 394,
       "name": "Manipal Hospital",
       "city": "Panaji",
       "addr": "Dr. E Borge Road, Dona Paula, Panaji, Goa",
@@ -3861,7 +3831,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 390,
+      "portal": 396,
       "name": "Aditya Birla Memorial Hospital",
       "city": "Pune",
       "addr": "Aditya Birla Hospital Marg, Po Chinchwad, Pune",
@@ -3871,7 +3841,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 391,
+      "portal": 397,
       "name": "Manipal Hospital",
       "city": "Pune",
       "addr": "#22/2a, Near Nyati Empire, Kharadi Bypass Road, Kharadi, Pune",
@@ -3881,7 +3851,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 392,
+      "portal": 398,
       "name": "Jehangir Hospital",
       "city": "Pune",
       "addr": "32, Sassoon Road, Pune",
@@ -3891,7 +3861,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 414,
+      "portal": 421,
       "name": "Lifeline Hospital",
       "city": "Raigad (Panvel)",
       "addr": "Raigad (Panvel), Maharashtra",
@@ -3901,7 +3871,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 394,
+      "portal": 400,
       "name": "Ramkrishna Care Hospitals",
       "city": "Raipur",
       "addr": "Aurobindo Enclave, Pachpedi Naka, Dhamtari Road, Raipur",
@@ -3911,7 +3881,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 395,
+      "portal": 401,
       "name": "Narayana Hrudalaya Mmi Hospital",
       "city": "Raipur",
       "addr": "Dhamtari Road, Lalpur, Raipur",
@@ -3921,7 +3891,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 396,
+      "portal": 402,
       "name": "Mgm Eye Institute",
       "city": "Raipur",
       "addr": "Mgm Eye Institute, 5th Mile Vidhan Sabha Road, Raipur",
@@ -3931,7 +3901,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 405,
+      "portal": 411,
       "name": "Yashodhara Super Speciality Hospital",
       "city": "Solapur",
       "addr": "Sidheshwar Peth, Near Zilla Parishad, Solapur",
@@ -3941,7 +3911,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 406,
+      "portal": 412,
       "name": "Ashwini Sahakari Rugnalay",
       "city": "Solapur",
       "addr": "Sanshodhan Kendra, Survey No. 7107/1, Tank Plot, Solapur",
@@ -3951,7 +3921,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 421,
+      "portal": 428,
       "name": "Apollo Hospitals",
       "city": "Ahmedabad",
       "addr": "Plot No. 1a, Gidc, Bhat, Gandhinagar, Ahmedabad",
@@ -3961,7 +3931,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 432,
+      "portal": 439,
       "name": "Shalby Hospital",
       "city": "Ahmedabad",
       "addr": "Scheme No. 69, Nr. Haridarshan Cross Road, Kathwada Road, Naroda, Ahmedabad",
@@ -3971,7 +3941,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 433,
+      "portal": 440,
       "name": "Zydus Hospital",
       "city": "Ahmedabad",
       "addr": "Zydus Hospitals Road, Nr. Sola Bridge, Sarkhej - Gandhinagar Hwy, Ahmedabad",
@@ -3981,7 +3951,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 436,
+      "portal": 443,
       "name": "Zydus Cancer Center",
       "city": "Ahmedabad",
       "addr": "Zydus Hospitals Road, Thaltej, Ahmedabad",
@@ -3991,7 +3961,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 439,
+      "portal": 445,
       "name": "Shalby Hospital",
       "city": "Ahmedabad",
       "addr": "S.G.Highway, Opp. Karanavati Club, Ramdev Nagar, Ahmedabad, Gujarat",
@@ -4001,7 +3971,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 446,
+      "portal": 452,
       "name": "Krishna Shalby Hospital, Ghuma, Ahmedabad",
       "city": "Ahmedabad",
       "addr": "319, Green City, Bopal-Ghuma Road, Ghuma, Ahmedabad-380058",
@@ -4011,7 +3981,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 427,
+      "portal": 434,
       "name": "Bansal Hospital",
       "city": "Bhopal",
       "addr": "C Sector, Shahpura, Bhopal",
@@ -4021,7 +3991,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 437,
+      "portal": 444,
       "name": "Asg Hospital Pvt. Ltd.",
       "city": "Bhopal",
       "addr": "Mahadev Commercial Complex, Shivaji Nagar, Bhopal",
@@ -4031,7 +4001,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 441,
+      "portal": 447,
       "name": "Apollo Sage Hospital U/O M/S S.R. Associates",
       "city": "Bhopal",
       "addr": "E-8, Arera Colony, Bhopal 462016",
@@ -4041,7 +4011,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 442,
+      "portal": 448,
       "name": "K K Patel Super Speciality Hospital",
       "city": "Bhuj",
       "addr": "Near Kutch University, Mundra Road, Bhuj, Kachchh, Gujarat",
@@ -4051,7 +4021,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 430,
+      "portal": 437,
       "name": "Thunga Hospital",
       "city": "Boisar",
       "addr": "Midc Area, Boisar",
@@ -4061,7 +4031,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 428,
+      "portal": 435,
       "name": "Medanta Super Speciality Hospital",
       "city": "Indore",
       "addr": "Plot No:8, Pu 4, Scheme No 54, Vijaynagar Square, Ab Road, Indore",
@@ -4071,7 +4041,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 429,
+      "portal": 436,
       "name": "Bombay Hospital",
       "city": "Indore",
       "addr": "Ida Scheme No.94/95, Eastern Ring Road, Tulsi Nagar, Vijay Nagar, Indore",
@@ -4081,7 +4051,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 443,
+      "portal": 449,
       "name": "M/S Vishesh Jupiter Hospital (Jupiter Hospital Projects Private Limited)",
       "city": "Indore",
       "addr": "Ring Road, Scheme No.94, Sec-1, Gram Chitawad, Teen Imali Square, Indore, Madhya Pradesh-452020",
@@ -4091,7 +4061,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 426,
+      "portal": 433,
       "name": "Jabalpur Hospital & Research Center",
       "city": "Jabalpur",
       "addr": "Russel Crossing, Napier Town, Jabalpur",
@@ -4101,7 +4071,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 444,
+      "portal": 450,
       "name": "Baderia Metroprime Multi Speciality Hospital",
       "city": "Jabalpur",
       "addr": "Kuchaini Parisar, Damoh Nak, Jabalpur- Mp, 482002",
@@ -4111,7 +4081,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 431,
+      "portal": 438,
       "name": "Kokilaben Dhirubhai Ambani Hospital",
       "city": "Mumbai",
       "addr": "Rao Saheb Achutrao, Patwardhan Marg, Four Bunglows, Andheri West, Mumbai",
@@ -4120,18 +4090,8 @@ const COMPENDIUM_DATA = {
       "state": "Maharashtra"
     },
     {
-      "sl": 2,
-      "portal": 438,
-      "name": "Lilavati Hospital and Research Centre",
-      "city": "Mumbai",
-      "addr": "A-791, Bandra Reclamation, Bandra(W) Mumbai",
-      "group": "Mumbai (2 Hospitals)",
-      "region": "WR-II",
-      "state": "Maharashtra"
-    },
-    {
       "sl": 1,
-      "portal": 420,
+      "portal": 427,
       "name": "Muljibhai Patel Urological Hospital",
       "city": "Nadiad",
       "addr": "Muljibhai Patel Urological Hospital, Dr. Virendra Desai Road, Nadiad",
@@ -4141,7 +4101,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 445,
+      "portal": 451,
       "name": "Minnerva the Medicity Private Limited",
       "city": "Rewa",
       "addr": "Old Bus Stand, Khanna Tower , Rewa, Madhya Pradesh, India,486001",
@@ -4151,7 +4111,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 425,
+      "portal": 432,
       "name": "Global Sunshine Hospital",
       "city": "Surat",
       "addr": "Dumas Rd, Beside Big Bazar, Piplod, Surat",
@@ -4161,7 +4121,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 434,
+      "portal": 441,
       "name": "M/S Kiran Hospital(Multi Super-Speciality Hospital and Research Centre)",
       "city": "Surat",
       "addr": "Plot No. M-6, T.P Scheme No.3, Gayatri Vehicle Depo Compound, Opposite Nagina Vadi Plot, Katargm Near Surnul Dairy, Surat",
@@ -4171,7 +4131,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 440,
+      "portal": 446,
       "name": "Metas Adventist Hospital",
       "city": "Surat",
       "addr": "Opp: K.P. Commerce College, 24 R K Desai Marg, Ram Nagar, Athwalines, Athwa Gate, Surat",
@@ -4181,7 +4141,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 422,
+      "portal": 429,
       "name": "Global Sunshine Hospital",
       "city": "Vadodara",
       "addr": "4, Manjalpur Road, Near Shreyas Vidhyalaya, Nalini House, Manjalpur, Vadodara",
@@ -4191,7 +4151,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 423,
+      "portal": 430,
       "name": "Sterling Hospital",
       "city": "Vadodara",
       "addr": "Race Course Road, Opposite Inox Cinema, Circle West, Hari Nagar, Abhishek Colony, Vadiwadi, Vadodara",
@@ -4201,7 +4161,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 424,
+      "portal": 431,
       "name": "Bhailal Amin General Hospital",
       "city": "Vadodara",
       "addr": "Bhailal Amin Marg, Opp. Alembic Post Office, Vadodara",
@@ -4211,7 +4171,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 435,
+      "portal": 442,
       "name": "M/S Zydus Hospitals and Health Care Research Pvt. Ltd.",
       "city": "Vadodara",
       "addr": "Near Akshar Chowk, Old Padra Road, Vadodara",
@@ -4221,7 +4181,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 275,
+      "portal": 279,
       "name": "Kims-Saveera Hospitals",
       "city": "Anantapur",
       "addr": "1-1348, Srinagar Colony, Anantapur",
@@ -4231,7 +4191,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 299,
+      "portal": 303,
       "name": "M/S Medicover Hospital, Warangal (a Unit of Sahrudaya Health Care Pvt.Ltd)",
       "city": "Hanamkonda",
       "addr": "Nexa Service Center, Opp Hunter Rd, Rahmath Nagar, Shyampet, Hanamkonda, Telangana 506001",
@@ -4241,7 +4201,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 236,
+      "portal": 240,
       "name": "Omega Hospitals",
       "city": "Hyderabad",
       "addr": "Mla Colony Main Road, Road No.12, Banjara Hills, Hyderabad",
@@ -4251,7 +4211,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 242,
+      "portal": 246,
       "name": "Care Hospitals",
       "city": "Hyderabad",
       "addr": "Banjara Hills, Hyderabad",
@@ -4261,7 +4221,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 243,
+      "portal": 247,
       "name": "Care Hospitals",
       "city": "Hyderabad",
       "addr": "Musheerabad, Hyderabad",
@@ -4271,7 +4231,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 244,
+      "portal": 248,
       "name": "Care Hospitals",
       "city": "Hyderabad",
       "addr": "Nampally, Hyderabad",
@@ -4281,7 +4241,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 245,
+      "portal": 249,
       "name": "Care Hospitals",
       "city": "Hyderabad",
       "addr": "Hitech City, Hyderabad",
@@ -4291,7 +4251,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 247,
+      "portal": 251,
       "name": "Asian Institute of Gastronterology",
       "city": "Hyderabad",
       "addr": "6-3-661, Somajiguda, Hyderabad",
@@ -4301,7 +4261,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 7,
-      "portal": 248,
+      "portal": 252,
       "name": "Kamineni Hospitals",
       "city": "Hyderabad",
       "addr": "L B Nagar, Hyderabad",
@@ -4311,7 +4271,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 8,
-      "portal": 249,
+      "portal": 253,
       "name": "Yashoda Hospitals",
       "city": "Hyderabad",
       "addr": "Rajbhavan Road, Somajiguda, Hyderabad",
@@ -4321,7 +4281,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 9,
-      "portal": 251,
+      "portal": 255,
       "name": "Yashoda Hospitals",
       "city": "Hyderabad",
       "addr": "Jamal Colony, Malakpet, Hyderabad",
@@ -4331,7 +4291,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 10,
-      "portal": 252,
+      "portal": 256,
       "name": "Apollo Hospitals",
       "city": "Hyderabad",
       "addr": "Jubilee Hills, Hyderabad",
@@ -4341,7 +4301,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 11,
-      "portal": 254,
+      "portal": 258,
       "name": "Continental Hospitals",
       "city": "Hyderabad",
       "addr": "Plot No.3, Road No.2, It & Financial District, Nanakramguda, Gachibowli, Hyderabad",
@@ -4351,7 +4311,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 12,
-      "portal": 260,
+      "portal": 264,
       "name": "Basavatarakam Indo American Cancer Hospitals & Research Institute",
       "city": "Hyderabad",
       "addr": "Hyderabad",
@@ -4361,7 +4321,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 13,
-      "portal": 261,
+      "portal": 265,
       "name": "Dr. Agarwal's Health Care Ltd",
       "city": "Hyderabad",
       "addr": "Hans. No. 222 Part, Miyapur Alwin Cross Roads, Plot No. 11, Miyapur Main Rd, Hafeezpet, Madeenaguda",
@@ -4371,7 +4331,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 14,
-      "portal": 262,
+      "portal": 266,
       "name": "Dr. Agarwal's Health Care Ltd",
       "city": "Hyderabad",
       "addr": "Hanuman Towers, No. 9-71-214/1, 215, 217, Maruthi Nagar Santhosh Nagar Main Road Near Yadagiri Theater, Hyderabad",
@@ -4381,7 +4341,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 15,
-      "portal": 263,
+      "portal": 267,
       "name": "Dr. Agarwal's Health Care Ltd",
       "city": "Hyderabad",
       "addr": "Chikoti Green Building, 16-11-477/7 to 26 Gaddiannaram , Dilsukhnagar, Hyderabad",
@@ -4391,7 +4351,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 16,
-      "portal": 264,
+      "portal": 268,
       "name": "Apollo Hospitals",
       "city": "Hyderabad",
       "addr": "Dmrl Cross Rd, Kanchan Bagh, Hyderabad",
@@ -4401,7 +4361,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 17,
-      "portal": 266,
+      "portal": 270,
       "name": "Apollo Hospitals",
       "city": "Hyderabad",
       "addr": "Near, Plot No. 3-5-836 to 838, Hyderguda-Basheerbagh Rd, Old Mla Quarters, King Koti, Hyderguda",
@@ -4411,7 +4371,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 18,
-      "portal": 270,
+      "portal": 274,
       "name": "Asian Institute of Gastronterology",
       "city": "Hyderabad",
       "addr": "Gachibowli, Hyderabad",
@@ -4421,7 +4381,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 19,
-      "portal": 273,
+      "portal": 277,
       "name": "Dr. Agarwals Eye Hospital",
       "city": "Hyderabad",
       "addr": "6-3-712/80, Datla Pride, Panjagutta Officers Colony, Near Panjagutta Metro Station, Metro Pillar No.29, Hyderabad",
@@ -4431,7 +4391,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 20,
-      "portal": 274,
+      "portal": 278,
       "name": "Yashoda Hospitals, Hi-Tech City Branch",
       "city": "Hyderabad",
       "addr": "Kothaguda, Hyderabad",
@@ -4441,7 +4401,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 21,
-      "portal": 278,
+      "portal": 282,
       "name": "Lv Prasad Eye Institute",
       "city": "Hyderabad",
       "addr": "Kallam Anji Reddy Campus, Lv Prasad Marg, Opp Pvr, Park View Enclave, Banjara Hills, Hyderabad",
@@ -4451,7 +4411,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 22,
-      "portal": 281,
+      "portal": 285,
       "name": "Omega Hospitals",
       "city": "Hyderabad",
       "addr": "Sy No 18p, Gachibowli, Block 2, Seven Hill Colony Road No 1, Hyderabad, Telangana 500032",
@@ -4461,7 +4421,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 23,
-      "portal": 282,
+      "portal": 286,
       "name": "Dr Agarwal Health Care Ltd",
       "city": "Hyderabad",
       "addr": "H.No 3-6-262, Old Mla Hostel Road, Himayat Nagar, Next to Ratnadeep Super Market, Hyderabad, Telangana 500029.",
@@ -4471,7 +4431,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 24,
-      "portal": 283,
+      "portal": 287,
       "name": "Dr Agarwal Health Care Ltd",
       "city": "Hyderabad",
       "addr": "Mumtaz Complex, Mehdipatnam, Rethibowli Junction, Hyderabad, Telangana 500028.",
@@ -4481,7 +4441,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 25,
-      "portal": 284,
+      "portal": 288,
       "name": "Rainbow Childrens Medicare Limited,Road No:22 Branch",
       "city": "Hyderabad",
       "addr": "8-2-120/120/103/1, Survey No.403, Road No.22, Banjara Hills, Hyderabd- 500034",
@@ -4491,7 +4451,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 26,
-      "portal": 285,
+      "portal": 289,
       "name": "Rainbow Childrens Medicare Limited,Road No:10 Branch",
       "city": "Hyderabad",
       "addr": "Plot No.22, Road-10, Banjara Hills, Hyderabad-500034",
@@ -4501,7 +4461,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 27,
-      "portal": 286,
+      "portal": 290,
       "name": "Rainbow Childrens Medicare Limited,Hydernagar Branch",
       "city": "Hyderabad",
       "addr": "Plot.No.1-2-20, Survey No.141,Hydernagar, Kukatpally, Hyderabad-500071",
@@ -4511,7 +4471,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 28,
-      "portal": 287,
+      "portal": 291,
       "name": "Rainbow Childrens Medicare Limited,Kondapur Branch",
       "city": "Hyderabad",
       "addr": "Plot No.32 & 33, Opp: White Fields, Kondapur, Hyderabad-500084",
@@ -4521,7 +4481,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 29,
-      "portal": 289,
+      "portal": 293,
       "name": "Rainbow Childrens Medicare Limited,Lb Nagar Branch",
       "city": "Hyderabad",
       "addr": "Plot .No.73/C & 73/D, Survey No.52, Saraswathinagar Colony, Mansoorabad Village, Lb Nagar, Hyderabad-500074",
@@ -4531,7 +4491,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 30,
-      "portal": 290,
+      "portal": 294,
       "name": "Rainbow Childrens Medicare Limited,Himayat Nagar Branch",
       "city": "Hyderabad",
       "addr": "3-6-234, Himayatnagar,Hyderabad-500029",
@@ -4541,7 +4501,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 31,
-      "portal": 297,
+      "portal": 301,
       "name": "M/S Medicover Hospital, Madhapur (Incl. Women & Child Care Unit, Hi-Tech City) (a Unit of Sahruday",
       "city": "Hyderabad",
       "addr": "Behind Cyber Towers, in the Lane of Ibis Hotels, Huda Techno Enclave, Hitec City, Hyderabad, Telangana 500082",
@@ -4551,7 +4511,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 32,
-      "portal": 298,
+      "portal": 302,
       "name": "M/S Medicover Hospital, Chandanagar (a Unit of Sahrudaya Health Care Pvt.Ltd)",
       "city": "Hyderabad",
       "addr": "Door No 22, Opposite Gandemma Temple, Near Bhel Circle Road, Chanda Nagar, Ramachandrapuram (Bhel Township), Hyderabad, Telangana 502032",
@@ -4561,7 +4521,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 271,
+      "portal": 275,
       "name": "Apollo Hospitals",
       "city": "Kakinada",
       "addr": "13-1-13, Samudra Healthcare Enterprises Ltd, Suryarao Peta, Main Road, Kakinada",
@@ -4571,7 +4531,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 301,
+      "portal": 305,
       "name": "M/S Medicover Hospital, Kakinada (a Unit of Sahrudaya Health Care Pvt.Ltd)",
       "city": "Kakinada",
       "addr": "Adb Rd, Near Achampet Junction, Kakinada, Andhra Pradesh 533005",
@@ -4581,7 +4541,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 258,
+      "portal": 262,
       "name": "Gouri Gopal Hospital",
       "city": "Kurnool",
       "addr": "Knl Camp B, Kurnool",
@@ -4591,7 +4551,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 267,
+      "portal": 271,
       "name": "Kims Hospital",
       "city": "Kurnool",
       "addr": "69/213- K-9, Joharpuram Road, Joharpuram, Kurnool",
@@ -4601,7 +4561,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 302,
+      "portal": 306,
       "name": "M/S Medicover Hospital, Kurnool (a Unit of Sahrudaya Health Care Pvt.Ltd)",
       "city": "Kurnool",
       "addr": "D.No: 51/1e2, 51/1e3, 51/1e4, Near Rtc Bus Stand, Kurnool, Andhra Pradesh 518003",
@@ -4611,7 +4571,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 239,
+      "portal": 243,
       "name": "Kims",
       "city": "Nellore",
       "addr": "Dargamitta, Nellore",
@@ -4621,7 +4581,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 255,
+      "portal": 259,
       "name": "Apollo Superspeciality Hospital",
       "city": "Nellore",
       "addr": "Muthukur Road, Park Avenue Aea, Nellore",
@@ -4631,7 +4591,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 303,
+      "portal": 307,
       "name": "M/S Medicover Hospital, Nellore (a Unit of Abhayanjaneya Health Care Pvt.Ltd)",
       "city": "Nellore",
       "addr": "Nh-5, Chinthareddypalem Cross Road, Alahari Nagar, Chintareddy Palem, Nellore, Andhra Pradesh 524002",
@@ -4641,7 +4601,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 257,
+      "portal": 261,
       "name": "Kims(Bolineni) Hospitals",
       "city": "Rajahmundry",
       "addr": "Rahjamundry",
@@ -4651,7 +4611,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 291,
+      "portal": 295,
       "name": "Rainbow Childrens Medicare Limited,Ranga Reddy Branch",
       "city": "Ranga Reddy",
       "addr": "Survey No.74, Nanakramguda Villageserilingampally(M)Ranga Reddy District",
@@ -4661,7 +4621,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 237,
+      "portal": 241,
       "name": "Dr. Agarwal's Health Care Ltd",
       "city": "Secunderabad",
       "addr": "4th Floor, Mararani Sensation, 8-1-386&487, R P Road, Secunderabad",
@@ -4671,7 +4631,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 241,
+      "portal": 245,
       "name": "Kims Sunshine Hospitals",
       "city": "Secunderabad",
       "addr": "Pg Road, Paradise, Secunderabad",
@@ -4681,7 +4641,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 250,
+      "portal": 254,
       "name": "Yashoda Hospitals",
       "city": "Secunderabad",
       "addr": "Sp Road, Secuerabad",
@@ -4691,7 +4651,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 253,
+      "portal": 257,
       "name": "Kims Hospitals",
       "city": "Secunderabad",
       "addr": "Minister Road, Secunderabad",
@@ -4701,7 +4661,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 265,
+      "portal": 269,
       "name": "Apollo Hospitals",
       "city": "Secunderabad",
       "addr": "Pollicetty Towers, St. John's Road, Beside Keyes High School, Secunderabad",
@@ -4711,7 +4671,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 288,
+      "portal": 292,
       "name": "Rainbow Childrens Medicare Limited,Secunderabad Branch",
       "city": "Secunderabad",
       "addr": "Opp: New Karkhana Police Station,H.No.3-7-222 & 3-7-223, Sy No. 51to 54,Kharkahna Main Road, Kakaguda, Secunderabad-500009",
@@ -4721,7 +4681,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 7,
-      "portal": 296,
+      "portal": 300,
       "name": "M/S Medicover Hospitals, Secunderabad (a Unit of Sahrudaya Health Care Pvt.Ltd)",
       "city": "Secunderabad",
       "addr": "9, Sarojini Devi Rd, Regimental Bazaar, Shivaji Nagar, Hyderabad, Secunderabad, Telangana 500003",
@@ -4731,7 +4691,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 295,
+      "portal": 299,
       "name": "M/S Kims Sai Seshadri Hospital, Srikakulam\u00a0(a Unit of Arunodaya Hospitals Pvt Ltd)",
       "city": "Srikakulam",
       "addr": "P.N.Colony Junction, Near Datta Temple, New Bridge Road, Srikakulam - 532005, Andhra Pradesh, India",
@@ -4741,7 +4701,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 256,
+      "portal": 260,
       "name": "Dr. Ramesh Cardiac and Multispeciality Hospital",
       "city": "Vijayawada",
       "addr": "Ring Road, Vijayawada",
@@ -4751,7 +4711,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 272,
+      "portal": 276,
       "name": "Ayush Nri Lepl Health Care Pvt Ltd",
       "city": "Vijayawada",
       "addr": "Door No.48-13-3 & 3a, Opp Sidhartha Medical College, Near Ntr Health University, Currency Nagar, 1st Lane, Vijayawada",
@@ -4761,7 +4721,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 277,
+      "portal": 281,
       "name": "Manipal Hospitals",
       "city": "Vijayawada",
       "addr": "12-570, Kanakadurga Varadhi, Tadepalle, Vijayawada",
@@ -4771,7 +4731,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 279,
+      "portal": 283,
       "name": "Lv Prasad Eye Institute",
       "city": "Vijayawada",
       "addr": "Kode Venkatadri Chowdary Campus, Penamaluru Road, Tadigadapa, Vijayawada",
@@ -4781,7 +4741,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 293,
+      "portal": 297,
       "name": "Rainbow Childrens Medicare Limited,Vijayawada Branch",
       "city": "Vijayawada",
       "addr": "48-10-12/2a, Service Road,Beside Aahaar Food Court,Currency Nagar, Vijayawada, Andhra Pradesh-520008",
@@ -4791,7 +4751,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 238,
+      "portal": 242,
       "name": "Apollo Hospitals",
       "city": "Visakhapatnam",
       "addr": "Health City, Arileva, Chinagadhilli, Visakhapatnam",
@@ -4801,7 +4761,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 2,
-      "portal": 240,
+      "portal": 244,
       "name": "Seven Hills Health Care Pvt Ltd",
       "city": "Visakhapatnam",
       "addr": "11-4-4/a, Rockdale Layout, Visakhapatnam",
@@ -4811,7 +4771,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 246,
+      "portal": 250,
       "name": "Care Hospitals",
       "city": "Visakhapatnam",
       "addr": "Visakhapatnam",
@@ -4821,7 +4781,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 259,
+      "portal": 263,
       "name": "Dr. Agarwal's Health Care Ltd",
       "city": "Visakhapatnam",
       "addr": "49 Naga Chambers 12-1-16 S. No. 1051, Division, No. 19, Waltair Main Rd, Near Green Park Hotel, Visakhapatnam",
@@ -4831,7 +4791,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 5,
-      "portal": 269,
+      "portal": 273,
       "name": "Apollo Hospitals",
       "city": "Visakhapatnam",
       "addr": "Ramnagar, Visakhapatnam",
@@ -4841,7 +4801,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 276,
+      "portal": 280,
       "name": "Kims Icon Hospitals",
       "city": "Visakhapatnam",
       "addr": "32-11-02, Sheela Nagar, Bhpv Post, Visakhapatnam",
@@ -4851,7 +4811,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 7,
-      "portal": 280,
+      "portal": 284,
       "name": "Lv Prasad Eye Institute",
       "city": "Visakhapatnam",
       "addr": "Gmr Varalakshmi Campus, 11-113/1, Hanumanthavaka Junction, Visakhapatnam",
@@ -4861,7 +4821,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 8,
-      "portal": 292,
+      "portal": 296,
       "name": "Rainbow Childrens Medicare Limited,Visakhapatnam Branch",
       "city": "Visakhapatnam",
       "addr": "Plot No.15a, Survey No.21 & 27, Health City, Chinnagadilli, Visakhapatnam-530040",
@@ -4871,7 +4831,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 9,
-      "portal": 294,
+      "portal": 298,
       "name": "Mgm Seven Hills Hospitals, Visakhapatnam (a Unit of Mgm Health Care Private Limited)",
       "city": "Visakhapatnam",
       "addr": "D. No. 11-4-4/a, Rockdale Layout, Waltair Main Road, Ram Nagar, Visakhapatnam, Andhra Pradesh, 530002",
@@ -4881,7 +4841,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 10,
-      "portal": 300,
+      "portal": 304,
       "name": "M/S Medicover Hospital, Visakhapatnam (a Unit of Sahrudaya Health Care Pvt.Ltd)",
       "city": "Visakhapatnam",
       "addr": "Door No- 1-1-83, New Venkojipalem Mvp Sector 6 Nh16, Near Hp Petrol Bunk, Visakhapatnam, Andhra Pradesh 530022",
@@ -4891,7 +4851,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 304,
+      "portal": 308,
       "name": "M/S Medicover Hospital, Vizianagaram (a Unit of Sahrudaya Health Care (Vizianagaram) Pvt.Ltd)",
       "city": "Vizianagaram",
       "addr": "Prs Complex, Tirumala Hospitals Road, Near R.T.C. Complex, Vizianagaram, Andhra Pradesh 535003",
@@ -4901,7 +4861,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 1,
-      "portal": 268,
+      "portal": 272,
       "name": "Rohini Superspeciality Hospital",
       "city": "Warangal",
       "addr": "Subedari, Hanamkonda, Warangal",
@@ -4931,7 +4891,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 27,
-      "portal": 125,
+      "portal": 128,
       "name": "Rg Stone Institute",
       "city": "New Delhi",
       "addr": "East of Kailash, Delhi",
@@ -4941,7 +4901,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 127,
+      "portal": 130,
       "name": "Manipal Hospital",
       "city": "Ghaziabad",
       "addr": "Nh-24, Ghaziabad",
@@ -4951,7 +4911,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 3,
-      "portal": 146,
+      "portal": 149,
       "name": "Himalyan Hospital",
       "city": "Dehradun",
       "addr": "Swami Rama Nagar (Jolly Grant), Po-Doiwala, Distt- Dehradun",
@@ -4961,7 +4921,7 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 4,
-      "portal": 147,
+      "portal": 150,
       "name": "Yashoda Hospital & Research Centre",
       "city": "Ghaziabad",
       "addr": "Nehru Nagar, Ghaziabad",
@@ -4971,13 +4931,113 @@ const COMPENDIUM_DATA = {
     },
     {
       "sl": 6,
-      "portal": 175,
+      "portal": 179,
       "name": "Yashoda Medicity",
       "city": "Ghaziabad",
       "addr": "Shakti Khand-2, Indirapuram, Ghaziabad, up",
       "group": "Ghaziabad (6 Hospitals)",
       "region": "NR-I",
       "state": "Uttar Pradesh"
+    },
+    {
+      "sl": 2,
+      "portal": 115,
+      "name": "Green Heals Hospital Pvt Ltd.",
+      "city": "Silchar",
+      "addr": "Beltala Meherpur, Silchar",
+      "group": "Silchar (2 Hospitals)",
+      "region": "NER",
+      "state": "Assam"
+    },
+    {
+      "sl": 6,
+      "portal": 117,
+      "name": "Nemcare Heart Institute & Research Centre and Super Specialty Hospital",
+      "city": "Guwahati",
+      "addr": "Gmc Hospital Road, Bhangagarh, Guwahati",
+      "group": "Guwahati (7 Hospitals)",
+      "region": "NER",
+      "state": "Assam"
+    },
+    {
+      "sl": 2,
+      "portal": 120,
+      "name": "Supercare Hospital",
+      "city": "Shillong",
+      "addr": "Sawlad, Demthring, East Khasi Hills, Shillong",
+      "group": "Shillong (2 Hospitals)",
+      "region": "NER",
+      "state": "Meghalaya"
+    },
+    {
+      "sl": 3,
+      "portal": 168,
+      "name": "Alakh Nayan Mandir Hospital",
+      "city": "Udaipur",
+      "addr": "Alakh Nayan Mandir, Pratap Nagar Extn., Airport Road, Udaipur",
+      "group": "Udaipur (3 Hospitals)",
+      "region": "NWR",
+      "state": "Rajasthan"
+    },
+    {
+      "sl": 8,
+      "portal": 180,
+      "name": "Max Super Speciality Hospital",
+      "city": "Noida",
+      "addr": "Sector-128, Noida",
+      "group": "Noida (8 Hospitals)",
+      "region": "NR-I",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "sl": 1,
+      "portal": 198,
+      "name": "Alchemist Hospital",
+      "city": "Panchkula",
+      "addr": "Sector 21, Budanpur, Panchkula",
+      "group": "Panchkula (2 Hospitals)",
+      "region": "NR-II",
+      "state": "Haryana"
+    },
+    {
+      "sl": 1,
+      "portal": 202,
+      "name": "Aadhar Health Institute",
+      "city": "Hisar",
+      "addr": "Tosham Road, Near South Bypass Crossing, Hisar",
+      "group": "Hisar (1 Hospital)",
+      "region": "NR-II",
+      "state": "Haryana"
+    },
+    {
+      "sl": 4,
+      "portal": 366,
+      "name": "Velammal Medical College Hospital & Research Institute",
+      "city": "Madurai",
+      "addr": "Vellammal Village, Madurai Tuticorin Ring Road, Anupanadi, Madurai",
+      "group": "Madurai (4 Hospitals)",
+      "region": "SR-II",
+      "state": "Tamil Nadu"
+    },
+    {
+      "sl": 1,
+      "portal": 390,
+      "name": "Wockhardt Superspeciality Hospital",
+      "city": "Nagpur",
+      "addr": "1643, North Ambazari Road, Nagpur",
+      "group": "Nagpur (8 Hospitals)",
+      "region": "WR-I",
+      "state": "Maharashtra"
+    },
+    {
+      "sl": 1,
+      "portal": 419,
+      "name": "Apollo Hospitals",
+      "city": "Navi Mumbai",
+      "addr": "Plot # 13, off Uran Road, Parsik Hill Rd, Sector 23, Cbd Belapur, Navi Mumbai",
+      "group": "Navi Mumbai (1 Hospital)",
+      "region": "WR-I",
+      "state": "Maharashtra"
     }
   ],
   "labs": [
@@ -6499,13 +6559,6 @@ const COMPENDIUM_DATA = {
       "description": "Common reasons OPD medical bills are disallowed or deducted under the Medical Attendance and Treatment Rules, plus retiree-specific observations from the PRMB Trust Rules (Circular Sl No 2) and an Annexure giving the annual OPD ceiling limit by grade at retirement (Workmen/Supervisors/Executives).",
       "file": "OPD_Reimbursement_Ceiling_and_Disallowance_Guide.pdf",
       "category": "Medical Reimbursement"
-    },
-  {
-      "id": "other-06",
-      "title": "Income Tax Calculator (Tax Year 2026-27)",
-      "description": "Enter your income across all schedules (Salary, House Property, Capital Gains, Other Sources, TDS) and get New Regime / Old Regime tax computed instantly, with a downloadable PDF computation certificate.",
-      "file": "income-tax-calculator.html",
-      "category": "INCOME TAX"
     }
   ]
 };
