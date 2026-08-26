@@ -1100,6 +1100,16 @@
       "state": "Tamil Nadu"
     },
     {
+      "sl": 4,
+      "portal": 366,
+      "name": "Velammal Medical College Hospital & Research Institute",
+      "city": "Madurai",
+      "addr": "Vellammal Village, Madurai Tuticorin Ring Road, Anupanadi, Madurai",
+      "group": "Madurai (4 Hospitals)",
+      "region": "SR2",
+      "state": "Tamil Nadu"
+    },
+    {
       "sl": 1,
       "portal": 385,
       "name": "M/S Aster Mother Hospital, Areekode, Run by M/S Malabar Institute of Medical Science",
@@ -1347,6 +1357,46 @@
       "addr": "Kaushambi, Ghaziabad",
       "group": "Ghaziabad (6 Hospitals)",
       "region": "CC",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "sl": 3,
+      "portal": 130,
+      "name": "Manipal Hospital",
+      "city": "Ghaziabad",
+      "addr": "Nh-24, Ghaziabad",
+      "group": "Ghaziabad (6 Hospitals)",
+      "region": "NR-I",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "sl": 4,
+      "portal": 150,
+      "name": "Yashoda Hospital & Research Centre",
+      "city": "Ghaziabad",
+      "addr": "Nehru Nagar, Ghaziabad",
+      "group": "Ghaziabad (6 Hospitals)",
+      "region": "NR-I",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "sl": 5,
+      "portal": 151,
+      "name": "Yashoda Super Specialty Hospitals",
+      "city": "Ghaziabad",
+      "addr": "Kaushambi, Ghaziabad",
+      "group": "Ghaziabad (6 Hospitals)",
+      "region": "NR-I",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "sl": 6,
+      "portal": 179,
+      "name": "Yashoda Medicity",
+      "city": "Ghaziabad",
+      "addr": "Shakti Khand-2, Indirapuram, Ghaziabad, up",
+      "group": "Ghaziabad (6 Hospitals)",
+      "region": "NR-I",
       "state": "Uttar Pradesh"
     },
     {
@@ -1740,6 +1790,36 @@
       "state": "Delhi"
     },
     {
+      "sl": 27,
+      "portal": 128,
+      "name": "Rg Stone Institute",
+      "city": "New Delhi",
+      "addr": "East of Kailash, Delhi",
+      "group": "New Delhi (29 Hospitals)",
+      "region": "NR-I",
+      "state": "Delhi"
+    },
+    {
+      "sl": 28,
+      "portal": 129,
+      "name": "Venu Eye Institute",
+      "city": "New Delhi",
+      "addr": "Sheikh Sarai, Delhi",
+      "group": "New Delhi (29 Hospitals)",
+      "region": "NR-I",
+      "state": "Delhi"
+    },
+    {
+      "sl": 29,
+      "portal": 169,
+      "name": "Indian Spinal Injuries Centre",
+      "city": "New Delhi",
+      "addr": "Sector-C, Vasant Kunj, New Delhi-110070",
+      "group": "New Delhi (29 Hospitals)",
+      "region": "NR-I",
+      "state": "Delhi"
+    },
+    {
       "sl": 1,
       "portal": 30,
       "name": "Apollo Hospital",
@@ -1780,6 +1860,46 @@
       "state": "Uttar Pradesh"
     },
     {
+      "sl": 5,
+      "portal": 131,
+      "name": "Icare Eye Hospitals & Pg Institute",
+      "city": "Noida",
+      "addr": "Sector 26, Noida",
+      "group": "Noida (8 Hospitals)",
+      "region": "NR-I",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "sl": 6,
+      "portal": 153,
+      "name": "Yatharth Wellness, Super Specialty Hospital & Heart Centre",
+      "city": "Noida",
+      "addr": "Nh-01, Sector-110, Noida",
+      "group": "Noida (8 Hospitals)",
+      "region": "NR-I",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "sl": 7,
+      "portal": 178,
+      "name": "Medanta Hospital, Noida",
+      "city": "Noida",
+      "addr": "Sector-50, Noida",
+      "group": "Noida (8 Hospitals)",
+      "region": "NR-I",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "sl": 8,
+      "portal": 180,
+      "name": "Max Super Speciality Hospital",
+      "city": "Noida",
+      "addr": "Sector-128, Noida",
+      "group": "Noida (8 Hospitals)",
+      "region": "NR-I",
+      "state": "Uttar Pradesh"
+    },
+    {
       "sl": 1,
       "portal": 160,
       "name": "Brahm Shakti Sanjivani Super Speciality Hospital",
@@ -1805,6 +1925,16 @@
       "name": "Synergy Institute of Medical Science",
       "city": "Dehradun",
       "addr": "Ballupur-Canal Road, Dehradun",
+      "group": "Dehradun (3 Hospitals)",
+      "region": "NR-I",
+      "state": "Uttarakhand"
+    },
+    {
+      "sl": 3,
+      "portal": 149,
+      "name": "Himalyan Hospital",
+      "city": "Dehradun",
+      "addr": "Swami Rama Nagar (Jolly Grant), Po-Doiwala, Distt- Dehradun",
       "group": "Dehradun (3 Hospitals)",
       "region": "NR-I",
       "state": "Uttarakhand"
@@ -1880,16 +2010,6 @@
       "state": "Haryana"
     },
     {
-      "sl": 5,
-      "portal": 151,
-      "name": "Yashoda Super Specialty Hospitals",
-      "city": "Ghaziabad",
-      "addr": "Kaushambi, Ghaziabad",
-      "group": "Ghaziabad (6 Hospitals)",
-      "region": "NR-I",
-      "state": "Uttar Pradesh"
-    },
-    {
       "sl": 1,
       "portal": 132,
       "name": "Yatharth Wellness",
@@ -1936,56 +2056,6 @@
       "city": "Meerut",
       "addr": "C2, Shradha Puri Phase-Ii, Near Bsnl Office, Kankar Khera, Meerut",
       "group": "Meerut (2 Hospitals)",
-      "region": "NR-I",
-      "state": "Uttar Pradesh"
-    },
-    {
-      "sl": 28,
-      "portal": 129,
-      "name": "Venu Eye Institute",
-      "city": "New Delhi",
-      "addr": "Sheikh Sarai, Delhi",
-      "group": "New Delhi (29 Hospitals)",
-      "region": "NR-I",
-      "state": "Delhi"
-    },
-    {
-      "sl": 29,
-      "portal": 169,
-      "name": "Indian Spinal Injuries Centre",
-      "city": "New Delhi",
-      "addr": "Sector-C, Vasant Kunj, New Delhi-110070",
-      "group": "New Delhi (29 Hospitals)",
-      "region": "NR-I",
-      "state": "Delhi"
-    },
-    {
-      "sl": 5,
-      "portal": 131,
-      "name": "Icare Eye Hospitals & Pg Institute",
-      "city": "Noida",
-      "addr": "Sector 26, Noida",
-      "group": "Noida (8 Hospitals)",
-      "region": "NR-I",
-      "state": "Uttar Pradesh"
-    },
-    {
-      "sl": 6,
-      "portal": 153,
-      "name": "Yatharth Wellness, Super Specialty Hospital & Heart Centre",
-      "city": "Noida",
-      "addr": "Nh-01, Sector-110, Noida",
-      "group": "Noida (8 Hospitals)",
-      "region": "NR-I",
-      "state": "Uttar Pradesh"
-    },
-    {
-      "sl": 7,
-      "portal": 178,
-      "name": "Medanta Hospital, Noida",
-      "city": "Noida",
-      "addr": "Sector-50, Noida",
-      "group": "Noida (8 Hospitals)",
       "region": "NR-I",
       "state": "Uttar Pradesh"
     },
@@ -2268,6 +2338,16 @@
       "group": "Mohali (3 Hospitals)",
       "region": "NR-II",
       "state": "Punjab"
+    },
+    {
+      "sl": 1,
+      "portal": 198,
+      "name": "Alchemist Hospital",
+      "city": "Panchkula",
+      "addr": "Sector 21, Budanpur, Panchkula",
+      "group": "Panchkula (2 Hospitals)",
+      "region": "NR-II",
+      "state": "Haryana"
     },
     {
       "sl": 2,
@@ -2810,6 +2890,16 @@
       "state": "Rajasthan"
     },
     {
+      "sl": 3,
+      "portal": 168,
+      "name": "Alakh Nayan Mandir Hospital",
+      "city": "Udaipur",
+      "addr": "Alakh Nayan Mandir, Pratap Nagar Extn., Airport Road, Udaipur",
+      "group": "Udaipur (3 Hospitals)",
+      "region": "NWR",
+      "state": "Rajasthan"
+    },
+    {
       "sl": 1,
       "portal": 59,
       "name": "Glocal Hospital Bhagalpur",
@@ -3270,6 +3360,16 @@
       "state": "West Bengal"
     },
     {
+      "sl": 21,
+      "portal": 95,
+      "name": "Ils Hospital (a Unit of Gpt Health Care Pvt Ltd)",
+      "city": "Kolkata",
+      "addr": "1 Mall Road (Khudiram Bose Sarani) Kolkata",
+      "group": "Kolkata (26 Hospitals)",
+      "region": "ER-II",
+      "state": "West Bengal"
+    },
+    {
       "sl": 22,
       "portal": 97,
       "name": "Rabindranath Tagore International Institute of Cardiac Science (Rtiics)",
@@ -3305,6 +3405,16 @@
       "name": "Ruby General Hospital Ltd",
       "city": "Kolkata",
       "addr": "576, Anandpur, E M Bypass, Anandapur, Kolkata-700107",
+      "group": "Kolkata (26 Hospitals)",
+      "region": "ER-II",
+      "state": "West Bengal"
+    },
+    {
+      "sl": 26,
+      "portal": 107,
+      "name": "M/S Neotia Bhagirathi Women & Child Care Centre",
+      "city": "Kolkata",
+      "addr": "New Town, Kolkata - 700156",
       "group": "Kolkata (26 Hospitals)",
       "region": "ER-II",
       "state": "West Bengal"
@@ -3480,6 +3590,16 @@
       "state": "Assam"
     },
     {
+      "sl": 6,
+      "portal": 117,
+      "name": "Nemcare Heart Institute & Research Centre and Super Specialty Hospital",
+      "city": "Guwahati",
+      "addr": "Gmc Hospital Road, Bhangagarh, Guwahati",
+      "group": "Guwahati (7 Hospitals)",
+      "region": "NER",
+      "state": "Assam"
+    },
+    {
       "sl": 7,
       "portal": 121,
       "name": "Apollo Excelcare Hospital",
@@ -3540,11 +3660,31 @@
       "state": "Meghalaya"
     },
     {
+      "sl": 2,
+      "portal": 120,
+      "name": "Supercare Hospital",
+      "city": "Shillong",
+      "addr": "Sawlad, Demthring, East Khasi Hills, Shillong",
+      "group": "Shillong (2 Hospitals)",
+      "region": "NER",
+      "state": "Meghalaya"
+    },
+    {
       "sl": 1,
       "portal": 113,
       "name": "Valley Hospital & Research Centre",
       "city": "Silchar",
       "addr": "Meherpur, Silchar",
+      "group": "Silchar (2 Hospitals)",
+      "region": "NER",
+      "state": "Assam"
+    },
+    {
+      "sl": 2,
+      "portal": 115,
+      "name": "Green Heals Hospital Pvt Ltd.",
+      "city": "Silchar",
+      "addr": "Beltala Meherpur, Silchar",
       "group": "Silchar (2 Hospitals)",
       "region": "NER",
       "state": "Assam"
@@ -3746,6 +3886,16 @@
       "city": "Mumbai",
       "addr": "Girgaum, Mumbai \u2013 400004, Maharashtra",
       "group": "Mumbai (9 Hospitals)",
+      "region": "WR-I",
+      "state": "Maharashtra"
+    },
+    {
+      "sl": 1,
+      "portal": 390,
+      "name": "Wockhardt Superspeciality Hospital",
+      "city": "Nagpur",
+      "addr": "1643, North Ambazari Road, Nagpur",
+      "group": "Nagpur (8 Hospitals)",
       "region": "WR-I",
       "state": "Maharashtra"
     },
@@ -4870,136 +5020,6 @@
       "state": "Telangana"
     },
     {
-      "sl": 21,
-      "portal": 95,
-      "name": "Ils Hospital (a Unit of Gpt Health Care Pvt Ltd)",
-      "city": "Kolkata",
-      "addr": "1 Mall Road (Khudiram Bose Sarani) Kolkata",
-      "group": "Kolkata (26 Hospitals)",
-      "region": "ER-II",
-      "state": "West Bengal"
-    },
-    {
-      "sl": 26,
-      "portal": 107,
-      "name": "M/S Neotia Bhagirathi Women & Child Care Centre",
-      "city": "Kolkata",
-      "addr": "New Town, Kolkata - 700156",
-      "group": "Kolkata (26 Hospitals)",
-      "region": "ER-II",
-      "state": "West Bengal"
-    },
-    {
-      "sl": 27,
-      "portal": 128,
-      "name": "Rg Stone Institute",
-      "city": "New Delhi",
-      "addr": "East of Kailash, Delhi",
-      "group": "New Delhi (29 Hospitals)",
-      "region": "NR-I",
-      "state": "Delhi"
-    },
-    {
-      "sl": 3,
-      "portal": 130,
-      "name": "Manipal Hospital",
-      "city": "Ghaziabad",
-      "addr": "Nh-24, Ghaziabad",
-      "group": "Ghaziabad (6 Hospitals)",
-      "region": "NR-I",
-      "state": "Uttar Pradesh"
-    },
-    {
-      "sl": 3,
-      "portal": 149,
-      "name": "Himalyan Hospital",
-      "city": "Dehradun",
-      "addr": "Swami Rama Nagar (Jolly Grant), Po-Doiwala, Distt- Dehradun",
-      "group": "Dehradun (3 Hospitals)",
-      "region": "NR-I",
-      "state": "Uttarakhand"
-    },
-    {
-      "sl": 4,
-      "portal": 150,
-      "name": "Yashoda Hospital & Research Centre",
-      "city": "Ghaziabad",
-      "addr": "Nehru Nagar, Ghaziabad",
-      "group": "Ghaziabad (6 Hospitals)",
-      "region": "NR-I",
-      "state": "Uttar Pradesh"
-    },
-    {
-      "sl": 6,
-      "portal": 179,
-      "name": "Yashoda Medicity",
-      "city": "Ghaziabad",
-      "addr": "Shakti Khand-2, Indirapuram, Ghaziabad, up",
-      "group": "Ghaziabad (6 Hospitals)",
-      "region": "NR-I",
-      "state": "Uttar Pradesh"
-    },
-    {
-      "sl": 2,
-      "portal": 115,
-      "name": "Green Heals Hospital Pvt Ltd.",
-      "city": "Silchar",
-      "addr": "Beltala Meherpur, Silchar",
-      "group": "Silchar (2 Hospitals)",
-      "region": "NER",
-      "state": "Assam"
-    },
-    {
-      "sl": 6,
-      "portal": 117,
-      "name": "Nemcare Heart Institute & Research Centre and Super Specialty Hospital",
-      "city": "Guwahati",
-      "addr": "Gmc Hospital Road, Bhangagarh, Guwahati",
-      "group": "Guwahati (7 Hospitals)",
-      "region": "NER",
-      "state": "Assam"
-    },
-    {
-      "sl": 2,
-      "portal": 120,
-      "name": "Supercare Hospital",
-      "city": "Shillong",
-      "addr": "Sawlad, Demthring, East Khasi Hills, Shillong",
-      "group": "Shillong (2 Hospitals)",
-      "region": "NER",
-      "state": "Meghalaya"
-    },
-    {
-      "sl": 3,
-      "portal": 168,
-      "name": "Alakh Nayan Mandir Hospital",
-      "city": "Udaipur",
-      "addr": "Alakh Nayan Mandir, Pratap Nagar Extn., Airport Road, Udaipur",
-      "group": "Udaipur (3 Hospitals)",
-      "region": "NWR",
-      "state": "Rajasthan"
-    },
-    {
-      "sl": 8,
-      "portal": 180,
-      "name": "Max Super Speciality Hospital",
-      "city": "Noida",
-      "addr": "Sector-128, Noida",
-      "group": "Noida (8 Hospitals)",
-      "region": "NR-I",
-      "state": "Uttar Pradesh"
-    },
-    {
-      "sl": 1,
-      "portal": 198,
-      "name": "Alchemist Hospital",
-      "city": "Panchkula",
-      "addr": "Sector 21, Budanpur, Panchkula",
-      "group": "Panchkula (2 Hospitals)",
-      "region": "NR-II",
-      "state": "Haryana"
-    },
-    {
       "sl": 1,
       "portal": 202,
       "name": "Aadhar Health Institute",
@@ -5008,26 +5028,6 @@
       "group": "Hisar (1 Hospital)",
       "region": "NR-II",
       "state": "Haryana"
-    },
-    {
-      "sl": 4,
-      "portal": 366,
-      "name": "Velammal Medical College Hospital & Research Institute",
-      "city": "Madurai",
-      "addr": "Vellammal Village, Madurai Tuticorin Ring Road, Anupanadi, Madurai",
-      "group": "Madurai (4 Hospitals)",
-      "region": "SR2",
-      "state": "Tamil Nadu"
-    },
-    {
-      "sl": 1,
-      "portal": 390,
-      "name": "Wockhardt Superspeciality Hospital",
-      "city": "Nagpur",
-      "addr": "1643, North Ambazari Road, Nagpur",
-      "group": "Nagpur (8 Hospitals)",
-      "region": "WR-I",
-      "state": "Maharashtra"
     },
     {
       "sl": 1,
